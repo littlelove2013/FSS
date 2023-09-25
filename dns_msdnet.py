@@ -42,6 +42,26 @@ class FeaturePartitioning(nn.Module):
     def forward(self,x): # 默认为nchw维度，对c维度进行切分
         # 特征分割
         x_plus, x_sub = torch.split(x,[self.feature_num1,self.feature_num2],dim=1)
+        return x_plus,x_sub 
+
+class FeaturePartitioningFake(nn.Module):
+    '''
+    Split the feature into two parts with the ratio along channel dimension,
+    使用�?0的tensor来填充丢失的特征，以模拟更多的feature，保证模型结构不会被更改
+    '''
+    def __init__(self, num_channel, ratio=0.5):
+        super().__init__()
+        self.ratio = max(min(ratio,1),0)
+        self.num_channel = num_channel
+        self.feature_num1 = round(num_channel*ratio)
+        self.feature_num2 = num_channel - self.feature_num1
+        self.fake_tensor1 = torch.zeros()
+        self.fake_tensor2 = torch.zeros()
+        
+    def forward(self,x): # 默认为nchw维度，对c维度进行切分
+        tmp1, tmp2 = torch.split(x,[self.feature_num1,self.feature_num2],dim=1)
+        x_plus = torch.cat([tmp1,torch.zeros_like(tmp2)],1)
+        x_sub = torch.cat([torch.zeros_like(tmp1),tmp2],1)
         return x_plus,x_sub  
     
 class FeatureRerouteFunction(torch.autograd.Function):
@@ -55,7 +75,7 @@ class FeatureRerouteFunction(torch.autograd.Function):
         output2 = input
         return output1, output2
 
-    # 各遮一半实现的话感觉，梯度计算量并不会降低，因为对grad_output1和grad_output2都会计算全部的梯度，可能还真不如detach版本呢
+    # 各遮一半实现的话感觉，梯度计算量并不会降低，因为对grad_output1和grad_output2都会计算全部的梯度，可能还真不如detach版本�?
     @staticmethod
     def backward(ctx, grad_output1, grad_output2):
         input = ctx.saved_tensors
@@ -76,7 +96,7 @@ class FeaturePartitioningFunction(torch.autograd.Function):
         ctx.feature_num2 = ctx.num_channel - ctx.feature_num1
         return torch.split(x,[self.feature_num1,self.feature_num2],dim=1)
 
-    # 各遮一半实现的话感觉，梯度计算量并不会降低，因为对grad_output1和grad_output2都会计算全部的梯度，可能还真不如detach版本呢
+    # 各遮一半实现的话感觉，梯度计算量并不会降低，因为对grad_output1和grad_output2都会计算全部的梯度，可能还真不如detach版本�?
     @staticmethod
     def backward(ctx, grad_output1, grad_output2):
         grad_ratio = None
@@ -433,10 +453,12 @@ class MSDNet(nn.Module):
             x = self.blocks[i](x)
             # 进行特征分割和特征重组，最后一层不能分割重组
             if i < self.nBlocks - 1: 
-                x, x_sub = feature_reroute_func(x, self.args.dns_ratio)
-            else:  
-                x_sub = x
-            pred, t = self.classifier[i](x_sub)
+                x_plus, x_sub = feature_reroute_func(x[-1], self.args.dns_ratio)
+                # classifier只对最后一个feature做分类，而前面的分类list只需要继续往后传即可
+                pred, t = self.classifier[i]([x_sub])
+                x[-1] = x_plus
+            else: 
+                pred, t = self.classifier[i](x)
             res.append(pred)
             feat.append(t)
             # res.append(self.classifier[i](x))
@@ -452,7 +474,6 @@ class WrappedModel(nn.Module):
         return self.module(x)
 
 def msdnet(args):
-
     model = MSDNet(args)
     if args.pretrained is not None:
         print('!!!!!! Load pretrained model !!!!!!')

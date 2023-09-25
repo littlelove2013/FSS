@@ -143,3 +143,4 @@ cython_debug/
 *.pt
 
 # jupyter-tmp-files
+*.tar

@@ -38,6 +38,26 @@ class FeaturePartitioning(nn.Module):
     def forward(self,x): # 默认为nchw维度，对c维度进行切分
         x_plus, x_sub = torch.split(x,[self.feature_num1,self.feature_num2],dim=1)
         return x_plus,x_sub  
+
+class FeaturePartitioningFake(nn.Module):
+    '''
+    Split the feature into two parts with the ratio along channel dimension,
+    使用全0的tensor来填充丢失的特征，以模拟更多的feature，保证模型结构不会被更改
+    '''
+    def __init__(self, num_channel, ratio=0.5):
+        super().__init__()
+        self.ratio = max(min(ratio,1),0)
+        self.num_channel = num_channel
+        self.feature_num1 = round(num_channel*ratio)
+        self.feature_num2 = num_channel - self.feature_num1
+        self.fake_tensor1 = torch.zeros()
+        self.fake_tensor2 = torch.zeros()
+        
+    def forward(self,x): # 默认为nchw维度，对c维度进行切分
+        tmp1, tmp2 = torch.split(x,[self.feature_num1,self.feature_num2],dim=1)
+        x_plus = torch.cat([tmp1,torch.zeros_like(tmp2)],1)
+        x_sub = torch.cat([torch.zeros_like(tmp1),tmp2],1)
+        return x_plus,x_sub  
     
 class FeatureRerouteFunction(torch.autograd.Function):
     @staticmethod
