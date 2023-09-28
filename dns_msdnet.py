@@ -503,7 +503,7 @@ from easydict import EasyDict
 
 
 def msdnet_cifar100():
-    # From Mate-GF "https://github.com/SYVAE/MetaGF.git"
+    # From Mate-GF "https://github.com/SYVAE/MetaGF.git" # gamma=0.9, gamma = 0.1, nChannels=16, growthRate=16, temprature=3.0
     args = EasyDict()
     args.data = 'cifar100'
     args.nBlocks = 7
@@ -524,7 +524,7 @@ def msdnet_cifar100():
     return msdnet(args)
 
 def msdnet_imagenet():
-    # from GE "IMTA"
+    # from GE "IMTA" gamma = 0.1/0.9, nChannels=32, growthRate=16, temprature=1.0/3.0
     args = EasyDict()
     args.data = 'ImageNet'
     args.nBlocks = 5
@@ -534,7 +534,7 @@ def msdnet_imagenet():
     args.stepmode = 'even' # ['even', 'lin_grow']
     args.prune = 'max' # ['min', 'max']
     args.reduction = 0.5 # [0.5, 0.75]
-    args.growthRate = 6 
+    args.growthRate = 16 
     args.grFactor = [1,2,4,4] 
     args.nScales = len(args.grFactor)
     args.bottleneck = True

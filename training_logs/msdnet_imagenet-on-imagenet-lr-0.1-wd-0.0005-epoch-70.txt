@@ -1,0 +1,1447 @@
+#################epoch 1#################
+lr=0.100000 
+
+Epoch: [0][1/2503]	Time 16.299	Data 11.529	Loss 9.7224	Acc@1 0.0000	Acc@5 0.7812
+Epoch: [0][51/2503]	Time 1.189	Data 0.735	Loss 9.6556	Acc@1 0.0000	Acc@5 0.9766
+Epoch: [0][101/2503]	Time 1.089	Data 0.687	Loss 9.4818	Acc@1 0.7812	Acc@5 3.1250
+Epoch: [0][151/2503]	Time 1.061	Data 0.673	Loss 9.3756	Acc@1 0.7812	Acc@5 2.5391
+Epoch: [0][201/2503]	Time 1.066	Data 0.685	Loss 9.1374	Acc@1 1.1719	Acc@5 5.4688
+Epoch: [0][251/2503]	Time 1.051	Data 0.674	Loss 9.0243	Acc@1 1.7578	Acc@5 5.0781
+Epoch: [0][301/2503]	Time 1.042	Data 0.666	Loss 8.8526	Acc@1 1.1719	Acc@5 4.4922
+Epoch: [0][351/2503]	Time 1.033	Data 0.657	Loss 8.7659	Acc@1 1.9531	Acc@5 5.4688
+Epoch: [0][401/2503]	Time 1.038	Data 0.663	Loss 8.6636	Acc@1 1.3672	Acc@5 8.7891
+Epoch: [0][451/2503]	Time 1.033	Data 0.660	Loss 8.5762	Acc@1 3.1250	Acc@5 8.7891
+Epoch: [0][501/2503]	Time 1.034	Data 0.660	Loss 8.5024	Acc@1 2.3438	Acc@5 8.3984
+Epoch: [0][551/2503]	Time 1.034	Data 0.660	Loss 8.4351	Acc@1 3.9062	Acc@5 11.7188
+Epoch: [0][601/2503]	Time 1.044	Data 0.672	Loss 8.3781	Acc@1 2.9297	Acc@5 11.7188
+Epoch: [0][651/2503]	Time 1.041	Data 0.668	Loss 8.1487	Acc@1 6.8359	Acc@5 15.2344
+Epoch: [0][701/2503]	Time 1.039	Data 0.666	Loss 8.1183	Acc@1 2.9297	Acc@5 12.1094
+Epoch: [0][751/2503]	Time 1.040	Data 0.666	Loss 8.0120	Acc@1 5.8594	Acc@5 15.8203
+Epoch: [0][801/2503]	Time 1.043	Data 0.670	Loss 7.8610	Acc@1 5.8594	Acc@5 18.3594
+Epoch: [0][851/2503]	Time 1.042	Data 0.669	Loss 7.9123	Acc@1 3.9062	Acc@5 17.3828
+Epoch: [0][901/2503]	Time 1.039	Data 0.666	Loss 8.0529	Acc@1 4.1016	Acc@5 13.4766
+Epoch: [0][951/2503]	Time 1.036	Data 0.663	Loss 7.9290	Acc@1 6.0547	Acc@5 16.0156
+Epoch: [0][1001/2503]	Time 1.038	Data 0.665	Loss 7.9029	Acc@1 7.8125	Acc@5 17.7734
+Epoch: [0][1051/2503]	Time 1.035	Data 0.663	Loss 7.7344	Acc@1 6.2500	Acc@5 18.3594
+Epoch: [0][1101/2503]	Time 1.033	Data 0.660	Loss 7.7619	Acc@1 8.0078	Acc@5 19.1406
+Epoch: [0][1151/2503]	Time 1.031	Data 0.658	Loss 7.7180	Acc@1 6.6406	Acc@5 20.3125
+Epoch: [0][1201/2503]	Time 1.033	Data 0.661	Loss 7.6684	Acc@1 7.0312	Acc@5 21.0938
+Epoch: [0][1251/2503]	Time 1.033	Data 0.661	Loss 7.6186	Acc@1 6.8359	Acc@5 20.8984
+Epoch: [0][1301/2503]	Time 1.032	Data 0.661	Loss 7.6707	Acc@1 5.0781	Acc@5 19.1406
+Epoch: [0][1351/2503]	Time 1.032	Data 0.661	Loss 7.5472	Acc@1 8.7891	Acc@5 22.6562
+Epoch: [0][1401/2503]	Time 1.035	Data 0.665	Loss 7.5090	Acc@1 10.7422	Acc@5 25.1953
+Epoch: [0][1451/2503]	Time 1.034	Data 0.665	Loss 7.5391	Acc@1 8.9844	Acc@5 25.1953
+Epoch: [0][1501/2503]	Time 1.032	Data 0.664	Loss 7.3366	Acc@1 12.5000	Acc@5 26.9531
+Epoch: [0][1551/2503]	Time 1.033	Data 0.665	Loss 7.4164	Acc@1 10.3516	Acc@5 24.8047
+Epoch: [0][1601/2503]	Time 1.032	Data 0.665	Loss 7.3889	Acc@1 7.2266	Acc@5 24.4141
+Epoch: [0][1651/2503]	Time 1.032	Data 0.664	Loss 7.2768	Acc@1 8.0078	Acc@5 23.6328
+Epoch: [0][1701/2503]	Time 1.031	Data 0.664	Loss 7.3145	Acc@1 11.5234	Acc@5 24.2188
+Epoch: [0][1751/2503]	Time 1.030	Data 0.664	Loss 7.1752	Acc@1 11.3281	Acc@5 27.5391
+Epoch: [0][1801/2503]	Time 1.032	Data 0.668	Loss 7.1385	Acc@1 11.3281	Acc@5 29.8828
+Epoch: [0][1851/2503]	Time 1.031	Data 0.667	Loss 7.0655	Acc@1 8.5938	Acc@5 30.4688
+Epoch: [0][1901/2503]	Time 1.033	Data 0.670	Loss 7.0190	Acc@1 14.2578	Acc@5 31.0547
+Epoch: [0][1951/2503]	Time 1.032	Data 0.670	Loss 7.0389	Acc@1 10.5469	Acc@5 27.1484
+Epoch: [0][2001/2503]	Time 1.033	Data 0.672	Loss 7.0963	Acc@1 11.9141	Acc@5 30.0781
+Epoch: [0][2051/2503]	Time 1.033	Data 0.673	Loss 7.0982	Acc@1 13.2812	Acc@5 28.5156
+Epoch: [0][2101/2503]	Time 1.035	Data 0.676	Loss 7.0046	Acc@1 15.4297	Acc@5 31.4453
+Epoch: [0][2151/2503]	Time 1.035	Data 0.677	Loss 7.1887	Acc@1 9.9609	Acc@5 26.5625
+Epoch: [0][2201/2503]	Time 1.035	Data 0.679	Loss 7.0869	Acc@1 14.0625	Acc@5 29.1016
+Epoch: [0][2251/2503]	Time 1.036	Data 0.680	Loss 6.8399	Acc@1 11.5234	Acc@5 30.2734
+Epoch: [0][2301/2503]	Time 1.039	Data 0.683	Loss 6.9031	Acc@1 14.4531	Acc@5 32.6172
+Epoch: [0][2351/2503]	Time 1.039	Data 0.683	Loss 6.8955	Acc@1 12.1094	Acc@5 31.4453
+Epoch: [0][2401/2503]	Time 1.041	Data 0.685	Loss 6.7351	Acc@1 14.4531	Acc@5 32.2266
+Epoch: [0][2451/2503]	Time 1.041	Data 0.685	Loss 6.6800	Acc@1 16.7969	Acc@5 36.9141
+Epoch: [0][2501/2503]	Time 1.042	Data 0.686	Loss 6.8392	Acc@1 13.8672	Acc@5 30.8594
+Epoch: [1/98]	Time 12.449	Data 12.350	Loss 5.8870	Acc@1 17.9688	Acc@5 46.6797
+Epoch: [51/98]	Time 1.369	Data 1.287	Loss 7.5083	Acc@1 7.6172	Acc@5 20.7031
+ * Acc@1 3.834 Acc@5 12.290
+ * Acc@1 3.780 Acc@5 12.652
+ * Acc@1 4.050 Acc@5 13.610
+ * Acc@1 4.592 Acc@5 14.790
+ * Acc@1 13.348 Acc@5 32.340
+Best var_acc1 13.34800000427246
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_000.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_000.pth.tar'
+#################epoch 2#################
+lr=0.100000 
+
+Epoch: [1][1/2503]	Time 10.872	Data 10.589	Loss 6.8712	Acc@1 12.6953	Acc@5 31.4453
+Epoch: [1][51/2503]	Time 1.233	Data 0.877	Loss 6.9297	Acc@1 13.2812	Acc@5 31.4453
+Epoch: [1][101/2503]	Time 1.146	Data 0.797	Loss 6.6733	Acc@1 15.0391	Acc@5 35.1562
+Epoch: [1][151/2503]	Time 1.109	Data 0.762	Loss 6.6755	Acc@1 16.2109	Acc@5 33.9844
+Epoch: [1][201/2503]	Time 1.104	Data 0.761	Loss 6.7792	Acc@1 14.8438	Acc@5 36.1328
+Epoch: [1][251/2503]	Time 1.086	Data 0.745	Loss 6.7819	Acc@1 15.4297	Acc@5 32.4219
+Epoch: [1][301/2503]	Time 1.080	Data 0.739	Loss 6.6153	Acc@1 14.4531	Acc@5 38.4766
+Epoch: [1][351/2503]	Time 1.079	Data 0.737	Loss 6.7133	Acc@1 13.4766	Acc@5 31.8359
+Epoch: [1][401/2503]	Time 1.077	Data 0.731	Loss 6.7643	Acc@1 15.2344	Acc@5 32.8125
+Epoch: [1][451/2503]	Time 1.074	Data 0.727	Loss 6.4880	Acc@1 16.2109	Acc@5 36.7188
+Epoch: [1][501/2503]	Time 1.077	Data 0.730	Loss 6.4154	Acc@1 16.9922	Acc@5 37.5000
+Epoch: [1][551/2503]	Time 1.076	Data 0.729	Loss 6.6306	Acc@1 15.0391	Acc@5 34.7656
+Epoch: [1][601/2503]	Time 1.074	Data 0.727	Loss 6.5685	Acc@1 17.1875	Acc@5 37.1094
+Epoch: [1][651/2503]	Time 1.074	Data 0.728	Loss 6.4821	Acc@1 17.1875	Acc@5 36.5234
+Epoch: [1][701/2503]	Time 1.073	Data 0.728	Loss 6.3513	Acc@1 18.5547	Acc@5 41.4062
+Epoch: [1][751/2503]	Time 1.075	Data 0.731	Loss 6.6068	Acc@1 13.0859	Acc@5 35.1562
+Epoch: [1][801/2503]	Time 1.077	Data 0.734	Loss 6.5404	Acc@1 15.8203	Acc@5 37.1094
+Epoch: [1][851/2503]	Time 1.073	Data 0.731	Loss 6.4064	Acc@1 15.6250	Acc@5 38.0859
+Epoch: [1][901/2503]	Time 1.074	Data 0.733	Loss 6.3252	Acc@1 18.7500	Acc@5 39.8438
+Epoch: [1][951/2503]	Time 1.073	Data 0.732	Loss 6.2920	Acc@1 18.1641	Acc@5 39.8438
+Epoch: [1][1001/2503]	Time 1.074	Data 0.734	Loss 6.3542	Acc@1 18.3594	Acc@5 40.8203
+Epoch: [1][1051/2503]	Time 1.072	Data 0.732	Loss 6.2512	Acc@1 18.5547	Acc@5 41.0156
+Epoch: [1][1101/2503]	Time 1.071	Data 0.730	Loss 6.3578	Acc@1 18.1641	Acc@5 40.0391
+Epoch: [1][1151/2503]	Time 1.069	Data 0.729	Loss 6.3979	Acc@1 19.3359	Acc@5 38.8672
+Epoch: [1][1201/2503]	Time 1.070	Data 0.730	Loss 6.2237	Acc@1 18.5547	Acc@5 40.6250
+Epoch: [1][1251/2503]	Time 1.069	Data 0.728	Loss 6.1401	Acc@1 23.0469	Acc@5 41.7969
+Epoch: [1][1301/2503]	Time 1.069	Data 0.728	Loss 6.2882	Acc@1 18.7500	Acc@5 39.0625
+Epoch: [1][1351/2503]	Time 1.069	Data 0.727	Loss 6.1791	Acc@1 19.1406	Acc@5 42.1875
+Epoch: [1][1401/2503]	Time 1.068	Data 0.727	Loss 6.0465	Acc@1 22.4609	Acc@5 46.8750
+Epoch: [1][1451/2503]	Time 1.066	Data 0.724	Loss 6.1866	Acc@1 18.9453	Acc@5 44.1406
+Epoch: [1][1501/2503]	Time 1.064	Data 0.722	Loss 6.1508	Acc@1 19.3359	Acc@5 44.7266
+Epoch: [1][1551/2503]	Time 1.064	Data 0.722	Loss 6.0908	Acc@1 20.5078	Acc@5 42.7734
+Epoch: [1][1601/2503]	Time 1.064	Data 0.723	Loss 6.3089	Acc@1 19.3359	Acc@5 41.2109
+Epoch: [1][1651/2503]	Time 1.062	Data 0.721	Loss 6.2398	Acc@1 19.7266	Acc@5 42.3828
+Epoch: [1][1701/2503]	Time 1.063	Data 0.722	Loss 6.1177	Acc@1 19.3359	Acc@5 43.7500
+Epoch: [1][1751/2503]	Time 1.063	Data 0.722	Loss 6.0856	Acc@1 21.2891	Acc@5 42.1875
+Epoch: [1][1801/2503]	Time 1.062	Data 0.722	Loss 6.0994	Acc@1 21.4844	Acc@5 45.7031
+Epoch: [1][1851/2503]	Time 1.061	Data 0.721	Loss 6.2037	Acc@1 20.3125	Acc@5 41.0156
+Epoch: [1][1901/2503]	Time 1.061	Data 0.720	Loss 6.2674	Acc@1 17.3828	Acc@5 41.0156
+Epoch: [1][1951/2503]	Time 1.062	Data 0.721	Loss 6.0417	Acc@1 17.9688	Acc@5 42.7734
+Epoch: [1][2001/2503]	Time 1.060	Data 0.719	Loss 6.0292	Acc@1 20.5078	Acc@5 44.1406
+Epoch: [1][2051/2503]	Time 1.060	Data 0.718	Loss 6.1611	Acc@1 18.9453	Acc@5 43.7500
+Epoch: [1][2101/2503]	Time 1.060	Data 0.718	Loss 6.2046	Acc@1 22.4609	Acc@5 43.5547
+Epoch: [1][2151/2503]	Time 1.062	Data 0.720	Loss 6.0898	Acc@1 20.8984	Acc@5 41.9922
+Epoch: [1][2201/2503]	Time 1.062	Data 0.719	Loss 6.0629	Acc@1 20.3125	Acc@5 42.1875
+Epoch: [1][2251/2503]	Time 1.062	Data 0.718	Loss 6.0618	Acc@1 20.1172	Acc@5 43.1641
+Epoch: [1][2301/2503]	Time 1.061	Data 0.717	Loss 6.1424	Acc@1 19.5312	Acc@5 41.7969
+Epoch: [1][2351/2503]	Time 1.062	Data 0.718	Loss 6.0092	Acc@1 20.8984	Acc@5 44.9219
+Epoch: [1][2401/2503]	Time 1.062	Data 0.717	Loss 6.1930	Acc@1 20.8984	Acc@5 41.6016
+Epoch: [1][2451/2503]	Time 1.061	Data 0.715	Loss 5.9405	Acc@1 20.7031	Acc@5 45.3125
+Epoch: [1][2501/2503]	Time 1.059	Data 0.713	Loss 6.0478	Acc@1 19.7266	Acc@5 45.3125
+Epoch: [1/98]	Time 12.144	Data 12.061	Loss 5.0752	Acc@1 29.2969	Acc@5 62.1094
+Epoch: [51/98]	Time 1.296	Data 1.214	Loss 6.7654	Acc@1 8.0078	Acc@5 26.9531
+ * Acc@1 5.906 Acc@5 17.974
+ * Acc@1 6.824 Acc@5 20.802
+ * Acc@1 7.874 Acc@5 22.824
+ * Acc@1 9.144 Acc@5 25.184
+ * Acc@1 18.452 Acc@5 41.140
+Best var_acc1 18.451999993286133
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_001.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_001.pth.tar'
+#################epoch 3#################
+lr=0.100000 
+
+Epoch: [2][1/2503]	Time 10.867	Data 10.581	Loss 5.9697	Acc@1 23.6328	Acc@5 45.5078
+Epoch: [2][51/2503]	Time 1.251	Data 0.899	Loss 6.0062	Acc@1 20.7031	Acc@5 46.0938
+Epoch: [2][101/2503]	Time 1.172	Data 0.823	Loss 5.9722	Acc@1 20.7031	Acc@5 44.1406
+Epoch: [2][151/2503]	Time 1.128	Data 0.771	Loss 6.1069	Acc@1 21.6797	Acc@5 43.5547
+Epoch: [2][201/2503]	Time 1.104	Data 0.742	Loss 6.0106	Acc@1 20.7031	Acc@5 44.3359
+Epoch: [2][251/2503]	Time 1.112	Data 0.748	Loss 6.1357	Acc@1 17.7734	Acc@5 43.9453
+Epoch: [2][301/2503]	Time 1.098	Data 0.737	Loss 5.9679	Acc@1 21.2891	Acc@5 42.1875
+Epoch: [2][351/2503]	Time 1.095	Data 0.737	Loss 5.9639	Acc@1 19.9219	Acc@5 44.1406
+Epoch: [2][401/2503]	Time 1.088	Data 0.734	Loss 6.0598	Acc@1 20.8984	Acc@5 41.6016
+Epoch: [2][451/2503]	Time 1.087	Data 0.737	Loss 5.9685	Acc@1 24.0234	Acc@5 46.4844
+Epoch: [2][501/2503]	Time 1.084	Data 0.736	Loss 5.8807	Acc@1 23.2422	Acc@5 48.2422
+Epoch: [2][551/2503]	Time 1.088	Data 0.741	Loss 6.1694	Acc@1 21.2891	Acc@5 43.5547
+Epoch: [2][601/2503]	Time 1.083	Data 0.736	Loss 5.9016	Acc@1 20.7031	Acc@5 42.1875
+Epoch: [2][651/2503]	Time 1.083	Data 0.736	Loss 6.0432	Acc@1 20.7031	Acc@5 39.6484
+Epoch: [2][701/2503]	Time 1.081	Data 0.734	Loss 6.0232	Acc@1 22.4609	Acc@5 44.5312
+Epoch: [2][751/2503]	Time 1.082	Data 0.735	Loss 5.8096	Acc@1 22.4609	Acc@5 47.0703
+Epoch: [2][801/2503]	Time 1.081	Data 0.734	Loss 6.0476	Acc@1 20.8984	Acc@5 41.9922
+Epoch: [2][851/2503]	Time 1.085	Data 0.738	Loss 5.8227	Acc@1 22.6562	Acc@5 45.7031
+Epoch: [2][901/2503]	Time 1.084	Data 0.736	Loss 6.0240	Acc@1 20.3125	Acc@5 41.2109
+Epoch: [2][951/2503]	Time 1.082	Data 0.733	Loss 6.1635	Acc@1 18.3594	Acc@5 39.6484
+Epoch: [2][1001/2503]	Time 1.081	Data 0.731	Loss 5.7830	Acc@1 24.6094	Acc@5 49.4141
+Epoch: [2][1051/2503]	Time 1.086	Data 0.735	Loss 5.6686	Acc@1 25.5859	Acc@5 51.5625
+Epoch: [2][1101/2503]	Time 1.082	Data 0.730	Loss 5.9252	Acc@1 20.5078	Acc@5 43.1641
+Epoch: [2][1151/2503]	Time 1.078	Data 0.725	Loss 5.7758	Acc@1 24.2188	Acc@5 47.0703
+Epoch: [2][1201/2503]	Time 1.075	Data 0.721	Loss 5.8851	Acc@1 24.4141	Acc@5 47.8516
+Epoch: [2][1251/2503]	Time 1.075	Data 0.720	Loss 5.5771	Acc@1 26.7578	Acc@5 50.3906
+Epoch: [2][1301/2503]	Time 1.072	Data 0.717	Loss 6.0639	Acc@1 19.1406	Acc@5 45.5078
+Epoch: [2][1351/2503]	Time 1.066	Data 0.711	Loss 5.9285	Acc@1 22.0703	Acc@5 45.7031
+Epoch: [2][1401/2503]	Time 1.065	Data 0.710	Loss 5.7893	Acc@1 23.6328	Acc@5 47.8516
+Epoch: [2][1451/2503]	Time 1.064	Data 0.709	Loss 5.8795	Acc@1 22.2656	Acc@5 45.8984
+Epoch: [2][1501/2503]	Time 1.067	Data 0.712	Loss 5.8340	Acc@1 21.6797	Acc@5 46.8750
+Epoch: [2][1551/2503]	Time 1.067	Data 0.712	Loss 5.7984	Acc@1 22.0703	Acc@5 47.0703
+Epoch: [2][1601/2503]	Time 1.067	Data 0.711	Loss 5.7286	Acc@1 22.0703	Acc@5 47.4609
+Epoch: [2][1651/2503]	Time 1.065	Data 0.709	Loss 5.8054	Acc@1 22.4609	Acc@5 46.4844
+Epoch: [2][1701/2503]	Time 1.066	Data 0.710	Loss 5.8774	Acc@1 21.2891	Acc@5 43.1641
+Epoch: [2][1751/2503]	Time 1.066	Data 0.709	Loss 5.7900	Acc@1 22.6562	Acc@5 46.2891
+Epoch: [2][1801/2503]	Time 1.065	Data 0.707	Loss 5.8519	Acc@1 21.2891	Acc@5 46.8750
+Epoch: [2][1851/2503]	Time 1.063	Data 0.705	Loss 5.7007	Acc@1 23.2422	Acc@5 48.0469
+Epoch: [2][1901/2503]	Time 1.065	Data 0.707	Loss 5.8312	Acc@1 23.8281	Acc@5 49.2188
+Epoch: [2][1951/2503]	Time 1.064	Data 0.706	Loss 5.6062	Acc@1 23.8281	Acc@5 50.1953
+Epoch: [2][2001/2503]	Time 1.063	Data 0.704	Loss 5.7834	Acc@1 23.2422	Acc@5 47.4609
+Epoch: [2][2051/2503]	Time 1.062	Data 0.703	Loss 5.7635	Acc@1 23.2422	Acc@5 45.1172
+Epoch: [2][2101/2503]	Time 1.063	Data 0.704	Loss 5.8020	Acc@1 22.8516	Acc@5 47.0703
+Epoch: [2][2151/2503]	Time 1.062	Data 0.703	Loss 5.6621	Acc@1 27.3438	Acc@5 49.0234
+Epoch: [2][2201/2503]	Time 1.062	Data 0.702	Loss 5.6014	Acc@1 24.4141	Acc@5 46.8750
+Epoch: [2][2251/2503]	Time 1.061	Data 0.701	Loss 5.6734	Acc@1 23.4375	Acc@5 50.5859
+Epoch: [2][2301/2503]	Time 1.063	Data 0.703	Loss 5.6829	Acc@1 23.8281	Acc@5 47.8516
+Epoch: [2][2351/2503]	Time 1.062	Data 0.702	Loss 5.8406	Acc@1 21.6797	Acc@5 46.8750
+Epoch: [2][2401/2503]	Time 1.062	Data 0.701	Loss 5.7980	Acc@1 24.2188	Acc@5 46.4844
+Epoch: [2][2451/2503]	Time 1.061	Data 0.700	Loss 5.6267	Acc@1 25.0000	Acc@5 45.8984
+Epoch: [2][2501/2503]	Time 1.061	Data 0.699	Loss 5.5868	Acc@1 25.7812	Acc@5 50.1953
+Epoch: [1/98]	Time 12.115	Data 12.031	Loss 4.6905	Acc@1 36.1328	Acc@5 67.3828
+Epoch: [51/98]	Time 1.333	Data 1.251	Loss 6.5587	Acc@1 11.7188	Acc@5 33.7891
+ * Acc@1 7.546 Acc@5 21.482
+ * Acc@1 9.102 Acc@5 25.542
+ * Acc@1 10.658 Acc@5 28.330
+ * Acc@1 12.604 Acc@5 32.354
+ * Acc@1 23.886 Acc@5 48.896
+Best var_acc1 23.88599999206543
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_002.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_002.pth.tar'
+#################epoch 4#################
+lr=0.100000 
+
+Epoch: [3][1/2503]	Time 11.048	Data 10.825	Loss 5.9956	Acc@1 20.7031	Acc@5 43.1641
+Epoch: [3][51/2503]	Time 1.245	Data 0.892	Loss 5.6125	Acc@1 26.7578	Acc@5 49.0234
+Epoch: [3][101/2503]	Time 1.161	Data 0.804	Loss 5.5446	Acc@1 23.0469	Acc@5 50.9766
+Epoch: [3][151/2503]	Time 1.125	Data 0.766	Loss 5.8502	Acc@1 27.1484	Acc@5 46.6797
+Epoch: [3][201/2503]	Time 1.122	Data 0.768	Loss 5.7378	Acc@1 23.8281	Acc@5 49.0234
+Epoch: [3][251/2503]	Time 1.112	Data 0.762	Loss 5.7835	Acc@1 25.1953	Acc@5 48.2422
+Epoch: [3][301/2503]	Time 1.098	Data 0.752	Loss 5.6472	Acc@1 26.5625	Acc@5 50.3906
+Epoch: [3][351/2503]	Time 1.087	Data 0.743	Loss 5.6596	Acc@1 23.0469	Acc@5 49.4141
+Epoch: [3][401/2503]	Time 1.091	Data 0.746	Loss 5.5114	Acc@1 28.5156	Acc@5 51.7578
+Epoch: [3][451/2503]	Time 1.086	Data 0.739	Loss 5.4886	Acc@1 27.3438	Acc@5 52.3438
+Epoch: [3][501/2503]	Time 1.082	Data 0.733	Loss 5.8588	Acc@1 25.3906	Acc@5 47.6562
+Epoch: [3][551/2503]	Time 1.074	Data 0.724	Loss 5.6442	Acc@1 25.5859	Acc@5 51.9531
+Epoch: [3][601/2503]	Time 1.078	Data 0.726	Loss 5.6116	Acc@1 26.9531	Acc@5 50.3906
+Epoch: [3][651/2503]	Time 1.074	Data 0.720	Loss 5.6093	Acc@1 24.6094	Acc@5 50.1953
+Epoch: [3][701/2503]	Time 1.070	Data 0.715	Loss 5.6315	Acc@1 25.7812	Acc@5 50.9766
+Epoch: [3][751/2503]	Time 1.066	Data 0.710	Loss 5.7131	Acc@1 26.7578	Acc@5 48.4375
+Epoch: [3][801/2503]	Time 1.069	Data 0.712	Loss 5.8227	Acc@1 24.0234	Acc@5 43.9453
+Epoch: [3][851/2503]	Time 1.065	Data 0.708	Loss 5.7891	Acc@1 25.3906	Acc@5 46.6797
+Epoch: [3][901/2503]	Time 1.063	Data 0.704	Loss 5.6796	Acc@1 22.8516	Acc@5 48.4375
+Epoch: [3][951/2503]	Time 1.060	Data 0.701	Loss 5.8258	Acc@1 22.4609	Acc@5 44.3359
+Epoch: [3][1001/2503]	Time 1.065	Data 0.705	Loss 5.6948	Acc@1 22.6562	Acc@5 47.8516
+Epoch: [3][1051/2503]	Time 1.061	Data 0.701	Loss 5.7722	Acc@1 22.8516	Acc@5 47.2656
+Epoch: [3][1101/2503]	Time 1.059	Data 0.699	Loss 5.6962	Acc@1 25.0000	Acc@5 50.3906
+Epoch: [3][1151/2503]	Time 1.058	Data 0.697	Loss 5.6160	Acc@1 24.8047	Acc@5 49.2188
+Epoch: [3][1201/2503]	Time 1.058	Data 0.698	Loss 5.4792	Acc@1 29.4922	Acc@5 50.7812
+Epoch: [3][1251/2503]	Time 1.054	Data 0.694	Loss 5.7108	Acc@1 21.8750	Acc@5 46.8750
+Epoch: [3][1301/2503]	Time 1.054	Data 0.693	Loss 5.6209	Acc@1 26.7578	Acc@5 48.6328
+Epoch: [3][1351/2503]	Time 1.054	Data 0.693	Loss 5.5762	Acc@1 26.9531	Acc@5 51.1719
+Epoch: [3][1401/2503]	Time 1.056	Data 0.695	Loss 5.6092	Acc@1 23.2422	Acc@5 49.8047
+Epoch: [3][1451/2503]	Time 1.055	Data 0.693	Loss 5.7045	Acc@1 24.4141	Acc@5 48.6328
+Epoch: [3][1501/2503]	Time 1.053	Data 0.691	Loss 5.6776	Acc@1 26.5625	Acc@5 49.4141
+Epoch: [3][1551/2503]	Time 1.051	Data 0.689	Loss 5.6401	Acc@1 25.1953	Acc@5 50.0000
+Epoch: [3][1601/2503]	Time 1.050	Data 0.689	Loss 5.5429	Acc@1 25.3906	Acc@5 51.9531
+Epoch: [3][1651/2503]	Time 1.052	Data 0.691	Loss 5.7463	Acc@1 22.0703	Acc@5 47.2656
+Epoch: [3][1701/2503]	Time 1.051	Data 0.690	Loss 5.4953	Acc@1 27.1484	Acc@5 52.7344
+Epoch: [3][1751/2503]	Time 1.050	Data 0.689	Loss 5.4125	Acc@1 28.9062	Acc@5 53.9062
+Epoch: [3][1801/2503]	Time 1.050	Data 0.689	Loss 5.7254	Acc@1 26.3672	Acc@5 45.7031
+Epoch: [3][1851/2503]	Time 1.052	Data 0.691	Loss 5.5308	Acc@1 25.9766	Acc@5 50.1953
+Epoch: [3][1901/2503]	Time 1.051	Data 0.690	Loss 5.6291	Acc@1 24.2188	Acc@5 52.3438
+Epoch: [3][1951/2503]	Time 1.050	Data 0.689	Loss 5.6495	Acc@1 23.2422	Acc@5 49.4141
+Epoch: [3][2001/2503]	Time 1.050	Data 0.688	Loss 5.6382	Acc@1 24.4141	Acc@5 47.4609
+Epoch: [3][2051/2503]	Time 1.052	Data 0.690	Loss 5.4286	Acc@1 26.1719	Acc@5 51.7578
+Epoch: [3][2101/2503]	Time 1.051	Data 0.689	Loss 5.7529	Acc@1 24.8047	Acc@5 48.4375
+Epoch: [3][2151/2503]	Time 1.050	Data 0.688	Loss 5.6142	Acc@1 27.1484	Acc@5 50.0000
+Epoch: [3][2201/2503]	Time 1.049	Data 0.686	Loss 5.5264	Acc@1 28.5156	Acc@5 51.1719
+Epoch: [3][2251/2503]	Time 1.051	Data 0.688	Loss 5.6785	Acc@1 24.0234	Acc@5 48.4375
+Epoch: [3][2301/2503]	Time 1.050	Data 0.687	Loss 5.4433	Acc@1 24.8047	Acc@5 50.9766
+Epoch: [3][2351/2503]	Time 1.049	Data 0.685	Loss 5.3945	Acc@1 29.6875	Acc@5 52.7344
+Epoch: [3][2401/2503]	Time 1.048	Data 0.685	Loss 5.5790	Acc@1 26.7578	Acc@5 53.5156
+Epoch: [3][2451/2503]	Time 1.049	Data 0.686	Loss 5.6254	Acc@1 27.1484	Acc@5 49.4141
+Epoch: [3][2501/2503]	Time 1.047	Data 0.683	Loss 5.4424	Acc@1 27.7344	Acc@5 51.5625
+Epoch: [1/98]	Time 12.105	Data 12.021	Loss 4.5335	Acc@1 37.5000	Acc@5 65.4297
+Epoch: [51/98]	Time 1.335	Data 1.253	Loss 6.1548	Acc@1 18.9453	Acc@5 45.3125
+ * Acc@1 9.364 Acc@5 25.154
+ * Acc@1 11.318 Acc@5 29.794
+ * Acc@1 12.898 Acc@5 32.470
+ * Acc@1 14.610 Acc@5 35.726
+ * Acc@1 23.866 Acc@5 48.498
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_003.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_003.pth.tar'
+#################epoch 5#################
+lr=0.100000 
+
+Epoch: [4][1/2503]	Time 10.573	Data 10.294	Loss 5.7266	Acc@1 23.8281	Acc@5 47.0703
+Epoch: [4][51/2503]	Time 1.241	Data 0.902	Loss 5.4836	Acc@1 27.5391	Acc@5 49.0234
+Epoch: [4][101/2503]	Time 1.130	Data 0.783	Loss 5.7187	Acc@1 23.6328	Acc@5 47.0703
+Epoch: [4][151/2503]	Time 1.092	Data 0.739	Loss 5.4410	Acc@1 25.7812	Acc@5 52.1484
+Epoch: [4][201/2503]	Time 1.095	Data 0.743	Loss 5.4539	Acc@1 25.5859	Acc@5 50.9766
+Epoch: [4][251/2503]	Time 1.081	Data 0.731	Loss 5.5991	Acc@1 24.0234	Acc@5 48.0469
+Epoch: [4][301/2503]	Time 1.073	Data 0.723	Loss 5.3881	Acc@1 27.1484	Acc@5 52.9297
+Epoch: [4][351/2503]	Time 1.068	Data 0.719	Loss 5.3725	Acc@1 24.4141	Acc@5 51.3672
+Epoch: [4][401/2503]	Time 1.067	Data 0.718	Loss 5.7766	Acc@1 24.4141	Acc@5 49.4141
+Epoch: [4][451/2503]	Time 1.070	Data 0.721	Loss 5.5070	Acc@1 26.9531	Acc@5 50.9766
+Epoch: [4][501/2503]	Time 1.067	Data 0.718	Loss 5.6953	Acc@1 23.4375	Acc@5 47.2656
+Epoch: [4][551/2503]	Time 1.064	Data 0.716	Loss 5.6303	Acc@1 22.8516	Acc@5 46.8750
+Epoch: [4][601/2503]	Time 1.067	Data 0.718	Loss 5.3572	Acc@1 26.5625	Acc@5 53.3203
+Epoch: [4][651/2503]	Time 1.064	Data 0.715	Loss 5.5927	Acc@1 22.6562	Acc@5 48.2422
+Epoch: [4][701/2503]	Time 1.061	Data 0.711	Loss 5.2851	Acc@1 31.4453	Acc@5 53.3203
+Epoch: [4][751/2503]	Time 1.058	Data 0.707	Loss 5.4899	Acc@1 26.3672	Acc@5 51.7578
+Epoch: [4][801/2503]	Time 1.061	Data 0.708	Loss 5.5023	Acc@1 25.0000	Acc@5 51.5625
+Epoch: [4][851/2503]	Time 1.058	Data 0.704	Loss 5.5043	Acc@1 25.0000	Acc@5 48.6328
+Epoch: [4][901/2503]	Time 1.056	Data 0.702	Loss 5.3857	Acc@1 30.2734	Acc@5 53.3203
+Epoch: [4][951/2503]	Time 1.055	Data 0.700	Loss 5.5736	Acc@1 23.4375	Acc@5 50.3906
+Epoch: [4][1001/2503]	Time 1.057	Data 0.702	Loss 5.4205	Acc@1 27.7344	Acc@5 53.1250
+Epoch: [4][1051/2503]	Time 1.056	Data 0.700	Loss 5.5707	Acc@1 23.6328	Acc@5 50.3906
+Epoch: [4][1101/2503]	Time 1.050	Data 0.693	Loss 5.3828	Acc@1 30.6641	Acc@5 54.6875
+Epoch: [4][1151/2503]	Time 1.050	Data 0.693	Loss 5.4500	Acc@1 27.7344	Acc@5 52.5391
+Epoch: [4][1201/2503]	Time 1.054	Data 0.696	Loss 5.4335	Acc@1 25.5859	Acc@5 48.4375
+Epoch: [4][1251/2503]	Time 1.054	Data 0.696	Loss 5.3738	Acc@1 26.9531	Acc@5 51.1719
+Epoch: [4][1301/2503]	Time 1.054	Data 0.696	Loss 5.5066	Acc@1 25.3906	Acc@5 51.5625
+Epoch: [4][1351/2503]	Time 1.052	Data 0.694	Loss 5.5939	Acc@1 24.2188	Acc@5 47.4609
+Epoch: [4][1401/2503]	Time 1.054	Data 0.695	Loss 5.4607	Acc@1 27.3438	Acc@5 50.3906
+Epoch: [4][1451/2503]	Time 1.053	Data 0.694	Loss 5.6158	Acc@1 25.7812	Acc@5 49.2188
+Epoch: [4][1501/2503]	Time 1.052	Data 0.692	Loss 5.4707	Acc@1 26.3672	Acc@5 51.5625
+Epoch: [4][1551/2503]	Time 1.050	Data 0.690	Loss 5.3939	Acc@1 27.7344	Acc@5 53.3203
+Epoch: [4][1601/2503]	Time 1.052	Data 0.692	Loss 5.5241	Acc@1 27.3438	Acc@5 48.0469
+Epoch: [4][1651/2503]	Time 1.051	Data 0.691	Loss 5.5627	Acc@1 25.1953	Acc@5 49.4141
+Epoch: [4][1701/2503]	Time 1.051	Data 0.690	Loss 5.6050	Acc@1 27.3438	Acc@5 49.0234
+Epoch: [4][1751/2503]	Time 1.050	Data 0.689	Loss 5.3336	Acc@1 27.5391	Acc@5 54.1016
+Epoch: [4][1801/2503]	Time 1.052	Data 0.691	Loss 5.4917	Acc@1 23.8281	Acc@5 49.0234
+Epoch: [4][1851/2503]	Time 1.050	Data 0.689	Loss 5.3224	Acc@1 28.1250	Acc@5 51.9531
+Epoch: [4][1901/2503]	Time 1.050	Data 0.689	Loss 5.4974	Acc@1 22.8516	Acc@5 50.3906
+Epoch: [4][1951/2503]	Time 1.049	Data 0.688	Loss 5.5712	Acc@1 24.4141	Acc@5 49.2188
+Epoch: [4][2001/2503]	Time 1.051	Data 0.689	Loss 5.5692	Acc@1 25.3906	Acc@5 49.6094
+Epoch: [4][2051/2503]	Time 1.050	Data 0.688	Loss 5.4269	Acc@1 25.9766	Acc@5 52.7344
+Epoch: [4][2101/2503]	Time 1.049	Data 0.687	Loss 5.3918	Acc@1 28.3203	Acc@5 54.1016
+Epoch: [4][2151/2503]	Time 1.049	Data 0.686	Loss 5.4422	Acc@1 26.5625	Acc@5 54.1016
+Epoch: [4][2201/2503]	Time 1.050	Data 0.687	Loss 5.4047	Acc@1 27.1484	Acc@5 50.5859
+Epoch: [4][2251/2503]	Time 1.050	Data 0.687	Loss 5.3270	Acc@1 28.1250	Acc@5 53.5156
+Epoch: [4][2301/2503]	Time 1.049	Data 0.686	Loss 5.5596	Acc@1 25.3906	Acc@5 50.7812
+Epoch: [4][2351/2503]	Time 1.049	Data 0.686	Loss 5.4417	Acc@1 25.5859	Acc@5 50.1953
+Epoch: [4][2401/2503]	Time 1.051	Data 0.688	Loss 5.6069	Acc@1 25.1953	Acc@5 49.8047
+Epoch: [4][2451/2503]	Time 1.051	Data 0.687	Loss 5.5472	Acc@1 25.5859	Acc@5 52.1484
+Epoch: [4][2501/2503]	Time 1.050	Data 0.686	Loss 5.3749	Acc@1 27.7344	Acc@5 53.3203
+Epoch: [1/98]	Time 11.511	Data 11.421	Loss 4.3107	Acc@1 35.5469	Acc@5 71.0938
+Epoch: [51/98]	Time 1.333	Data 1.251	Loss 6.2833	Acc@1 18.5547	Acc@5 41.0156
+ * Acc@1 9.454 Acc@5 25.968
+ * Acc@1 10.496 Acc@5 27.910
+ * Acc@1 12.812 Acc@5 32.080
+ * Acc@1 14.410 Acc@5 35.000
+ * Acc@1 22.722 Acc@5 47.298
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_004.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_004.pth.tar'
+#################epoch 6#################
+lr=0.100000 
+
+Epoch: [5][1/2503]	Time 10.708	Data 10.454	Loss 5.3224	Acc@1 31.2500	Acc@5 53.7109
+Epoch: [5][51/2503]	Time 1.250	Data 0.876	Loss 5.4135	Acc@1 28.7109	Acc@5 52.5391
+Epoch: [5][101/2503]	Time 1.141	Data 0.776	Loss 5.3239	Acc@1 26.5625	Acc@5 54.8828
+Epoch: [5][151/2503]	Time 1.093	Data 0.732	Loss 5.3532	Acc@1 29.4922	Acc@5 52.1484
+Epoch: [5][201/2503]	Time 1.098	Data 0.736	Loss 5.3371	Acc@1 28.1250	Acc@5 54.1016
+Epoch: [5][251/2503]	Time 1.086	Data 0.721	Loss 5.1976	Acc@1 30.2734	Acc@5 55.6641
+Epoch: [5][301/2503]	Time 1.075	Data 0.710	Loss 5.4509	Acc@1 29.6875	Acc@5 54.1016
+Epoch: [5][351/2503]	Time 1.067	Data 0.701	Loss 5.6439	Acc@1 27.9297	Acc@5 46.2891
+Epoch: [5][401/2503]	Time 1.074	Data 0.707	Loss 5.5841	Acc@1 22.6562	Acc@5 49.0234
+Epoch: [5][451/2503]	Time 1.068	Data 0.699	Loss 5.4018	Acc@1 29.1016	Acc@5 51.1719
+Epoch: [5][501/2503]	Time 1.064	Data 0.694	Loss 5.3340	Acc@1 27.3438	Acc@5 52.9297
+Epoch: [5][551/2503]	Time 1.059	Data 0.688	Loss 5.3519	Acc@1 26.1719	Acc@5 51.1719
+Epoch: [5][601/2503]	Time 1.062	Data 0.691	Loss 5.4627	Acc@1 26.3672	Acc@5 50.7812
+Epoch: [5][651/2503]	Time 1.059	Data 0.688	Loss 5.3601	Acc@1 27.3438	Acc@5 52.5391
+Epoch: [5][701/2503]	Time 1.058	Data 0.687	Loss 5.3071	Acc@1 30.0781	Acc@5 54.4922
+Epoch: [5][751/2503]	Time 1.055	Data 0.684	Loss 5.4433	Acc@1 27.3438	Acc@5 51.9531
+Epoch: [5][801/2503]	Time 1.061	Data 0.690	Loss 5.2137	Acc@1 28.7109	Acc@5 55.4688
+Epoch: [5][851/2503]	Time 1.059	Data 0.687	Loss 5.4785	Acc@1 21.8750	Acc@5 48.2422
+Epoch: [5][901/2503]	Time 1.056	Data 0.684	Loss 5.3441	Acc@1 28.7109	Acc@5 51.1719
+Epoch: [5][951/2503]	Time 1.052	Data 0.679	Loss 5.2811	Acc@1 30.0781	Acc@5 55.4688
+Epoch: [5][1001/2503]	Time 1.052	Data 0.680	Loss 5.2980	Acc@1 28.3203	Acc@5 54.4922
+Epoch: [5][1051/2503]	Time 1.051	Data 0.678	Loss 5.3888	Acc@1 28.1250	Acc@5 53.9062
+Epoch: [5][1101/2503]	Time 1.048	Data 0.675	Loss 5.4426	Acc@1 27.9297	Acc@5 53.5156
+Epoch: [5][1151/2503]	Time 1.046	Data 0.673	Loss 5.4379	Acc@1 25.0000	Acc@5 51.9531
+Epoch: [5][1201/2503]	Time 1.050	Data 0.677	Loss 5.4073	Acc@1 25.1953	Acc@5 52.1484
+Epoch: [5][1251/2503]	Time 1.047	Data 0.674	Loss 5.3348	Acc@1 27.9297	Acc@5 53.3203
+Epoch: [5][1301/2503]	Time 1.046	Data 0.673	Loss 5.5705	Acc@1 23.8281	Acc@5 49.8047
+Epoch: [5][1351/2503]	Time 1.045	Data 0.672	Loss 5.3973	Acc@1 26.9531	Acc@5 50.7812
+Epoch: [5][1401/2503]	Time 1.048	Data 0.674	Loss 5.5940	Acc@1 25.0000	Acc@5 50.3906
+Epoch: [5][1451/2503]	Time 1.046	Data 0.673	Loss 5.4504	Acc@1 27.3438	Acc@5 51.9531
+Epoch: [5][1501/2503]	Time 1.044	Data 0.670	Loss 5.5456	Acc@1 24.8047	Acc@5 48.6328
+Epoch: [5][1551/2503]	Time 1.042	Data 0.668	Loss 5.8495	Acc@1 21.6797	Acc@5 44.5312
+Epoch: [5][1601/2503]	Time 1.044	Data 0.670	Loss 5.6033	Acc@1 24.8047	Acc@5 46.6797
+Epoch: [5][1651/2503]	Time 1.042	Data 0.669	Loss 5.2531	Acc@1 29.4922	Acc@5 53.3203
+Epoch: [5][1701/2503]	Time 1.041	Data 0.667	Loss 5.5070	Acc@1 26.3672	Acc@5 50.7812
+Epoch: [5][1751/2503]	Time 1.040	Data 0.666	Loss 5.3815	Acc@1 27.1484	Acc@5 52.1484
+Epoch: [5][1801/2503]	Time 1.042	Data 0.668	Loss 5.3561	Acc@1 29.1016	Acc@5 52.9297
+Epoch: [5][1851/2503]	Time 1.042	Data 0.668	Loss 5.4478	Acc@1 26.1719	Acc@5 51.9531
+Epoch: [5][1901/2503]	Time 1.040	Data 0.666	Loss 5.2593	Acc@1 29.2969	Acc@5 55.0781
+Epoch: [5][1951/2503]	Time 1.040	Data 0.665	Loss 5.3899	Acc@1 28.3203	Acc@5 52.1484
+Epoch: [5][2001/2503]	Time 1.042	Data 0.668	Loss 5.5608	Acc@1 24.0234	Acc@5 50.1953
+Epoch: [5][2051/2503]	Time 1.042	Data 0.667	Loss 5.4413	Acc@1 25.7812	Acc@5 51.7578
+Epoch: [5][2101/2503]	Time 1.041	Data 0.666	Loss 5.3662	Acc@1 29.2969	Acc@5 50.7812
+Epoch: [5][2151/2503]	Time 1.039	Data 0.665	Loss 5.0670	Acc@1 30.2734	Acc@5 57.8125
+Epoch: [5][2201/2503]	Time 1.041	Data 0.666	Loss 5.1025	Acc@1 32.4219	Acc@5 55.2734
+Epoch: [5][2251/2503]	Time 1.040	Data 0.665	Loss 5.4597	Acc@1 25.7812	Acc@5 49.8047
+Epoch: [5][2301/2503]	Time 1.039	Data 0.664	Loss 5.5098	Acc@1 27.5391	Acc@5 51.5625
+Epoch: [5][2351/2503]	Time 1.038	Data 0.663	Loss 5.3450	Acc@1 26.9531	Acc@5 51.1719
+Epoch: [5][2401/2503]	Time 1.039	Data 0.663	Loss 5.5146	Acc@1 27.3438	Acc@5 50.9766
+Epoch: [5][2451/2503]	Time 1.038	Data 0.662	Loss 5.3010	Acc@1 27.9297	Acc@5 54.6875
+Epoch: [5][2501/2503]	Time 1.036	Data 0.661	Loss 5.4305	Acc@1 27.5391	Acc@5 51.1719
+Epoch: [1/98]	Time 12.164	Data 12.080	Loss 4.0817	Acc@1 40.2344	Acc@5 72.6562
+Epoch: [51/98]	Time 1.285	Data 1.203	Loss 6.5993	Acc@1 17.5781	Acc@5 37.6953
+ * Acc@1 10.028 Acc@5 26.844
+ * Acc@1 11.244 Acc@5 29.404
+ * Acc@1 13.200 Acc@5 32.634
+ * Acc@1 15.312 Acc@5 36.448
+ * Acc@1 25.004 Acc@5 49.792
+Best var_acc1 25.004000004882812
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_005.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_005.pth.tar'
+#################epoch 7#################
+lr=0.100000 
+
+Epoch: [6][1/2503]	Time 9.680	Data 9.361	Loss 5.4064	Acc@1 26.7578	Acc@5 52.7344
+Epoch: [6][51/2503]	Time 1.226	Data 0.893	Loss 5.4576	Acc@1 27.9297	Acc@5 50.1953
+Epoch: [6][101/2503]	Time 1.124	Data 0.782	Loss 5.3140	Acc@1 30.4688	Acc@5 52.9297
+Epoch: [6][151/2503]	Time 1.089	Data 0.745	Loss 5.2880	Acc@1 28.9062	Acc@5 54.4922
+Epoch: [6][201/2503]	Time 1.079	Data 0.738	Loss 5.4382	Acc@1 29.6875	Acc@5 50.9766
+Epoch: [6][251/2503]	Time 1.070	Data 0.732	Loss 5.4049	Acc@1 27.3438	Acc@5 50.7812
+Epoch: [6][301/2503]	Time 1.059	Data 0.724	Loss 5.4838	Acc@1 25.3906	Acc@5 50.3906
+Epoch: [6][351/2503]	Time 1.050	Data 0.719	Loss 5.4648	Acc@1 26.1719	Acc@5 51.5625
+Epoch: [6][401/2503]	Time 1.045	Data 0.712	Loss 5.3485	Acc@1 28.3203	Acc@5 52.3438
+Epoch: [6][451/2503]	Time 1.039	Data 0.705	Loss 5.3122	Acc@1 27.7344	Acc@5 53.9062
+Epoch: [6][501/2503]	Time 1.040	Data 0.706	Loss 5.4244	Acc@1 27.5391	Acc@5 53.7109
+Epoch: [6][551/2503]	Time 1.034	Data 0.699	Loss 5.3984	Acc@1 27.5391	Acc@5 51.5625
+Epoch: [6][601/2503]	Time 1.031	Data 0.695	Loss 5.3841	Acc@1 29.1016	Acc@5 53.3203
+Epoch: [6][651/2503]	Time 1.030	Data 0.691	Loss 5.2988	Acc@1 28.5156	Acc@5 53.3203
+Epoch: [6][701/2503]	Time 1.035	Data 0.695	Loss 5.2031	Acc@1 29.4922	Acc@5 54.2969
+Epoch: [6][751/2503]	Time 1.033	Data 0.690	Loss 5.4309	Acc@1 26.5625	Acc@5 53.3203
+Epoch: [6][801/2503]	Time 1.030	Data 0.686	Loss 5.5215	Acc@1 24.4141	Acc@5 51.1719
+Epoch: [6][851/2503]	Time 1.028	Data 0.683	Loss 5.4689	Acc@1 28.3203	Acc@5 51.3672
+Epoch: [6][901/2503]	Time 1.026	Data 0.680	Loss 5.2093	Acc@1 32.4219	Acc@5 56.4453
+Epoch: [6][951/2503]	Time 1.027	Data 0.680	Loss 5.3444	Acc@1 28.1250	Acc@5 51.9531
+Epoch: [6][1001/2503]	Time 1.026	Data 0.678	Loss 5.2634	Acc@1 28.9062	Acc@5 56.8359
+Epoch: [6][1051/2503]	Time 1.025	Data 0.676	Loss 5.5929	Acc@1 25.7812	Acc@5 50.5859
+Epoch: [6][1101/2503]	Time 1.027	Data 0.678	Loss 5.3905	Acc@1 29.2969	Acc@5 50.3906
+Epoch: [6][1151/2503]	Time 1.026	Data 0.676	Loss 5.2462	Acc@1 28.1250	Acc@5 52.3438
+Epoch: [6][1201/2503]	Time 1.023	Data 0.674	Loss 5.1831	Acc@1 30.4688	Acc@5 58.0078
+Epoch: [6][1251/2503]	Time 1.022	Data 0.674	Loss 5.2560	Acc@1 27.5391	Acc@5 54.8828
+Epoch: [6][1301/2503]	Time 1.023	Data 0.676	Loss 5.3106	Acc@1 27.7344	Acc@5 52.7344
+Epoch: [6][1351/2503]	Time 1.023	Data 0.677	Loss 5.5505	Acc@1 26.1719	Acc@5 48.0469
+Epoch: [6][1401/2503]	Time 1.022	Data 0.676	Loss 5.4831	Acc@1 25.3906	Acc@5 51.1719
+Epoch: [6][1451/2503]	Time 1.021	Data 0.675	Loss 5.5226	Acc@1 25.3906	Acc@5 49.8047
+Epoch: [6][1501/2503]	Time 1.023	Data 0.678	Loss 5.4372	Acc@1 23.6328	Acc@5 49.8047
+Epoch: [6][1551/2503]	Time 1.023	Data 0.679	Loss 5.3650	Acc@1 24.8047	Acc@5 50.7812
+Epoch: [6][1601/2503]	Time 1.022	Data 0.678	Loss 5.3385	Acc@1 29.6875	Acc@5 53.7109
+Epoch: [6][1651/2503]	Time 1.022	Data 0.679	Loss 5.4082	Acc@1 25.7812	Acc@5 52.5391
+Epoch: [6][1701/2503]	Time 1.024	Data 0.681	Loss 5.3065	Acc@1 28.3203	Acc@5 53.1250
+Epoch: [6][1751/2503]	Time 1.023	Data 0.681	Loss 5.4206	Acc@1 27.1484	Acc@5 52.3438
+Epoch: [6][1801/2503]	Time 1.022	Data 0.680	Loss 5.4549	Acc@1 26.9531	Acc@5 48.2422
+Epoch: [6][1851/2503]	Time 1.022	Data 0.680	Loss 5.3299	Acc@1 27.7344	Acc@5 50.1953
+Epoch: [6][1901/2503]	Time 1.023	Data 0.682	Loss 5.4514	Acc@1 27.1484	Acc@5 52.7344
+Epoch: [6][1951/2503]	Time 1.023	Data 0.682	Loss 5.3117	Acc@1 28.7109	Acc@5 54.1016
+Epoch: [6][2001/2503]	Time 1.022	Data 0.682	Loss 5.3686	Acc@1 26.7578	Acc@5 53.7109
+Epoch: [6][2051/2503]	Time 1.022	Data 0.683	Loss 5.4205	Acc@1 24.4141	Acc@5 52.3438
+Epoch: [6][2101/2503]	Time 1.023	Data 0.684	Loss 5.3269	Acc@1 29.2969	Acc@5 53.7109
+Epoch: [6][2151/2503]	Time 1.024	Data 0.685	Loss 5.4833	Acc@1 24.8047	Acc@5 51.9531
+Epoch: [6][2201/2503]	Time 1.022	Data 0.684	Loss 5.3751	Acc@1 28.1250	Acc@5 50.5859
+Epoch: [6][2251/2503]	Time 1.022	Data 0.684	Loss 5.2243	Acc@1 29.4922	Acc@5 54.4922
+Epoch: [6][2301/2503]	Time 1.023	Data 0.684	Loss 5.3773	Acc@1 27.5391	Acc@5 54.6875
+Epoch: [6][2351/2503]	Time 1.024	Data 0.686	Loss 5.4158	Acc@1 29.1016	Acc@5 52.1484
+Epoch: [6][2401/2503]	Time 1.023	Data 0.685	Loss 5.3957	Acc@1 26.7578	Acc@5 51.1719
+Epoch: [6][2451/2503]	Time 1.022	Data 0.684	Loss 5.2566	Acc@1 30.4688	Acc@5 55.2734
+Epoch: [6][2501/2503]	Time 1.021	Data 0.683	Loss 5.4472	Acc@1 27.1484	Acc@5 51.1719
+Epoch: [1/98]	Time 11.742	Data 11.659	Loss 4.6380	Acc@1 38.2812	Acc@5 66.6016
+Epoch: [51/98]	Time 1.277	Data 1.196	Loss 6.4657	Acc@1 16.2109	Acc@5 35.3516
+ * Acc@1 10.618 Acc@5 27.168
+ * Acc@1 11.100 Acc@5 28.386
+ * Acc@1 13.068 Acc@5 32.770
+ * Acc@1 15.248 Acc@5 36.284
+ * Acc@1 23.974 Acc@5 48.784
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_006.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_006.pth.tar'
+#################epoch 8#################
+lr=0.100000 
+
+Epoch: [7][1/2503]	Time 10.944	Data 10.705	Loss 5.2264	Acc@1 30.0781	Acc@5 53.1250
+Epoch: [7][51/2503]	Time 1.226	Data 0.887	Loss 5.4662	Acc@1 26.1719	Acc@5 50.0000
+Epoch: [7][101/2503]	Time 1.117	Data 0.771	Loss 5.4059	Acc@1 25.9766	Acc@5 52.7344
+Epoch: [7][151/2503]	Time 1.084	Data 0.738	Loss 5.3957	Acc@1 28.3203	Acc@5 51.9531
+Epoch: [7][201/2503]	Time 1.064	Data 0.718	Loss 5.3734	Acc@1 27.5391	Acc@5 52.3438
+Epoch: [7][251/2503]	Time 1.061	Data 0.715	Loss 5.3702	Acc@1 28.5156	Acc@5 51.7578
+Epoch: [7][301/2503]	Time 1.053	Data 0.707	Loss 5.5248	Acc@1 26.1719	Acc@5 49.8047
+Epoch: [7][351/2503]	Time 1.049	Data 0.702	Loss 5.2101	Acc@1 27.7344	Acc@5 54.6875
+Epoch: [7][401/2503]	Time 1.043	Data 0.697	Loss 5.3268	Acc@1 27.5391	Acc@5 52.1484
+Epoch: [7][451/2503]	Time 1.045	Data 0.699	Loss 5.4241	Acc@1 27.7344	Acc@5 52.9297
+Epoch: [7][501/2503]	Time 1.039	Data 0.692	Loss 5.1685	Acc@1 28.1250	Acc@5 53.1250
+Epoch: [7][551/2503]	Time 1.038	Data 0.691	Loss 5.1343	Acc@1 30.0781	Acc@5 56.0547
+Epoch: [7][601/2503]	Time 1.038	Data 0.691	Loss 5.4903	Acc@1 25.1953	Acc@5 51.1719
+Epoch: [7][651/2503]	Time 1.036	Data 0.691	Loss 5.3163	Acc@1 27.5391	Acc@5 52.1484
+Epoch: [7][701/2503]	Time 1.030	Data 0.686	Loss 5.2528	Acc@1 29.2969	Acc@5 53.1250
+Epoch: [7][751/2503]	Time 1.030	Data 0.687	Loss 5.2052	Acc@1 31.8359	Acc@5 54.6875
+Epoch: [7][801/2503]	Time 1.025	Data 0.682	Loss 5.2621	Acc@1 28.3203	Acc@5 54.8828
+Epoch: [7][851/2503]	Time 1.027	Data 0.683	Loss 5.4221	Acc@1 25.3906	Acc@5 50.3906
+Epoch: [7][901/2503]	Time 1.025	Data 0.682	Loss 5.1780	Acc@1 31.0547	Acc@5 54.4922
+Epoch: [7][951/2503]	Time 1.029	Data 0.685	Loss 5.3694	Acc@1 31.2500	Acc@5 52.7344
+Epoch: [7][1001/2503]	Time 1.029	Data 0.684	Loss 5.2393	Acc@1 28.5156	Acc@5 55.2734
+Epoch: [7][1051/2503]	Time 1.027	Data 0.681	Loss 5.2242	Acc@1 27.5391	Acc@5 55.2734
+Epoch: [7][1101/2503]	Time 1.026	Data 0.678	Loss 5.1092	Acc@1 29.6875	Acc@5 56.6406
+Epoch: [7][1151/2503]	Time 1.028	Data 0.682	Loss 5.3177	Acc@1 27.7344	Acc@5 54.1016
+Epoch: [7][1201/2503]	Time 1.027	Data 0.681	Loss 5.2651	Acc@1 28.5156	Acc@5 53.5156
+Epoch: [7][1251/2503]	Time 1.025	Data 0.679	Loss 5.2091	Acc@1 28.7109	Acc@5 53.9062
+Epoch: [7][1301/2503]	Time 1.026	Data 0.680	Loss 5.1548	Acc@1 32.8125	Acc@5 55.6641
+Epoch: [7][1351/2503]	Time 1.027	Data 0.681	Loss 5.2535	Acc@1 28.5156	Acc@5 53.5156
+Epoch: [7][1401/2503]	Time 1.027	Data 0.680	Loss 5.2524	Acc@1 30.0781	Acc@5 55.0781
+Epoch: [7][1451/2503]	Time 1.025	Data 0.678	Loss 5.3118	Acc@1 27.7344	Acc@5 55.2734
+Epoch: [7][1501/2503]	Time 1.025	Data 0.678	Loss 5.2124	Acc@1 27.1484	Acc@5 56.8359
+Epoch: [7][1551/2503]	Time 1.026	Data 0.679	Loss 5.2665	Acc@1 28.1250	Acc@5 54.8828
+Epoch: [7][1601/2503]	Time 1.025	Data 0.678	Loss 5.1869	Acc@1 28.7109	Acc@5 54.2969
+Epoch: [7][1651/2503]	Time 1.025	Data 0.677	Loss 5.1427	Acc@1 30.2734	Acc@5 55.4688
+Epoch: [7][1701/2503]	Time 1.027	Data 0.679	Loss 5.3990	Acc@1 28.1250	Acc@5 50.3906
+Epoch: [7][1751/2503]	Time 1.027	Data 0.679	Loss 5.1655	Acc@1 28.3203	Acc@5 55.8594
+Epoch: [7][1801/2503]	Time 1.026	Data 0.679	Loss 5.6134	Acc@1 26.3672	Acc@5 50.5859
+Epoch: [7][1851/2503]	Time 1.026	Data 0.678	Loss 5.2768	Acc@1 30.2734	Acc@5 52.9297
+Epoch: [7][1901/2503]	Time 1.027	Data 0.680	Loss 5.4088	Acc@1 27.3438	Acc@5 52.9297
+Epoch: [7][1951/2503]	Time 1.028	Data 0.681	Loss 5.3248	Acc@1 28.1250	Acc@5 53.3203
+Epoch: [7][2001/2503]	Time 1.027	Data 0.680	Loss 5.4854	Acc@1 26.3672	Acc@5 50.3906
+Epoch: [7][2051/2503]	Time 1.027	Data 0.680	Loss 5.3802	Acc@1 29.2969	Acc@5 51.5625
+Epoch: [7][2101/2503]	Time 1.027	Data 0.680	Loss 5.4153	Acc@1 27.1484	Acc@5 51.7578
+Epoch: [7][2151/2503]	Time 1.029	Data 0.682	Loss 5.2684	Acc@1 27.3438	Acc@5 52.5391
+Epoch: [7][2201/2503]	Time 1.028	Data 0.682	Loss 5.3706	Acc@1 29.8828	Acc@5 52.7344
+Epoch: [7][2251/2503]	Time 1.028	Data 0.681	Loss 5.2677	Acc@1 27.9297	Acc@5 53.1250
+Epoch: [7][2301/2503]	Time 1.028	Data 0.682	Loss 5.4508	Acc@1 25.7812	Acc@5 52.1484
+Epoch: [7][2351/2503]	Time 1.029	Data 0.683	Loss 5.5631	Acc@1 26.3672	Acc@5 48.6328
+Epoch: [7][2401/2503]	Time 1.029	Data 0.683	Loss 5.2359	Acc@1 27.1484	Acc@5 53.1250
+Epoch: [7][2451/2503]	Time 1.029	Data 0.682	Loss 5.3168	Acc@1 29.4922	Acc@5 53.3203
+Epoch: [7][2501/2503]	Time 1.029	Data 0.682	Loss 5.3133	Acc@1 29.6875	Acc@5 53.1250
+Epoch: [1/98]	Time 12.262	Data 12.178	Loss 4.5592	Acc@1 34.5703	Acc@5 64.8438
+Epoch: [51/98]	Time 1.335	Data 1.253	Loss 6.0843	Acc@1 17.9688	Acc@5 44.5312
+ * Acc@1 10.458 Acc@5 27.782
+ * Acc@1 12.436 Acc@5 31.510
+ * Acc@1 13.924 Acc@5 33.972
+ * Acc@1 16.032 Acc@5 37.620
+ * Acc@1 24.970 Acc@5 50.014
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_007.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_007.pth.tar'
+#################epoch 9#################
+lr=0.100000 
+
+Epoch: [8][1/2503]	Time 10.460	Data 10.180	Loss 5.2240	Acc@1 29.8828	Acc@5 54.1016
+Epoch: [8][51/2503]	Time 1.220	Data 0.860	Loss 5.1146	Acc@1 29.8828	Acc@5 56.0547
+Epoch: [8][101/2503]	Time 1.131	Data 0.772	Loss 5.3210	Acc@1 31.4453	Acc@5 53.7109
+Epoch: [8][151/2503]	Time 1.090	Data 0.727	Loss 5.3662	Acc@1 29.4922	Acc@5 52.7344
+Epoch: [8][201/2503]	Time 1.094	Data 0.734	Loss 5.4380	Acc@1 26.7578	Acc@5 50.1953
+Epoch: [8][251/2503]	Time 1.079	Data 0.725	Loss 5.2667	Acc@1 32.4219	Acc@5 53.9062
+Epoch: [8][301/2503]	Time 1.080	Data 0.732	Loss 5.2897	Acc@1 29.1016	Acc@5 52.1484
+Epoch: [8][351/2503]	Time 1.073	Data 0.728	Loss 5.2396	Acc@1 29.6875	Acc@5 55.4688
+Epoch: [8][401/2503]	Time 1.080	Data 0.735	Loss 5.4225	Acc@1 29.1016	Acc@5 55.2734
+Epoch: [8][451/2503]	Time 1.074	Data 0.729	Loss 5.3204	Acc@1 26.7578	Acc@5 51.7578
+Epoch: [8][501/2503]	Time 1.074	Data 0.730	Loss 5.3830	Acc@1 28.5156	Acc@5 51.7578
+Epoch: [8][551/2503]	Time 1.071	Data 0.727	Loss 5.0668	Acc@1 30.2734	Acc@5 56.4453
+Epoch: [8][601/2503]	Time 1.069	Data 0.724	Loss 5.3206	Acc@1 26.3672	Acc@5 55.4688
+Epoch: [8][651/2503]	Time 1.068	Data 0.724	Loss 5.1559	Acc@1 32.0312	Acc@5 57.4219
+Epoch: [8][701/2503]	Time 1.062	Data 0.718	Loss 5.2895	Acc@1 27.5391	Acc@5 51.7578
+Epoch: [8][751/2503]	Time 1.058	Data 0.713	Loss 5.1820	Acc@1 28.7109	Acc@5 54.1016
+Epoch: [8][801/2503]	Time 1.067	Data 0.720	Loss 5.0097	Acc@1 32.2266	Acc@5 56.8359
+Epoch: [8][851/2503]	Time 1.066	Data 0.719	Loss 5.2067	Acc@1 30.0781	Acc@5 54.6875
+Epoch: [8][901/2503]	Time 1.065	Data 0.717	Loss 5.4303	Acc@1 25.1953	Acc@5 52.1484
+Epoch: [8][951/2503]	Time 1.064	Data 0.714	Loss 5.3817	Acc@1 28.3203	Acc@5 55.2734
+Epoch: [8][1001/2503]	Time 1.067	Data 0.717	Loss 5.1962	Acc@1 30.0781	Acc@5 55.8594
+Epoch: [8][1051/2503]	Time 1.067	Data 0.717	Loss 5.3150	Acc@1 27.7344	Acc@5 51.9531
+Epoch: [8][1101/2503]	Time 1.066	Data 0.715	Loss 5.4021	Acc@1 26.5625	Acc@5 50.9766
+Epoch: [8][1151/2503]	Time 1.065	Data 0.713	Loss 5.2831	Acc@1 29.8828	Acc@5 53.3203
+Epoch: [8][1201/2503]	Time 1.069	Data 0.717	Loss 5.3083	Acc@1 28.5156	Acc@5 54.1016
+Epoch: [8][1251/2503]	Time 1.068	Data 0.716	Loss 5.2295	Acc@1 30.4688	Acc@5 54.6875
+Epoch: [8][1301/2503]	Time 1.066	Data 0.713	Loss 5.2457	Acc@1 28.7109	Acc@5 53.5156
+Epoch: [8][1351/2503]	Time 1.066	Data 0.713	Loss 5.2462	Acc@1 27.5391	Acc@5 54.1016
+Epoch: [8][1401/2503]	Time 1.068	Data 0.714	Loss 5.2790	Acc@1 32.2266	Acc@5 53.9062
+Epoch: [8][1451/2503]	Time 1.066	Data 0.712	Loss 5.3059	Acc@1 28.1250	Acc@5 51.7578
+Epoch: [8][1501/2503]	Time 1.064	Data 0.710	Loss 5.0355	Acc@1 31.0547	Acc@5 57.2266
+Epoch: [8][1551/2503]	Time 1.063	Data 0.708	Loss 5.2087	Acc@1 28.7109	Acc@5 55.8594
+Epoch: [8][1601/2503]	Time 1.064	Data 0.709	Loss 5.3158	Acc@1 27.3438	Acc@5 52.7344
+Epoch: [8][1651/2503]	Time 1.063	Data 0.709	Loss 5.1418	Acc@1 32.0312	Acc@5 57.8125
+Epoch: [8][1701/2503]	Time 1.065	Data 0.711	Loss 5.2110	Acc@1 29.6875	Acc@5 54.2969
+Epoch: [8][1751/2503]	Time 1.064	Data 0.710	Loss 5.4209	Acc@1 25.7812	Acc@5 52.5391
+Epoch: [8][1801/2503]	Time 1.065	Data 0.711	Loss 5.3056	Acc@1 29.6875	Acc@5 53.5156
+Epoch: [8][1851/2503]	Time 1.066	Data 0.712	Loss 5.2312	Acc@1 28.7109	Acc@5 55.6641
+Epoch: [8][1901/2503]	Time 1.066	Data 0.712	Loss 5.5015	Acc@1 26.5625	Acc@5 49.6094
+Epoch: [8][1951/2503]	Time 1.065	Data 0.712	Loss 5.2958	Acc@1 27.1484	Acc@5 54.6875
+Epoch: [8][2001/2503]	Time 1.066	Data 0.713	Loss 5.0991	Acc@1 32.6172	Acc@5 59.1797
+Epoch: [8][2051/2503]	Time 1.065	Data 0.713	Loss 5.3017	Acc@1 28.7109	Acc@5 55.0781
+Epoch: [8][2101/2503]	Time 1.067	Data 0.715	Loss 5.3218	Acc@1 30.2734	Acc@5 52.9297
+Epoch: [8][2151/2503]	Time 1.066	Data 0.714	Loss 5.1390	Acc@1 30.8594	Acc@5 57.6172
+Epoch: [8][2201/2503]	Time 1.066	Data 0.713	Loss 5.3521	Acc@1 25.9766	Acc@5 53.1250
+Epoch: [8][2251/2503]	Time 1.066	Data 0.713	Loss 5.1002	Acc@1 29.1016	Acc@5 55.4688
+Epoch: [8][2301/2503]	Time 1.067	Data 0.714	Loss 5.1878	Acc@1 30.6641	Acc@5 54.6875
+Epoch: [8][2351/2503]	Time 1.065	Data 0.712	Loss 5.2846	Acc@1 28.7109	Acc@5 56.6406
+Epoch: [8][2401/2503]	Time 1.064	Data 0.710	Loss 5.0807	Acc@1 30.6641	Acc@5 56.0547
+Epoch: [8][2451/2503]	Time 1.063	Data 0.708	Loss 5.2165	Acc@1 27.9297	Acc@5 54.8828
+Epoch: [8][2501/2503]	Time 1.063	Data 0.709	Loss 5.1442	Acc@1 29.8828	Acc@5 54.6875
+Epoch: [1/98]	Time 12.171	Data 12.088	Loss 4.5754	Acc@1 39.4531	Acc@5 66.0156
+Epoch: [51/98]	Time 1.313	Data 1.231	Loss 6.3870	Acc@1 17.5781	Acc@5 38.0859
+ * Acc@1 12.440 Acc@5 30.836
+ * Acc@1 13.074 Acc@5 32.238
+ * Acc@1 14.384 Acc@5 34.710
+ * Acc@1 15.806 Acc@5 37.328
+ * Acc@1 25.274 Acc@5 50.474
+Best var_acc1 25.27400000488281
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_008.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_008.pth.tar'
+#################epoch 10#################
+lr=0.100000 
+
+Epoch: [9][1/2503]	Time 10.799	Data 10.512	Loss 5.0940	Acc@1 32.8125	Acc@5 56.6406
+Epoch: [9][51/2503]	Time 1.258	Data 0.876	Loss 5.2266	Acc@1 27.3438	Acc@5 56.4453
+Epoch: [9][101/2503]	Time 1.130	Data 0.751	Loss 5.2476	Acc@1 30.4688	Acc@5 54.1016
+Epoch: [9][151/2503]	Time 1.092	Data 0.722	Loss 5.2309	Acc@1 29.2969	Acc@5 56.4453
+Epoch: [9][201/2503]	Time 1.089	Data 0.725	Loss 5.2291	Acc@1 29.6875	Acc@5 54.2969
+Epoch: [9][251/2503]	Time 1.084	Data 0.723	Loss 5.4316	Acc@1 24.4141	Acc@5 54.2969
+Epoch: [9][301/2503]	Time 1.071	Data 0.714	Loss 5.1651	Acc@1 33.3984	Acc@5 55.8594
+Epoch: [9][351/2503]	Time 1.063	Data 0.710	Loss 5.3916	Acc@1 29.8828	Acc@5 50.1953
+Epoch: [9][401/2503]	Time 1.066	Data 0.718	Loss 5.2260	Acc@1 30.2734	Acc@5 53.9062
+Epoch: [9][451/2503]	Time 1.065	Data 0.719	Loss 5.1298	Acc@1 31.4453	Acc@5 58.7891
+Epoch: [9][501/2503]	Time 1.057	Data 0.713	Loss 5.3097	Acc@1 32.4219	Acc@5 53.7109
+Epoch: [9][551/2503]	Time 1.054	Data 0.711	Loss 5.0891	Acc@1 32.0312	Acc@5 57.6172
+Epoch: [9][601/2503]	Time 1.047	Data 0.706	Loss 5.3205	Acc@1 31.4453	Acc@5 54.2969
+Epoch: [9][651/2503]	Time 1.053	Data 0.712	Loss 5.4843	Acc@1 27.3438	Acc@5 50.5859
+Epoch: [9][701/2503]	Time 1.052	Data 0.710	Loss 5.1147	Acc@1 31.2500	Acc@5 56.8359
+Epoch: [9][751/2503]	Time 1.049	Data 0.708	Loss 5.0944	Acc@1 32.2266	Acc@5 54.4922
+Epoch: [9][801/2503]	Time 1.047	Data 0.707	Loss 5.4055	Acc@1 29.2969	Acc@5 52.3438
+Epoch: [9][851/2503]	Time 1.051	Data 0.711	Loss 5.1931	Acc@1 30.6641	Acc@5 55.0781
+Epoch: [9][901/2503]	Time 1.048	Data 0.708	Loss 5.2883	Acc@1 30.6641	Acc@5 53.1250
+Epoch: [9][951/2503]	Time 1.047	Data 0.706	Loss 5.3073	Acc@1 30.6641	Acc@5 51.9531
+Epoch: [9][1001/2503]	Time 1.047	Data 0.704	Loss 5.2160	Acc@1 29.8828	Acc@5 52.7344
+Epoch: [9][1051/2503]	Time 1.049	Data 0.706	Loss 5.0334	Acc@1 30.2734	Acc@5 56.0547
+Epoch: [9][1101/2503]	Time 1.049	Data 0.704	Loss 5.2746	Acc@1 28.1250	Acc@5 52.7344
+Epoch: [9][1151/2503]	Time 1.047	Data 0.701	Loss 5.1578	Acc@1 31.4453	Acc@5 54.8828
+Epoch: [9][1201/2503]	Time 1.046	Data 0.698	Loss 5.2037	Acc@1 30.4688	Acc@5 54.6875
+Epoch: [9][1251/2503]	Time 1.050	Data 0.701	Loss 4.9569	Acc@1 32.6172	Acc@5 58.5938
+Epoch: [9][1301/2503]	Time 1.048	Data 0.698	Loss 5.1601	Acc@1 30.4688	Acc@5 53.9062
+Epoch: [9][1351/2503]	Time 1.047	Data 0.696	Loss 5.2994	Acc@1 30.8594	Acc@5 52.1484
+Epoch: [9][1401/2503]	Time 1.046	Data 0.694	Loss 5.1051	Acc@1 30.8594	Acc@5 58.0078
+Epoch: [9][1451/2503]	Time 1.048	Data 0.695	Loss 5.1967	Acc@1 32.6172	Acc@5 55.4688
+Epoch: [9][1501/2503]	Time 1.045	Data 0.692	Loss 5.3709	Acc@1 26.5625	Acc@5 51.3672
+Epoch: [9][1551/2503]	Time 1.043	Data 0.690	Loss 5.1940	Acc@1 29.1016	Acc@5 54.4922
+Epoch: [9][1601/2503]	Time 1.043	Data 0.690	Loss 5.1976	Acc@1 31.2500	Acc@5 54.6875
+Epoch: [9][1651/2503]	Time 1.045	Data 0.691	Loss 5.1584	Acc@1 30.8594	Acc@5 55.6641
+Epoch: [9][1701/2503]	Time 1.044	Data 0.689	Loss 5.1467	Acc@1 31.2500	Acc@5 57.8125
+Epoch: [9][1751/2503]	Time 1.044	Data 0.688	Loss 5.4212	Acc@1 26.9531	Acc@5 51.3672
+Epoch: [9][1801/2503]	Time 1.043	Data 0.686	Loss 5.2420	Acc@1 29.8828	Acc@5 53.3203
+Epoch: [9][1851/2503]	Time 1.045	Data 0.688	Loss 5.3179	Acc@1 28.5156	Acc@5 55.2734
+Epoch: [9][1901/2503]	Time 1.044	Data 0.687	Loss 5.2901	Acc@1 29.4922	Acc@5 52.1484
+Epoch: [9][1951/2503]	Time 1.043	Data 0.685	Loss 5.1339	Acc@1 30.0781	Acc@5 56.8359
+Epoch: [9][2001/2503]	Time 1.043	Data 0.685	Loss 5.3171	Acc@1 29.8828	Acc@5 53.9062
+Epoch: [9][2051/2503]	Time 1.045	Data 0.686	Loss 5.3457	Acc@1 27.9297	Acc@5 52.3438
+Epoch: [9][2101/2503]	Time 1.044	Data 0.685	Loss 5.1633	Acc@1 28.9062	Acc@5 57.4219
+Epoch: [9][2151/2503]	Time 1.044	Data 0.684	Loss 5.2916	Acc@1 30.4688	Acc@5 56.0547
+Epoch: [9][2201/2503]	Time 1.043	Data 0.683	Loss 5.0199	Acc@1 32.6172	Acc@5 58.9844
+Epoch: [9][2251/2503]	Time 1.045	Data 0.685	Loss 5.1654	Acc@1 29.1016	Acc@5 54.1016
+Epoch: [9][2301/2503]	Time 1.045	Data 0.684	Loss 5.4293	Acc@1 27.1484	Acc@5 50.0000
+Epoch: [9][2351/2503]	Time 1.045	Data 0.683	Loss 5.1418	Acc@1 32.2266	Acc@5 55.8594
+Epoch: [9][2401/2503]	Time 1.044	Data 0.682	Loss 5.4287	Acc@1 27.5391	Acc@5 50.3906
+Epoch: [9][2451/2503]	Time 1.045	Data 0.683	Loss 5.1648	Acc@1 30.2734	Acc@5 53.1250
+Epoch: [9][2501/2503]	Time 1.044	Data 0.681	Loss 5.2925	Acc@1 29.2969	Acc@5 56.4453
+Epoch: [1/98]	Time 12.729	Data 12.644	Loss 4.3352	Acc@1 38.0859	Acc@5 71.6797
+Epoch: [51/98]	Time 1.361	Data 1.279	Loss 6.4128	Acc@1 16.6016	Acc@5 36.5234
+ * Acc@1 9.996 Acc@5 26.276
+ * Acc@1 12.252 Acc@5 30.654
+ * Acc@1 13.684 Acc@5 33.554
+ * Acc@1 16.002 Acc@5 37.824
+ * Acc@1 25.546 Acc@5 51.124
+Best var_acc1 25.545999996948243
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_009.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_009.pth.tar'
+#################epoch 11#################
+lr=0.100000 
+
+Epoch: [10][1/2503]	Time 11.807	Data 11.591	Loss 5.0998	Acc@1 30.8594	Acc@5 56.0547
+Epoch: [10][51/2503]	Time 1.249	Data 0.887	Loss 5.2122	Acc@1 30.4688	Acc@5 54.8828
+Epoch: [10][101/2503]	Time 1.147	Data 0.789	Loss 5.1683	Acc@1 33.9844	Acc@5 56.8359
+Epoch: [10][151/2503]	Time 1.100	Data 0.738	Loss 5.2569	Acc@1 28.3203	Acc@5 53.7109
+Epoch: [10][201/2503]	Time 1.098	Data 0.740	Loss 5.1032	Acc@1 30.6641	Acc@5 56.6406
+Epoch: [10][251/2503]	Time 1.079	Data 0.726	Loss 5.1835	Acc@1 29.8828	Acc@5 55.2734
+Epoch: [10][301/2503]	Time 1.061	Data 0.709	Loss 5.2361	Acc@1 29.1016	Acc@5 54.6875
+Epoch: [10][351/2503]	Time 1.051	Data 0.698	Loss 5.3574	Acc@1 28.1250	Acc@5 51.1719
+Epoch: [10][401/2503]	Time 1.053	Data 0.703	Loss 5.3418	Acc@1 29.8828	Acc@5 52.7344
+Epoch: [10][451/2503]	Time 1.044	Data 0.694	Loss 5.4935	Acc@1 25.3906	Acc@5 51.3672
+Epoch: [10][501/2503]	Time 1.034	Data 0.682	Loss 5.2526	Acc@1 29.2969	Acc@5 55.6641
+Epoch: [10][551/2503]	Time 1.039	Data 0.686	Loss 5.3893	Acc@1 27.3438	Acc@5 53.3203
+Epoch: [10][601/2503]	Time 1.049	Data 0.694	Loss 5.3917	Acc@1 29.2969	Acc@5 51.3672
+Epoch: [10][651/2503]	Time 1.046	Data 0.690	Loss 5.1872	Acc@1 29.2969	Acc@5 57.0312
+Epoch: [10][701/2503]	Time 1.045	Data 0.687	Loss 5.1301	Acc@1 28.7109	Acc@5 54.4922
+Epoch: [10][751/2503]	Time 1.043	Data 0.685	Loss 5.2655	Acc@1 28.1250	Acc@5 50.9766
+Epoch: [10][801/2503]	Time 1.049	Data 0.689	Loss 5.3942	Acc@1 26.9531	Acc@5 48.0469
+Epoch: [10][851/2503]	Time 1.047	Data 0.687	Loss 5.1451	Acc@1 33.2031	Acc@5 54.6875
+Epoch: [10][901/2503]	Time 1.047	Data 0.686	Loss 5.2248	Acc@1 28.5156	Acc@5 53.5156
+Epoch: [10][951/2503]	Time 1.045	Data 0.684	Loss 5.2088	Acc@1 29.1016	Acc@5 54.8828
+Epoch: [10][1001/2503]	Time 1.049	Data 0.687	Loss 5.1388	Acc@1 31.6406	Acc@5 55.0781
+Epoch: [10][1051/2503]	Time 1.049	Data 0.686	Loss 5.2822	Acc@1 30.0781	Acc@5 53.5156
+Epoch: [10][1101/2503]	Time 1.047	Data 0.685	Loss 5.1931	Acc@1 29.8828	Acc@5 55.0781
+Epoch: [10][1151/2503]	Time 1.046	Data 0.683	Loss 5.3240	Acc@1 28.3203	Acc@5 53.5156
+Epoch: [10][1201/2503]	Time 1.049	Data 0.685	Loss 5.0096	Acc@1 32.0312	Acc@5 58.0078
+Epoch: [10][1251/2503]	Time 1.047	Data 0.683	Loss 5.2222	Acc@1 28.7109	Acc@5 56.8359
+Epoch: [10][1301/2503]	Time 1.046	Data 0.682	Loss 5.2801	Acc@1 28.5156	Acc@5 53.9062
+Epoch: [10][1351/2503]	Time 1.045	Data 0.680	Loss 5.1827	Acc@1 28.3203	Acc@5 55.6641
+Epoch: [10][1401/2503]	Time 1.048	Data 0.683	Loss 5.2254	Acc@1 26.9531	Acc@5 52.7344
+Epoch: [10][1451/2503]	Time 1.047	Data 0.682	Loss 5.0848	Acc@1 31.6406	Acc@5 57.6172
+Epoch: [10][1501/2503]	Time 1.047	Data 0.681	Loss 5.1931	Acc@1 31.0547	Acc@5 57.6172
+Epoch: [10][1551/2503]	Time 1.046	Data 0.680	Loss 5.2796	Acc@1 27.1484	Acc@5 53.9062
+Epoch: [10][1601/2503]	Time 1.047	Data 0.681	Loss 5.2604	Acc@1 30.4688	Acc@5 54.8828
+Epoch: [10][1651/2503]	Time 1.047	Data 0.680	Loss 4.9447	Acc@1 29.6875	Acc@5 56.4453
+Epoch: [10][1701/2503]	Time 1.046	Data 0.678	Loss 5.3393	Acc@1 31.0547	Acc@5 52.5391
+Epoch: [10][1751/2503]	Time 1.044	Data 0.676	Loss 5.2576	Acc@1 31.6406	Acc@5 54.4922
+Epoch: [10][1801/2503]	Time 1.046	Data 0.678	Loss 5.3263	Acc@1 28.9062	Acc@5 53.9062
+Epoch: [10][1851/2503]	Time 1.045	Data 0.676	Loss 5.1313	Acc@1 33.3984	Acc@5 55.8594
+Epoch: [10][1901/2503]	Time 1.043	Data 0.675	Loss 5.2823	Acc@1 28.1250	Acc@5 51.7578
+Epoch: [10][1951/2503]	Time 1.042	Data 0.673	Loss 5.0433	Acc@1 29.8828	Acc@5 56.6406
+Epoch: [10][2001/2503]	Time 1.044	Data 0.675	Loss 5.2956	Acc@1 28.9062	Acc@5 51.9531
+Epoch: [10][2051/2503]	Time 1.043	Data 0.674	Loss 5.2636	Acc@1 28.5156	Acc@5 52.3438
+Epoch: [10][2101/2503]	Time 1.042	Data 0.673	Loss 5.3165	Acc@1 28.9062	Acc@5 54.8828
+Epoch: [10][2151/2503]	Time 1.041	Data 0.672	Loss 5.1308	Acc@1 33.0078	Acc@5 56.0547
+Epoch: [10][2201/2503]	Time 1.042	Data 0.673	Loss 5.2621	Acc@1 29.4922	Acc@5 52.9297
+Epoch: [10][2251/2503]	Time 1.041	Data 0.673	Loss 5.0447	Acc@1 31.2500	Acc@5 58.0078
+Epoch: [10][2301/2503]	Time 1.042	Data 0.673	Loss 4.9971	Acc@1 32.4219	Acc@5 58.7891
+Epoch: [10][2351/2503]	Time 1.041	Data 0.673	Loss 5.4221	Acc@1 28.1250	Acc@5 52.5391
+Epoch: [10][2401/2503]	Time 1.041	Data 0.673	Loss 5.1001	Acc@1 29.4922	Acc@5 55.6641
+Epoch: [10][2451/2503]	Time 1.041	Data 0.672	Loss 5.4108	Acc@1 26.5625	Acc@5 51.7578
+Epoch: [10][2501/2503]	Time 1.041	Data 0.673	Loss 5.4361	Acc@1 26.3672	Acc@5 50.5859
+Epoch: [1/98]	Time 12.384	Data 12.300	Loss 4.2128	Acc@1 40.0391	Acc@5 72.8516
+Epoch: [51/98]	Time 1.324	Data 1.242	Loss 5.8624	Acc@1 23.2422	Acc@5 46.2891
+ * Acc@1 11.306 Acc@5 28.812
+ * Acc@1 12.402 Acc@5 31.336
+ * Acc@1 14.974 Acc@5 35.842
+ * Acc@1 17.090 Acc@5 39.448
+ * Acc@1 26.468 Acc@5 51.722
+Best var_acc1 26.467999998779298
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_010.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_010.pth.tar'
+#################epoch 12#################
+lr=0.100000 
+
+Epoch: [11][1/2503]	Time 10.781	Data 10.510	Loss 5.1376	Acc@1 32.8125	Acc@5 58.0078
+Epoch: [11][51/2503]	Time 1.226	Data 0.852	Loss 5.1353	Acc@1 28.9062	Acc@5 55.6641
+Epoch: [11][101/2503]	Time 1.145	Data 0.785	Loss 5.1230	Acc@1 32.4219	Acc@5 57.2266
+Epoch: [11][151/2503]	Time 1.100	Data 0.740	Loss 5.4551	Acc@1 25.3906	Acc@5 50.9766
+Epoch: [11][201/2503]	Time 1.086	Data 0.720	Loss 5.1293	Acc@1 29.8828	Acc@5 55.0781
+Epoch: [11][251/2503]	Time 1.092	Data 0.725	Loss 5.1335	Acc@1 31.4453	Acc@5 56.0547
+Epoch: [11][301/2503]	Time 1.078	Data 0.720	Loss 5.3979	Acc@1 28.1250	Acc@5 49.4141
+Epoch: [11][351/2503]	Time 1.069	Data 0.715	Loss 5.3735	Acc@1 27.7344	Acc@5 52.5391
+Epoch: [11][401/2503]	Time 1.054	Data 0.704	Loss 5.1735	Acc@1 30.2734	Acc@5 56.6406
+Epoch: [11][451/2503]	Time 1.057	Data 0.712	Loss 5.2039	Acc@1 27.9297	Acc@5 55.2734
+Epoch: [11][501/2503]	Time 1.057	Data 0.717	Loss 5.1903	Acc@1 30.4688	Acc@5 56.4453
+Epoch: [11][551/2503]	Time 1.055	Data 0.717	Loss 5.2018	Acc@1 29.6875	Acc@5 56.0547
+Epoch: [11][601/2503]	Time 1.051	Data 0.713	Loss 5.2114	Acc@1 28.5156	Acc@5 53.5156
+Epoch: [11][651/2503]	Time 1.053	Data 0.716	Loss 5.1047	Acc@1 30.8594	Acc@5 54.8828
+Epoch: [11][701/2503]	Time 1.054	Data 0.719	Loss 5.1634	Acc@1 30.4688	Acc@5 56.8359
+Epoch: [11][751/2503]	Time 1.050	Data 0.716	Loss 5.4451	Acc@1 28.1250	Acc@5 51.7578
+Epoch: [11][801/2503]	Time 1.053	Data 0.719	Loss 5.2435	Acc@1 29.2969	Acc@5 53.1250
+Epoch: [11][851/2503]	Time 1.053	Data 0.717	Loss 5.2434	Acc@1 28.9062	Acc@5 54.1016
+Epoch: [11][901/2503]	Time 1.052	Data 0.714	Loss 5.1905	Acc@1 29.6875	Acc@5 55.4688
+Epoch: [11][951/2503]	Time 1.051	Data 0.712	Loss 5.2442	Acc@1 27.7344	Acc@5 55.0781
+Epoch: [11][1001/2503]	Time 1.055	Data 0.713	Loss 5.3645	Acc@1 28.1250	Acc@5 50.7812
+Epoch: [11][1051/2503]	Time 1.053	Data 0.710	Loss 5.3571	Acc@1 28.5156	Acc@5 54.4922
+Epoch: [11][1101/2503]	Time 1.051	Data 0.707	Loss 5.2799	Acc@1 31.0547	Acc@5 55.0781
+Epoch: [11][1151/2503]	Time 1.049	Data 0.704	Loss 5.4645	Acc@1 25.5859	Acc@5 50.9766
+Epoch: [11][1201/2503]	Time 1.052	Data 0.706	Loss 5.0957	Acc@1 29.6875	Acc@5 53.9062
+Epoch: [11][1251/2503]	Time 1.051	Data 0.703	Loss 5.3464	Acc@1 29.2969	Acc@5 51.3672
+Epoch: [11][1301/2503]	Time 1.049	Data 0.701	Loss 5.0772	Acc@1 31.8359	Acc@5 54.1016
+Epoch: [11][1351/2503]	Time 1.049	Data 0.699	Loss 5.0784	Acc@1 31.8359	Acc@5 56.2500
+Epoch: [11][1401/2503]	Time 1.052	Data 0.701	Loss 5.1366	Acc@1 29.1016	Acc@5 56.6406
+Epoch: [11][1451/2503]	Time 1.051	Data 0.699	Loss 5.2020	Acc@1 27.5391	Acc@5 54.2969
+Epoch: [11][1501/2503]	Time 1.049	Data 0.697	Loss 5.3932	Acc@1 27.7344	Acc@5 52.3438
+Epoch: [11][1551/2503]	Time 1.048	Data 0.694	Loss 5.3265	Acc@1 27.3438	Acc@5 53.3203
+Epoch: [11][1601/2503]	Time 1.050	Data 0.695	Loss 5.1138	Acc@1 30.2734	Acc@5 56.2500
+Epoch: [11][1651/2503]	Time 1.048	Data 0.692	Loss 5.3675	Acc@1 29.4922	Acc@5 53.9062
+Epoch: [11][1701/2503]	Time 1.047	Data 0.690	Loss 5.3263	Acc@1 27.7344	Acc@5 54.6875
+Epoch: [11][1751/2503]	Time 1.046	Data 0.688	Loss 5.3664	Acc@1 26.7578	Acc@5 53.5156
+Epoch: [11][1801/2503]	Time 1.047	Data 0.689	Loss 5.3756	Acc@1 25.1953	Acc@5 52.1484
+Epoch: [11][1851/2503]	Time 1.045	Data 0.687	Loss 5.2102	Acc@1 28.9062	Acc@5 55.0781
+Epoch: [11][1901/2503]	Time 1.044	Data 0.685	Loss 5.1577	Acc@1 28.7109	Acc@5 55.4688
+Epoch: [11][1951/2503]	Time 1.042	Data 0.683	Loss 5.1265	Acc@1 35.3516	Acc@5 56.0547
+Epoch: [11][2001/2503]	Time 1.044	Data 0.685	Loss 5.1722	Acc@1 26.5625	Acc@5 53.3203
+Epoch: [11][2051/2503]	Time 1.044	Data 0.684	Loss 5.1450	Acc@1 29.4922	Acc@5 57.0312
+Epoch: [11][2101/2503]	Time 1.043	Data 0.682	Loss 5.1979	Acc@1 27.9297	Acc@5 55.6641
+Epoch: [11][2151/2503]	Time 1.042	Data 0.682	Loss 5.1395	Acc@1 30.2734	Acc@5 56.2500
+Epoch: [11][2201/2503]	Time 1.044	Data 0.683	Loss 5.5159	Acc@1 28.1250	Acc@5 49.8047
+Epoch: [11][2251/2503]	Time 1.043	Data 0.682	Loss 5.2809	Acc@1 28.3203	Acc@5 54.2969
+Epoch: [11][2301/2503]	Time 1.042	Data 0.680	Loss 5.1446	Acc@1 25.9766	Acc@5 54.4922
+Epoch: [11][2351/2503]	Time 1.041	Data 0.678	Loss 5.3622	Acc@1 29.4922	Acc@5 52.1484
+Epoch: [11][2401/2503]	Time 1.042	Data 0.680	Loss 5.1166	Acc@1 28.1250	Acc@5 54.6875
+Epoch: [11][2451/2503]	Time 1.041	Data 0.679	Loss 5.2998	Acc@1 27.3438	Acc@5 52.9297
+Epoch: [11][2501/2503]	Time 1.040	Data 0.677	Loss 5.1835	Acc@1 30.8594	Acc@5 53.7109
+Epoch: [1/98]	Time 12.087	Data 12.002	Loss 4.4586	Acc@1 35.5469	Acc@5 66.9922
+Epoch: [51/98]	Time 1.287	Data 1.205	Loss 5.4795	Acc@1 26.1719	Acc@5 50.7812
+ * Acc@1 11.768 Acc@5 29.750
+ * Acc@1 14.080 Acc@5 34.320
+ * Acc@1 15.734 Acc@5 37.802
+ * Acc@1 17.580 Acc@5 40.796
+ * Acc@1 26.340 Acc@5 52.388
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_011.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_011.pth.tar'
+#################epoch 13#################
+lr=0.100000 
+
+Epoch: [12][1/2503]	Time 11.123	Data 10.886	Loss 5.2648	Acc@1 28.5156	Acc@5 53.1250
+Epoch: [12][51/2503]	Time 1.215	Data 0.852	Loss 5.3121	Acc@1 31.2500	Acc@5 54.8828
+Epoch: [12][101/2503]	Time 1.110	Data 0.744	Loss 5.2444	Acc@1 28.7109	Acc@5 51.3672
+Epoch: [12][151/2503]	Time 1.077	Data 0.709	Loss 5.3166	Acc@1 28.3203	Acc@5 51.5625
+Epoch: [12][201/2503]	Time 1.078	Data 0.712	Loss 5.3238	Acc@1 26.9531	Acc@5 53.3203
+Epoch: [12][251/2503]	Time 1.050	Data 0.684	Loss 5.1077	Acc@1 29.1016	Acc@5 53.5156
+Epoch: [12][301/2503]	Time 1.039	Data 0.672	Loss 5.1191	Acc@1 31.4453	Acc@5 57.0312
+Epoch: [12][351/2503]	Time 1.032	Data 0.666	Loss 5.1156	Acc@1 33.3984	Acc@5 56.4453
+Epoch: [12][401/2503]	Time 1.042	Data 0.676	Loss 5.4577	Acc@1 25.3906	Acc@5 52.3438
+Epoch: [12][451/2503]	Time 1.037	Data 0.669	Loss 5.2375	Acc@1 31.0547	Acc@5 54.6875
+Epoch: [12][501/2503]	Time 1.031	Data 0.662	Loss 5.3352	Acc@1 26.7578	Acc@5 52.3438
+Epoch: [12][551/2503]	Time 1.027	Data 0.658	Loss 5.3951	Acc@1 26.7578	Acc@5 52.9297
+Epoch: [12][601/2503]	Time 1.032	Data 0.663	Loss 5.1960	Acc@1 28.3203	Acc@5 57.6172
+Epoch: [12][651/2503]	Time 1.029	Data 0.659	Loss 5.2794	Acc@1 32.4219	Acc@5 53.3203
+Epoch: [12][701/2503]	Time 1.025	Data 0.655	Loss 5.3430	Acc@1 31.0547	Acc@5 53.7109
+Epoch: [12][751/2503]	Time 1.021	Data 0.650	Loss 5.0145	Acc@1 35.3516	Acc@5 58.3984
+Epoch: [12][801/2503]	Time 1.024	Data 0.653	Loss 5.2495	Acc@1 27.9297	Acc@5 52.7344
+Epoch: [12][851/2503]	Time 1.021	Data 0.650	Loss 5.0689	Acc@1 31.0547	Acc@5 55.6641
+Epoch: [12][901/2503]	Time 1.019	Data 0.648	Loss 5.3618	Acc@1 25.1953	Acc@5 52.9297
+Epoch: [12][951/2503]	Time 1.015	Data 0.644	Loss 5.4259	Acc@1 28.1250	Acc@5 53.3203
+Epoch: [12][1001/2503]	Time 1.018	Data 0.647	Loss 5.0963	Acc@1 30.2734	Acc@5 56.2500
+Epoch: [12][1051/2503]	Time 1.017	Data 0.646	Loss 5.1649	Acc@1 29.4922	Acc@5 53.9062
+Epoch: [12][1101/2503]	Time 1.016	Data 0.645	Loss 5.0778	Acc@1 31.8359	Acc@5 56.8359
+Epoch: [12][1151/2503]	Time 1.015	Data 0.645	Loss 5.2572	Acc@1 27.3438	Acc@5 49.8047
+Epoch: [12][1201/2503]	Time 1.018	Data 0.649	Loss 5.3977	Acc@1 29.1016	Acc@5 50.7812
+Epoch: [12][1251/2503]	Time 1.018	Data 0.648	Loss 5.0636	Acc@1 29.8828	Acc@5 57.2266
+Epoch: [12][1301/2503]	Time 1.017	Data 0.648	Loss 5.2931	Acc@1 26.1719	Acc@5 54.1016
+Epoch: [12][1351/2503]	Time 1.015	Data 0.646	Loss 5.3931	Acc@1 29.6875	Acc@5 52.3438
+Epoch: [12][1401/2503]	Time 1.017	Data 0.648	Loss 5.2240	Acc@1 28.5156	Acc@5 54.1016
+Epoch: [12][1451/2503]	Time 1.016	Data 0.646	Loss 4.9751	Acc@1 32.6172	Acc@5 55.8594
+Epoch: [12][1501/2503]	Time 1.015	Data 0.645	Loss 5.2311	Acc@1 27.5391	Acc@5 56.6406
+Epoch: [12][1551/2503]	Time 1.014	Data 0.645	Loss 5.3078	Acc@1 27.5391	Acc@5 53.1250
+Epoch: [12][1601/2503]	Time 1.016	Data 0.647	Loss 5.2666	Acc@1 31.2500	Acc@5 55.6641
+Epoch: [12][1651/2503]	Time 1.016	Data 0.646	Loss 5.3055	Acc@1 27.5391	Acc@5 54.1016
+Epoch: [12][1701/2503]	Time 1.015	Data 0.646	Loss 5.4005	Acc@1 27.1484	Acc@5 51.7578
+Epoch: [12][1751/2503]	Time 1.013	Data 0.644	Loss 5.3937	Acc@1 26.9531	Acc@5 50.0000
+Epoch: [12][1801/2503]	Time 1.016	Data 0.647	Loss 5.2767	Acc@1 28.5156	Acc@5 53.3203
+Epoch: [12][1851/2503]	Time 1.016	Data 0.646	Loss 5.4811	Acc@1 25.9766	Acc@5 50.7812
+Epoch: [12][1901/2503]	Time 1.015	Data 0.646	Loss 5.3688	Acc@1 28.5156	Acc@5 53.1250
+Epoch: [12][1951/2503]	Time 1.015	Data 0.645	Loss 5.2685	Acc@1 31.2500	Acc@5 54.8828
+Epoch: [12][2001/2503]	Time 1.017	Data 0.647	Loss 5.1923	Acc@1 29.6875	Acc@5 55.4688
+Epoch: [12][2051/2503]	Time 1.017	Data 0.647	Loss 5.2328	Acc@1 29.4922	Acc@5 51.1719
+Epoch: [12][2101/2503]	Time 1.017	Data 0.647	Loss 5.2636	Acc@1 28.5156	Acc@5 52.1484
+Epoch: [12][2151/2503]	Time 1.016	Data 0.646	Loss 5.1493	Acc@1 30.6641	Acc@5 56.4453
+Epoch: [12][2201/2503]	Time 1.018	Data 0.648	Loss 5.1524	Acc@1 30.4688	Acc@5 55.8594
+Epoch: [12][2251/2503]	Time 1.017	Data 0.647	Loss 5.2411	Acc@1 30.0781	Acc@5 53.5156
+Epoch: [12][2301/2503]	Time 1.017	Data 0.647	Loss 5.4262	Acc@1 28.3203	Acc@5 50.5859
+Epoch: [12][2351/2503]	Time 1.017	Data 0.646	Loss 5.1512	Acc@1 30.8594	Acc@5 54.1016
+Epoch: [12][2401/2503]	Time 1.019	Data 0.648	Loss 5.1726	Acc@1 30.6641	Acc@5 54.6875
+Epoch: [12][2451/2503]	Time 1.018	Data 0.648	Loss 5.3162	Acc@1 28.9062	Acc@5 54.2969
+Epoch: [12][2501/2503]	Time 1.017	Data 0.646	Loss 5.1045	Acc@1 29.2969	Acc@5 56.2500
+Epoch: [1/98]	Time 11.989	Data 11.904	Loss 4.2651	Acc@1 36.9141	Acc@5 70.7031
+Epoch: [51/98]	Time 1.321	Data 1.240	Loss 5.9075	Acc@1 20.7031	Acc@5 48.0469
+ * Acc@1 11.480 Acc@5 28.958
+ * Acc@1 13.108 Acc@5 31.996
+ * Acc@1 14.400 Acc@5 34.660
+ * Acc@1 15.942 Acc@5 36.912
+ * Acc@1 24.934 Acc@5 50.000
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_012.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_012.pth.tar'
+#################epoch 14#################
+lr=0.100000 
+
+Epoch: [13][1/2503]	Time 10.283	Data 9.997	Loss 5.3692	Acc@1 28.7109	Acc@5 53.7109
+Epoch: [13][51/2503]	Time 1.242	Data 0.902	Loss 5.1584	Acc@1 33.9844	Acc@5 54.2969
+Epoch: [13][101/2503]	Time 1.110	Data 0.773	Loss 5.5649	Acc@1 26.1719	Acc@5 50.3906
+Epoch: [13][151/2503]	Time 1.077	Data 0.733	Loss 5.3380	Acc@1 28.3203	Acc@5 53.5156
+Epoch: [13][201/2503]	Time 1.045	Data 0.697	Loss 5.1549	Acc@1 30.0781	Acc@5 58.2031
+Epoch: [13][251/2503]	Time 1.073	Data 0.721	Loss 5.2155	Acc@1 30.0781	Acc@5 55.0781
+Epoch: [13][301/2503]	Time 1.072	Data 0.720	Loss 5.3587	Acc@1 26.5625	Acc@5 51.3672
+Epoch: [13][351/2503]	Time 1.068	Data 0.714	Loss 4.9591	Acc@1 33.7891	Acc@5 58.3984
+Epoch: [13][401/2503]	Time 1.064	Data 0.710	Loss 5.2307	Acc@1 27.9297	Acc@5 54.2969
+Epoch: [13][451/2503]	Time 1.071	Data 0.719	Loss 5.3043	Acc@1 27.5391	Acc@5 53.9062
+Epoch: [13][501/2503]	Time 1.072	Data 0.721	Loss 5.3244	Acc@1 25.3906	Acc@5 51.1719
+Epoch: [13][551/2503]	Time 1.068	Data 0.717	Loss 5.0023	Acc@1 33.9844	Acc@5 56.2500
+Epoch: [13][601/2503]	Time 1.065	Data 0.715	Loss 5.1606	Acc@1 28.3203	Acc@5 56.6406
+Epoch: [13][651/2503]	Time 1.066	Data 0.717	Loss 5.0130	Acc@1 34.9609	Acc@5 59.7656
+Epoch: [13][701/2503]	Time 1.065	Data 0.716	Loss 5.1254	Acc@1 31.0547	Acc@5 55.4688
+Epoch: [13][751/2503]	Time 1.061	Data 0.713	Loss 5.3096	Acc@1 27.7344	Acc@5 52.3438
+Epoch: [13][801/2503]	Time 1.057	Data 0.709	Loss 5.0423	Acc@1 31.4453	Acc@5 58.3984
+Epoch: [13][851/2503]	Time 1.059	Data 0.712	Loss 5.1498	Acc@1 30.2734	Acc@5 56.2500
+Epoch: [13][901/2503]	Time 1.061	Data 0.714	Loss 5.1074	Acc@1 28.9062	Acc@5 57.4219
+Epoch: [13][951/2503]	Time 1.058	Data 0.712	Loss 5.2556	Acc@1 28.7109	Acc@5 54.6875
+Epoch: [13][1001/2503]	Time 1.055	Data 0.708	Loss 5.1162	Acc@1 29.6875	Acc@5 55.8594
+Epoch: [13][1051/2503]	Time 1.055	Data 0.709	Loss 5.1834	Acc@1 28.1250	Acc@5 53.7109
+Epoch: [13][1101/2503]	Time 1.056	Data 0.710	Loss 5.3072	Acc@1 25.7812	Acc@5 53.5156
+Epoch: [13][1151/2503]	Time 1.055	Data 0.710	Loss 5.0769	Acc@1 30.2734	Acc@5 56.8359
+Epoch: [13][1201/2503]	Time 1.054	Data 0.708	Loss 5.2390	Acc@1 28.1250	Acc@5 56.0547
+Epoch: [13][1251/2503]	Time 1.056	Data 0.711	Loss 5.0104	Acc@1 31.2500	Acc@5 55.6641
+Epoch: [13][1301/2503]	Time 1.056	Data 0.711	Loss 4.9765	Acc@1 33.3984	Acc@5 57.8125
+Epoch: [13][1351/2503]	Time 1.056	Data 0.710	Loss 5.0984	Acc@1 33.5938	Acc@5 56.0547
+Epoch: [13][1401/2503]	Time 1.055	Data 0.708	Loss 4.9902	Acc@1 32.6172	Acc@5 57.0312
+Epoch: [13][1451/2503]	Time 1.058	Data 0.710	Loss 5.1037	Acc@1 31.2500	Acc@5 56.0547
+Epoch: [13][1501/2503]	Time 1.056	Data 0.708	Loss 5.0501	Acc@1 33.9844	Acc@5 56.2500
+Epoch: [13][1551/2503]	Time 1.055	Data 0.706	Loss 5.1536	Acc@1 29.2969	Acc@5 56.6406
+Epoch: [13][1601/2503]	Time 1.054	Data 0.704	Loss 5.0432	Acc@1 32.2266	Acc@5 56.2500
+Epoch: [13][1651/2503]	Time 1.055	Data 0.705	Loss 5.2766	Acc@1 28.9062	Acc@5 52.7344
+Epoch: [13][1701/2503]	Time 1.054	Data 0.704	Loss 5.4783	Acc@1 25.5859	Acc@5 47.6562
+Epoch: [13][1751/2503]	Time 1.053	Data 0.703	Loss 5.0461	Acc@1 31.2500	Acc@5 58.9844
+Epoch: [13][1801/2503]	Time 1.052	Data 0.702	Loss 5.4781	Acc@1 28.1250	Acc@5 51.5625
+Epoch: [13][1851/2503]	Time 1.054	Data 0.703	Loss 4.9764	Acc@1 29.8828	Acc@5 58.3984
+Epoch: [13][1901/2503]	Time 1.053	Data 0.702	Loss 5.2210	Acc@1 29.2969	Acc@5 53.9062
+Epoch: [13][1951/2503]	Time 1.052	Data 0.700	Loss 5.4466	Acc@1 27.9297	Acc@5 49.2188
+Epoch: [13][2001/2503]	Time 1.050	Data 0.698	Loss 5.2754	Acc@1 28.5156	Acc@5 53.3203
+Epoch: [13][2051/2503]	Time 1.051	Data 0.699	Loss 5.3003	Acc@1 29.1016	Acc@5 54.1016
+Epoch: [13][2101/2503]	Time 1.051	Data 0.697	Loss 5.3040	Acc@1 27.3438	Acc@5 52.3438
+Epoch: [13][2151/2503]	Time 1.050	Data 0.696	Loss 5.0070	Acc@1 31.4453	Acc@5 58.7891
+Epoch: [13][2201/2503]	Time 1.049	Data 0.695	Loss 5.1637	Acc@1 31.0547	Acc@5 54.8828
+Epoch: [13][2251/2503]	Time 1.051	Data 0.696	Loss 5.1095	Acc@1 29.6875	Acc@5 57.4219
+Epoch: [13][2301/2503]	Time 1.050	Data 0.695	Loss 5.0379	Acc@1 33.5938	Acc@5 56.4453
+Epoch: [13][2351/2503]	Time 1.049	Data 0.694	Loss 5.1331	Acc@1 31.0547	Acc@5 58.5938
+Epoch: [13][2401/2503]	Time 1.048	Data 0.693	Loss 5.1037	Acc@1 28.1250	Acc@5 57.0312
+Epoch: [13][2451/2503]	Time 1.049	Data 0.693	Loss 5.1381	Acc@1 29.6875	Acc@5 55.0781
+Epoch: [13][2501/2503]	Time 1.047	Data 0.692	Loss 5.0241	Acc@1 31.6406	Acc@5 58.9844
+Epoch: [1/98]	Time 12.357	Data 12.272	Loss 4.3995	Acc@1 36.1328	Acc@5 65.8203
+Epoch: [51/98]	Time 1.311	Data 1.229	Loss 6.1336	Acc@1 20.7031	Acc@5 43.5547
+ * Acc@1 10.396 Acc@5 27.200
+ * Acc@1 12.122 Acc@5 31.022
+ * Acc@1 14.512 Acc@5 35.442
+ * Acc@1 17.152 Acc@5 39.780
+ * Acc@1 27.696 Acc@5 53.712
+Best var_acc1 27.69599999267578
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_013.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_013.pth.tar'
+#################epoch 15#################
+lr=0.100000 
+
+Epoch: [14][1/2503]	Time 8.057	Data 7.720	Loss 4.8996	Acc@1 31.6406	Acc@5 57.2266
+Epoch: [14][51/2503]	Time 0.943	Data 0.601	Loss 5.2676	Acc@1 30.6641	Acc@5 57.2266
+Epoch: [14][101/2503]	Time 0.986	Data 0.644	Loss 5.0161	Acc@1 31.2500	Acc@5 57.6172
+Epoch: [14][151/2503]	Time 1.007	Data 0.656	Loss 5.0965	Acc@1 32.2266	Acc@5 56.2500
+Epoch: [14][201/2503]	Time 1.017	Data 0.662	Loss 5.2284	Acc@1 28.3203	Acc@5 55.0781
+Epoch: [14][251/2503]	Time 1.042	Data 0.683	Loss 5.1405	Acc@1 28.3203	Acc@5 53.9062
+Epoch: [14][301/2503]	Time 1.037	Data 0.676	Loss 4.9544	Acc@1 31.4453	Acc@5 59.3750
+Epoch: [14][351/2503]	Time 1.034	Data 0.671	Loss 5.1555	Acc@1 30.0781	Acc@5 55.2734
+Epoch: [14][401/2503]	Time 1.032	Data 0.667	Loss 5.1874	Acc@1 29.2969	Acc@5 56.8359
+Epoch: [14][451/2503]	Time 1.038	Data 0.673	Loss 5.1077	Acc@1 30.0781	Acc@5 56.8359
+Epoch: [14][501/2503]	Time 1.036	Data 0.669	Loss 5.2298	Acc@1 28.7109	Acc@5 54.1016
+Epoch: [14][551/2503]	Time 1.038	Data 0.668	Loss 5.1276	Acc@1 33.5938	Acc@5 58.2031
+Epoch: [14][601/2503]	Time 1.040	Data 0.670	Loss 5.2476	Acc@1 27.9297	Acc@5 53.5156
+Epoch: [14][651/2503]	Time 1.048	Data 0.677	Loss 5.0964	Acc@1 30.2734	Acc@5 57.2266
+Epoch: [14][701/2503]	Time 1.049	Data 0.677	Loss 5.1860	Acc@1 29.8828	Acc@5 56.8359
+Epoch: [14][751/2503]	Time 1.049	Data 0.676	Loss 5.1835	Acc@1 30.0781	Acc@5 55.4688
+Epoch: [14][801/2503]	Time 1.048	Data 0.674	Loss 5.3610	Acc@1 30.4688	Acc@5 54.2969
+Epoch: [14][851/2503]	Time 1.053	Data 0.679	Loss 5.1003	Acc@1 29.1016	Acc@5 56.0547
+Epoch: [14][901/2503]	Time 1.051	Data 0.677	Loss 5.1642	Acc@1 31.4453	Acc@5 56.8359
+Epoch: [14][951/2503]	Time 1.051	Data 0.677	Loss 5.3255	Acc@1 30.4688	Acc@5 50.3906
+Epoch: [14][1001/2503]	Time 1.051	Data 0.676	Loss 5.1953	Acc@1 30.4688	Acc@5 56.8359
+Epoch: [14][1051/2503]	Time 1.057	Data 0.682	Loss 5.1765	Acc@1 28.7109	Acc@5 56.8359
+Epoch: [14][1101/2503]	Time 1.057	Data 0.682	Loss 5.1574	Acc@1 30.8594	Acc@5 56.4453
+Epoch: [14][1151/2503]	Time 1.058	Data 0.682	Loss 5.1458	Acc@1 27.9297	Acc@5 54.8828
+Epoch: [14][1201/2503]	Time 1.059	Data 0.683	Loss 5.0173	Acc@1 31.6406	Acc@5 57.4219
+Epoch: [14][1251/2503]	Time 1.065	Data 0.688	Loss 5.1308	Acc@1 32.2266	Acc@5 55.2734
+Epoch: [14][1301/2503]	Time 1.066	Data 0.688	Loss 5.2348	Acc@1 30.2734	Acc@5 53.1250
+Epoch: [14][1351/2503]	Time 1.067	Data 0.689	Loss 5.0162	Acc@1 30.2734	Acc@5 58.0078
+Epoch: [14][1401/2503]	Time 1.067	Data 0.688	Loss 5.1964	Acc@1 29.2969	Acc@5 56.8359
+Epoch: [14][1451/2503]	Time 1.070	Data 0.691	Loss 5.0960	Acc@1 32.2266	Acc@5 58.5938
+Epoch: [14][1501/2503]	Time 1.070	Data 0.691	Loss 5.2429	Acc@1 29.2969	Acc@5 53.5156
+Epoch: [14][1551/2503]	Time 1.070	Data 0.690	Loss 4.9545	Acc@1 32.4219	Acc@5 58.3984
+Epoch: [14][1601/2503]	Time 1.071	Data 0.691	Loss 4.9604	Acc@1 32.2266	Acc@5 57.6172
+Epoch: [14][1651/2503]	Time 1.074	Data 0.693	Loss 5.0926	Acc@1 30.2734	Acc@5 56.8359
+Epoch: [14][1701/2503]	Time 1.074	Data 0.693	Loss 5.2057	Acc@1 27.3438	Acc@5 54.8828
+Epoch: [14][1751/2503]	Time 1.072	Data 0.691	Loss 5.3054	Acc@1 30.2734	Acc@5 56.0547
+Epoch: [14][1801/2503]	Time 1.072	Data 0.690	Loss 5.2186	Acc@1 30.4688	Acc@5 53.5156
+Epoch: [14][1851/2503]	Time 1.074	Data 0.692	Loss 5.1403	Acc@1 28.9062	Acc@5 56.4453
+Epoch: [14][1901/2503]	Time 1.073	Data 0.691	Loss 5.3140	Acc@1 29.8828	Acc@5 53.9062
+Epoch: [14][1951/2503]	Time 1.072	Data 0.690	Loss 5.1276	Acc@1 33.7891	Acc@5 57.6172
+Epoch: [14][2001/2503]	Time 1.071	Data 0.689	Loss 5.2256	Acc@1 31.6406	Acc@5 55.2734
+Epoch: [14][2051/2503]	Time 1.073	Data 0.691	Loss 5.2379	Acc@1 29.4922	Acc@5 51.3672
+Epoch: [14][2101/2503]	Time 1.071	Data 0.690	Loss 5.2784	Acc@1 28.1250	Acc@5 53.1250
+Epoch: [14][2151/2503]	Time 1.070	Data 0.689	Loss 5.3081	Acc@1 27.7344	Acc@5 52.7344
+Epoch: [14][2201/2503]	Time 1.070	Data 0.688	Loss 5.2646	Acc@1 28.3203	Acc@5 56.0547
+Epoch: [14][2251/2503]	Time 1.071	Data 0.689	Loss 5.1347	Acc@1 30.6641	Acc@5 56.2500
+Epoch: [14][2301/2503]	Time 1.071	Data 0.689	Loss 5.3173	Acc@1 30.4688	Acc@5 52.5391
+Epoch: [14][2351/2503]	Time 1.070	Data 0.689	Loss 5.4164	Acc@1 24.2188	Acc@5 50.5859
+Epoch: [14][2401/2503]	Time 1.069	Data 0.688	Loss 5.3026	Acc@1 26.9531	Acc@5 54.1016
+Epoch: [14][2451/2503]	Time 1.070	Data 0.690	Loss 5.1428	Acc@1 28.9062	Acc@5 56.2500
+Epoch: [14][2501/2503]	Time 1.069	Data 0.689	Loss 5.1987	Acc@1 25.5859	Acc@5 53.1250
+Epoch: [1/98]	Time 9.142	Data 9.059	Loss 4.2103	Acc@1 43.9453	Acc@5 71.4844
+Epoch: [51/98]	Time 0.985	Data 0.904	Loss 5.6246	Acc@1 26.1719	Acc@5 48.0469
+ * Acc@1 13.426 Acc@5 32.996
+ * Acc@1 14.572 Acc@5 35.302
+ * Acc@1 17.042 Acc@5 39.566
+ * Acc@1 18.674 Acc@5 42.492
+ * Acc@1 28.892 Acc@5 55.334
+Best var_acc1 28.891999992675782
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_014.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_014.pth.tar'
+#################epoch 16#################
+lr=0.100000 
+
+Epoch: [15][1/2503]	Time 11.785	Data 11.351	Loss 5.2768	Acc@1 28.9062	Acc@5 52.7344
+Epoch: [15][51/2503]	Time 1.231	Data 0.864	Loss 5.2040	Acc@1 29.8828	Acc@5 55.2734
+Epoch: [15][101/2503]	Time 1.129	Data 0.768	Loss 5.0009	Acc@1 34.3750	Acc@5 56.8359
+Epoch: [15][151/2503]	Time 1.096	Data 0.739	Loss 5.0364	Acc@1 30.2734	Acc@5 57.6172
+Epoch: [15][201/2503]	Time 1.099	Data 0.744	Loss 5.0884	Acc@1 29.1016	Acc@5 56.6406
+Epoch: [15][251/2503]	Time 1.084	Data 0.734	Loss 5.3432	Acc@1 28.9062	Acc@5 53.5156
+Epoch: [15][301/2503]	Time 1.079	Data 0.730	Loss 5.3330	Acc@1 26.7578	Acc@5 54.6875
+Epoch: [15][351/2503]	Time 1.076	Data 0.726	Loss 5.1840	Acc@1 26.1719	Acc@5 54.2969
+Epoch: [15][401/2503]	Time 1.083	Data 0.734	Loss 5.0487	Acc@1 31.0547	Acc@5 55.4688
+Epoch: [15][451/2503]	Time 1.078	Data 0.729	Loss 5.3046	Acc@1 29.1016	Acc@5 56.2500
+Epoch: [15][501/2503]	Time 1.074	Data 0.725	Loss 5.2281	Acc@1 30.0781	Acc@5 55.4688
+Epoch: [15][551/2503]	Time 1.069	Data 0.719	Loss 5.3011	Acc@1 31.6406	Acc@5 52.3438
+Epoch: [15][601/2503]	Time 1.071	Data 0.726	Loss 5.2162	Acc@1 25.7812	Acc@5 54.2969
+Epoch: [15][651/2503]	Time 1.068	Data 0.726	Loss 5.2209	Acc@1 27.7344	Acc@5 52.3438
+Epoch: [15][701/2503]	Time 1.070	Data 0.730	Loss 5.2532	Acc@1 27.5391	Acc@5 53.5156
+Epoch: [15][751/2503]	Time 1.066	Data 0.726	Loss 5.1564	Acc@1 28.5156	Acc@5 55.0781
+Epoch: [15][801/2503]	Time 1.066	Data 0.728	Loss 5.4574	Acc@1 29.4922	Acc@5 50.5859
+Epoch: [15][851/2503]	Time 1.062	Data 0.726	Loss 5.0593	Acc@1 32.6172	Acc@5 56.6406
+Epoch: [15][901/2503]	Time 1.063	Data 0.727	Loss 5.0560	Acc@1 30.2734	Acc@5 58.9844
+Epoch: [15][951/2503]	Time 1.060	Data 0.724	Loss 5.2879	Acc@1 26.1719	Acc@5 51.7578
+Epoch: [15][1001/2503]	Time 1.061	Data 0.726	Loss 5.4027	Acc@1 26.3672	Acc@5 50.9766
+Epoch: [15][1051/2503]	Time 1.059	Data 0.724	Loss 5.0776	Acc@1 33.0078	Acc@5 57.2266
+Epoch: [15][1101/2503]	Time 1.057	Data 0.721	Loss 5.2080	Acc@1 32.6172	Acc@5 54.4922
+Epoch: [15][1151/2503]	Time 1.057	Data 0.720	Loss 5.2464	Acc@1 26.7578	Acc@5 54.6875
+Epoch: [15][1201/2503]	Time 1.059	Data 0.721	Loss 5.1591	Acc@1 29.1016	Acc@5 53.9062
+Epoch: [15][1251/2503]	Time 1.058	Data 0.719	Loss 5.1541	Acc@1 31.0547	Acc@5 57.2266
+Epoch: [15][1301/2503]	Time 1.058	Data 0.717	Loss 5.0838	Acc@1 30.2734	Acc@5 54.6875
+Epoch: [15][1351/2503]	Time 1.057	Data 0.715	Loss 5.3218	Acc@1 25.7812	Acc@5 50.9766
+Epoch: [15][1401/2503]	Time 1.062	Data 0.718	Loss 5.2291	Acc@1 29.1016	Acc@5 53.7109
+Epoch: [15][1451/2503]	Time 1.061	Data 0.716	Loss 5.2171	Acc@1 28.7109	Acc@5 53.1250
+Epoch: [15][1501/2503]	Time 1.059	Data 0.714	Loss 5.0162	Acc@1 31.8359	Acc@5 54.1016
+Epoch: [15][1551/2503]	Time 1.058	Data 0.712	Loss 5.1314	Acc@1 32.6172	Acc@5 55.2734
+Epoch: [15][1601/2503]	Time 1.061	Data 0.714	Loss 5.2757	Acc@1 33.7891	Acc@5 54.1016
+Epoch: [15][1651/2503]	Time 1.060	Data 0.712	Loss 5.2709	Acc@1 29.1016	Acc@5 53.1250
+Epoch: [15][1701/2503]	Time 1.060	Data 0.712	Loss 5.2403	Acc@1 31.8359	Acc@5 56.0547
+Epoch: [15][1751/2503]	Time 1.059	Data 0.710	Loss 5.2740	Acc@1 33.0078	Acc@5 53.9062
+Epoch: [15][1801/2503]	Time 1.060	Data 0.711	Loss 5.1994	Acc@1 29.8828	Acc@5 53.5156
+Epoch: [15][1851/2503]	Time 1.059	Data 0.709	Loss 5.2280	Acc@1 30.2734	Acc@5 53.7109
+Epoch: [15][1901/2503]	Time 1.059	Data 0.708	Loss 5.3354	Acc@1 27.7344	Acc@5 54.8828
+Epoch: [15][1951/2503]	Time 1.057	Data 0.706	Loss 5.0458	Acc@1 30.8594	Acc@5 59.7656
+Epoch: [15][2001/2503]	Time 1.058	Data 0.706	Loss 5.2471	Acc@1 30.4688	Acc@5 54.1016
+Epoch: [15][2051/2503]	Time 1.056	Data 0.704	Loss 5.0695	Acc@1 32.0312	Acc@5 55.6641
+Epoch: [15][2101/2503]	Time 1.054	Data 0.702	Loss 5.2007	Acc@1 30.4688	Acc@5 55.0781
+Epoch: [15][2151/2503]	Time 1.052	Data 0.699	Loss 5.2146	Acc@1 28.7109	Acc@5 55.2734
+Epoch: [15][2201/2503]	Time 1.054	Data 0.701	Loss 4.9451	Acc@1 30.6641	Acc@5 56.6406
+Epoch: [15][2251/2503]	Time 1.053	Data 0.699	Loss 5.0211	Acc@1 32.8125	Acc@5 55.4688
+Epoch: [15][2301/2503]	Time 1.052	Data 0.699	Loss 5.1912	Acc@1 31.0547	Acc@5 56.8359
+Epoch: [15][2351/2503]	Time 1.052	Data 0.698	Loss 5.1446	Acc@1 27.3438	Acc@5 53.9062
+Epoch: [15][2401/2503]	Time 1.053	Data 0.699	Loss 5.2483	Acc@1 27.3438	Acc@5 54.4922
+Epoch: [15][2451/2503]	Time 1.051	Data 0.696	Loss 5.1475	Acc@1 29.4922	Acc@5 54.2969
+Epoch: [15][2501/2503]	Time 1.049	Data 0.695	Loss 5.0186	Acc@1 33.3984	Acc@5 57.6172
+Epoch: [1/98]	Time 11.762	Data 11.677	Loss 3.8132	Acc@1 44.1406	Acc@5 77.1484
+Epoch: [51/98]	Time 1.281	Data 1.199	Loss 6.1930	Acc@1 17.9688	Acc@5 40.2344
+ * Acc@1 11.302 Acc@5 27.850
+ * Acc@1 12.466 Acc@5 30.544
+ * Acc@1 15.066 Acc@5 35.746
+ * Acc@1 16.526 Acc@5 38.530
+ * Acc@1 26.224 Acc@5 51.362
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_015.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_015.pth.tar'
+#################epoch 17#################
+lr=0.100000 
+
+Epoch: [16][1/2503]	Time 10.804	Data 10.522	Loss 5.0304	Acc@1 30.6641	Acc@5 55.6641
+Epoch: [16][51/2503]	Time 1.268	Data 0.907	Loss 5.0517	Acc@1 30.0781	Acc@5 58.5938
+Epoch: [16][101/2503]	Time 1.147	Data 0.786	Loss 5.0329	Acc@1 32.2266	Acc@5 58.0078
+Epoch: [16][151/2503]	Time 1.106	Data 0.745	Loss 5.1906	Acc@1 29.1016	Acc@5 55.8594
+Epoch: [16][201/2503]	Time 1.114	Data 0.755	Loss 5.3363	Acc@1 26.7578	Acc@5 52.1484
+Epoch: [16][251/2503]	Time 1.097	Data 0.743	Loss 5.1960	Acc@1 29.6875	Acc@5 57.0312
+Epoch: [16][301/2503]	Time 1.081	Data 0.730	Loss 5.3271	Acc@1 29.1016	Acc@5 50.3906
+Epoch: [16][351/2503]	Time 1.068	Data 0.718	Loss 5.3208	Acc@1 25.7812	Acc@5 51.5625
+Epoch: [16][401/2503]	Time 1.075	Data 0.724	Loss 5.1102	Acc@1 30.8594	Acc@5 56.6406
+Epoch: [16][451/2503]	Time 1.067	Data 0.717	Loss 5.1078	Acc@1 28.1250	Acc@5 56.0547
+Epoch: [16][501/2503]	Time 1.062	Data 0.711	Loss 5.2147	Acc@1 25.5859	Acc@5 53.3203
+Epoch: [16][551/2503]	Time 1.058	Data 0.709	Loss 5.1500	Acc@1 29.8828	Acc@5 54.2969
+Epoch: [16][601/2503]	Time 1.062	Data 0.715	Loss 5.0627	Acc@1 34.7656	Acc@5 58.3984
+Epoch: [16][651/2503]	Time 1.062	Data 0.716	Loss 5.1047	Acc@1 31.4453	Acc@5 56.6406
+Epoch: [16][701/2503]	Time 1.059	Data 0.712	Loss 5.2718	Acc@1 26.7578	Acc@5 50.7812
+Epoch: [16][751/2503]	Time 1.058	Data 0.710	Loss 5.2394	Acc@1 29.2969	Acc@5 56.0547
+Epoch: [16][801/2503]	Time 1.062	Data 0.713	Loss 5.0557	Acc@1 29.8828	Acc@5 55.6641
+Epoch: [16][851/2503]	Time 1.060	Data 0.710	Loss 5.1459	Acc@1 28.5156	Acc@5 56.4453
+Epoch: [16][901/2503]	Time 1.057	Data 0.706	Loss 5.1056	Acc@1 30.8594	Acc@5 55.2734
+Epoch: [16][951/2503]	Time 1.055	Data 0.703	Loss 5.1954	Acc@1 30.0781	Acc@5 56.2500
+Epoch: [16][1001/2503]	Time 1.057	Data 0.705	Loss 5.1766	Acc@1 29.8828	Acc@5 54.6875
+Epoch: [16][1051/2503]	Time 1.056	Data 0.702	Loss 5.2206	Acc@1 26.7578	Acc@5 52.9297
+Epoch: [16][1101/2503]	Time 1.054	Data 0.700	Loss 4.9864	Acc@1 29.6875	Acc@5 60.1562
+Epoch: [16][1151/2503]	Time 1.053	Data 0.698	Loss 5.2748	Acc@1 28.7109	Acc@5 53.9062
+Epoch: [16][1201/2503]	Time 1.057	Data 0.702	Loss 5.2131	Acc@1 28.3203	Acc@5 53.5156
+Epoch: [16][1251/2503]	Time 1.056	Data 0.700	Loss 5.1098	Acc@1 30.2734	Acc@5 55.6641
+Epoch: [16][1301/2503]	Time 1.055	Data 0.698	Loss 5.0314	Acc@1 33.7891	Acc@5 57.6172
+Epoch: [16][1351/2503]	Time 1.052	Data 0.695	Loss 5.0923	Acc@1 27.7344	Acc@5 57.2266
+Epoch: [16][1401/2503]	Time 1.054	Data 0.697	Loss 5.1192	Acc@1 33.0078	Acc@5 56.8359
+Epoch: [16][1451/2503]	Time 1.053	Data 0.695	Loss 5.2662	Acc@1 31.4453	Acc@5 54.8828
+Epoch: [16][1501/2503]	Time 1.052	Data 0.693	Loss 5.0916	Acc@1 31.8359	Acc@5 57.8125
+Epoch: [16][1551/2503]	Time 1.051	Data 0.691	Loss 5.2122	Acc@1 28.5156	Acc@5 54.2969
+Epoch: [16][1601/2503]	Time 1.052	Data 0.693	Loss 5.2020	Acc@1 28.3203	Acc@5 52.7344
+Epoch: [16][1651/2503]	Time 1.051	Data 0.691	Loss 5.1227	Acc@1 29.2969	Acc@5 54.4922
+Epoch: [16][1701/2503]	Time 1.049	Data 0.689	Loss 5.1817	Acc@1 28.9062	Acc@5 55.2734
+Epoch: [16][1751/2503]	Time 1.047	Data 0.687	Loss 5.0469	Acc@1 30.8594	Acc@5 58.5938
+Epoch: [16][1801/2503]	Time 1.050	Data 0.689	Loss 5.3553	Acc@1 28.5156	Acc@5 53.7109
+Epoch: [16][1851/2503]	Time 1.049	Data 0.688	Loss 5.4191	Acc@1 25.7812	Acc@5 52.5391
+Epoch: [16][1901/2503]	Time 1.048	Data 0.687	Loss 5.2308	Acc@1 29.8828	Acc@5 55.8594
+Epoch: [16][1951/2503]	Time 1.047	Data 0.686	Loss 5.2934	Acc@1 27.3438	Acc@5 52.1484
+Epoch: [16][2001/2503]	Time 1.049	Data 0.688	Loss 5.2527	Acc@1 30.2734	Acc@5 55.8594
+Epoch: [16][2051/2503]	Time 1.048	Data 0.687	Loss 5.3712	Acc@1 26.1719	Acc@5 53.3203
+Epoch: [16][2101/2503]	Time 1.047	Data 0.686	Loss 5.2566	Acc@1 29.4922	Acc@5 53.5156
+Epoch: [16][2151/2503]	Time 1.047	Data 0.686	Loss 5.3041	Acc@1 27.7344	Acc@5 51.3672
+Epoch: [16][2201/2503]	Time 1.048	Data 0.687	Loss 5.3211	Acc@1 27.3438	Acc@5 52.7344
+Epoch: [16][2251/2503]	Time 1.047	Data 0.687	Loss 5.1901	Acc@1 30.8594	Acc@5 55.6641
+Epoch: [16][2301/2503]	Time 1.047	Data 0.688	Loss 5.2573	Acc@1 29.6875	Acc@5 53.7109
+Epoch: [16][2351/2503]	Time 1.045	Data 0.687	Loss 5.0738	Acc@1 31.4453	Acc@5 57.4219
+Epoch: [16][2401/2503]	Time 1.046	Data 0.688	Loss 5.1920	Acc@1 31.2500	Acc@5 55.4688
+Epoch: [16][2451/2503]	Time 1.045	Data 0.689	Loss 5.2687	Acc@1 29.1016	Acc@5 55.0781
+Epoch: [16][2501/2503]	Time 1.045	Data 0.689	Loss 4.9078	Acc@1 32.0312	Acc@5 61.1328
+Epoch: [1/98]	Time 11.679	Data 11.594	Loss 4.6851	Acc@1 35.9375	Acc@5 66.2109
+Epoch: [51/98]	Time 1.288	Data 1.206	Loss 5.9302	Acc@1 21.4844	Acc@5 47.8516
+ * Acc@1 12.588 Acc@5 31.066
+ * Acc@1 14.048 Acc@5 33.888
+ * Acc@1 16.962 Acc@5 39.024
+ * Acc@1 18.268 Acc@5 40.870
+ * Acc@1 26.736 Acc@5 52.096
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_016.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_016.pth.tar'
+#################epoch 18#################
+lr=0.100000 
+
+Epoch: [17][1/2503]	Time 10.863	Data 10.617	Loss 5.1082	Acc@1 31.0547	Acc@5 58.3984
+Epoch: [17][51/2503]	Time 1.216	Data 0.868	Loss 4.9129	Acc@1 32.4219	Acc@5 60.7422
+Epoch: [17][101/2503]	Time 1.125	Data 0.771	Loss 5.1275	Acc@1 31.0547	Acc@5 56.6406
+Epoch: [17][151/2503]	Time 1.087	Data 0.731	Loss 5.1401	Acc@1 28.7109	Acc@5 54.1016
+Epoch: [17][201/2503]	Time 1.090	Data 0.733	Loss 5.1112	Acc@1 30.6641	Acc@5 55.2734
+Epoch: [17][251/2503]	Time 1.077	Data 0.720	Loss 5.2343	Acc@1 30.2734	Acc@5 50.5859
+Epoch: [17][301/2503]	Time 1.067	Data 0.709	Loss 5.1394	Acc@1 27.5391	Acc@5 56.0547
+Epoch: [17][351/2503]	Time 1.063	Data 0.704	Loss 5.5491	Acc@1 26.7578	Acc@5 51.7578
+Epoch: [17][401/2503]	Time 1.072	Data 0.712	Loss 4.9800	Acc@1 31.2500	Acc@5 61.3281
+Epoch: [17][451/2503]	Time 1.068	Data 0.708	Loss 5.1738	Acc@1 29.4922	Acc@5 55.8594
+Epoch: [17][501/2503]	Time 1.061	Data 0.701	Loss 5.1156	Acc@1 28.9062	Acc@5 54.2969
+Epoch: [17][551/2503]	Time 1.058	Data 0.697	Loss 5.1306	Acc@1 31.6406	Acc@5 58.7891
+Epoch: [17][601/2503]	Time 1.064	Data 0.703	Loss 5.1410	Acc@1 31.0547	Acc@5 56.8359
+Epoch: [17][651/2503]	Time 1.061	Data 0.700	Loss 4.9400	Acc@1 31.2500	Acc@5 57.6172
+Epoch: [17][701/2503]	Time 1.058	Data 0.696	Loss 5.0884	Acc@1 31.4453	Acc@5 56.8359
+Epoch: [17][751/2503]	Time 1.055	Data 0.692	Loss 5.4079	Acc@1 28.3203	Acc@5 55.2734
+Epoch: [17][801/2503]	Time 1.058	Data 0.695	Loss 5.1708	Acc@1 29.2969	Acc@5 55.2734
+Epoch: [17][851/2503]	Time 1.055	Data 0.692	Loss 5.3060	Acc@1 25.3906	Acc@5 54.4922
+Epoch: [17][901/2503]	Time 1.053	Data 0.690	Loss 5.1792	Acc@1 30.2734	Acc@5 53.3203
+Epoch: [17][951/2503]	Time 1.051	Data 0.687	Loss 5.0767	Acc@1 27.9297	Acc@5 55.0781
+Epoch: [17][1001/2503]	Time 1.054	Data 0.691	Loss 4.9871	Acc@1 34.1797	Acc@5 57.2266
+Epoch: [17][1051/2503]	Time 1.052	Data 0.688	Loss 5.0863	Acc@1 32.0312	Acc@5 55.4688
+Epoch: [17][1101/2503]	Time 1.050	Data 0.686	Loss 5.3345	Acc@1 28.7109	Acc@5 53.5156
+Epoch: [17][1151/2503]	Time 1.049	Data 0.685	Loss 5.0950	Acc@1 29.6875	Acc@5 54.8828
+Epoch: [17][1201/2503]	Time 1.052	Data 0.688	Loss 5.1908	Acc@1 27.9297	Acc@5 55.4688
+Epoch: [17][1251/2503]	Time 1.051	Data 0.687	Loss 5.0297	Acc@1 27.1484	Acc@5 55.6641
+Epoch: [17][1301/2503]	Time 1.050	Data 0.686	Loss 5.3059	Acc@1 27.3438	Acc@5 53.3203
+Epoch: [17][1351/2503]	Time 1.048	Data 0.684	Loss 5.1818	Acc@1 28.1250	Acc@5 54.8828
+Epoch: [17][1401/2503]	Time 1.052	Data 0.688	Loss 5.2242	Acc@1 31.4453	Acc@5 54.1016
+Epoch: [17][1451/2503]	Time 1.052	Data 0.688	Loss 5.1555	Acc@1 28.9062	Acc@5 56.0547
+Epoch: [17][1501/2503]	Time 1.052	Data 0.687	Loss 5.3556	Acc@1 26.1719	Acc@5 53.9062
+Epoch: [17][1551/2503]	Time 1.050	Data 0.685	Loss 5.3756	Acc@1 27.9297	Acc@5 54.4922
+Epoch: [17][1601/2503]	Time 1.052	Data 0.688	Loss 5.1689	Acc@1 30.0781	Acc@5 56.2500
+Epoch: [17][1651/2503]	Time 1.051	Data 0.686	Loss 5.3588	Acc@1 28.1250	Acc@5 53.5156
+Epoch: [17][1701/2503]	Time 1.049	Data 0.685	Loss 5.0801	Acc@1 33.0078	Acc@5 54.2969
+Epoch: [17][1751/2503]	Time 1.049	Data 0.685	Loss 5.0364	Acc@1 32.0312	Acc@5 57.8125
+Epoch: [17][1801/2503]	Time 1.049	Data 0.686	Loss 5.1745	Acc@1 30.6641	Acc@5 55.6641
+Epoch: [17][1851/2503]	Time 1.047	Data 0.685	Loss 4.9604	Acc@1 31.0547	Acc@5 55.0781
+Epoch: [17][1901/2503]	Time 1.047	Data 0.685	Loss 4.9538	Acc@1 33.0078	Acc@5 57.4219
+Epoch: [17][1951/2503]	Time 1.049	Data 0.687	Loss 5.0887	Acc@1 31.2500	Acc@5 58.5938
+Epoch: [17][2001/2503]	Time 1.048	Data 0.687	Loss 5.2371	Acc@1 28.7109	Acc@5 54.6875
+Epoch: [17][2051/2503]	Time 1.048	Data 0.687	Loss 5.1504	Acc@1 27.9297	Acc@5 55.4688
+Epoch: [17][2101/2503]	Time 1.048	Data 0.686	Loss 5.0503	Acc@1 33.7891	Acc@5 55.6641
+Epoch: [17][2151/2503]	Time 1.049	Data 0.687	Loss 5.2871	Acc@1 29.4922	Acc@5 53.1250
+Epoch: [17][2201/2503]	Time 1.048	Data 0.687	Loss 5.1523	Acc@1 27.9297	Acc@5 54.2969
+Epoch: [17][2251/2503]	Time 1.045	Data 0.684	Loss 5.1057	Acc@1 31.6406	Acc@5 57.0312
+Epoch: [17][2301/2503]	Time 1.045	Data 0.684	Loss 4.8452	Acc@1 33.3984	Acc@5 61.3281
+Epoch: [17][2351/2503]	Time 1.048	Data 0.687	Loss 5.2286	Acc@1 29.1016	Acc@5 53.5156
+Epoch: [17][2401/2503]	Time 1.048	Data 0.687	Loss 4.9764	Acc@1 30.0781	Acc@5 58.0078
+Epoch: [17][2451/2503]	Time 1.047	Data 0.686	Loss 5.3157	Acc@1 28.7109	Acc@5 51.9531
+Epoch: [17][2501/2503]	Time 1.046	Data 0.685	Loss 5.1726	Acc@1 31.2500	Acc@5 55.2734
+Epoch: [1/98]	Time 11.806	Data 11.721	Loss 4.3333	Acc@1 36.9141	Acc@5 69.7266
+Epoch: [51/98]	Time 1.339	Data 1.257	Loss 6.0247	Acc@1 18.5547	Acc@5 41.0156
+ * Acc@1 13.048 Acc@5 31.844
+ * Acc@1 14.426 Acc@5 35.182
+ * Acc@1 16.822 Acc@5 39.272
+ * Acc@1 18.316 Acc@5 41.868
+ * Acc@1 28.462 Acc@5 54.588
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_017.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_017.pth.tar'
+#################epoch 19#################
+lr=0.100000 
+
+Epoch: [18][1/2503]	Time 11.184	Data 10.872	Loss 5.0526	Acc@1 32.0312	Acc@5 57.4219
+Epoch: [18][51/2503]	Time 1.221	Data 0.857	Loss 5.2087	Acc@1 30.2734	Acc@5 54.8828
+Epoch: [18][101/2503]	Time 1.107	Data 0.748	Loss 4.9848	Acc@1 33.5938	Acc@5 58.2031
+Epoch: [18][151/2503]	Time 1.073	Data 0.728	Loss 5.2879	Acc@1 27.9297	Acc@5 51.3672
+Epoch: [18][201/2503]	Time 1.079	Data 0.740	Loss 5.0336	Acc@1 32.0312	Acc@5 56.4453
+Epoch: [18][251/2503]	Time 1.060	Data 0.720	Loss 5.0096	Acc@1 32.4219	Acc@5 57.8125
+Epoch: [18][301/2503]	Time 1.050	Data 0.710	Loss 5.2099	Acc@1 28.1250	Acc@5 54.2969
+Epoch: [18][351/2503]	Time 1.048	Data 0.708	Loss 5.1075	Acc@1 29.8828	Acc@5 56.4453
+Epoch: [18][401/2503]	Time 1.052	Data 0.711	Loss 5.1761	Acc@1 29.6875	Acc@5 55.6641
+Epoch: [18][451/2503]	Time 1.048	Data 0.706	Loss 5.0377	Acc@1 32.0312	Acc@5 57.0312
+Epoch: [18][501/2503]	Time 1.046	Data 0.705	Loss 5.2729	Acc@1 29.6875	Acc@5 50.9766
+Epoch: [18][551/2503]	Time 1.050	Data 0.714	Loss 5.2253	Acc@1 29.6875	Acc@5 55.6641
+Epoch: [18][601/2503]	Time 1.050	Data 0.717	Loss 5.0121	Acc@1 31.0547	Acc@5 56.6406
+Epoch: [18][651/2503]	Time 1.047	Data 0.719	Loss 5.2010	Acc@1 30.2734	Acc@5 52.1484
+Epoch: [18][701/2503]	Time 1.044	Data 0.718	Loss 5.1887	Acc@1 29.2969	Acc@5 53.1250
+Epoch: [18][751/2503]	Time 1.047	Data 0.720	Loss 5.1931	Acc@1 31.6406	Acc@5 52.1484
+Epoch: [18][801/2503]	Time 1.044	Data 0.716	Loss 5.0333	Acc@1 33.5938	Acc@5 58.5938
+Epoch: [18][851/2503]	Time 1.042	Data 0.711	Loss 5.1534	Acc@1 28.3203	Acc@5 55.2734
+Epoch: [18][901/2503]	Time 1.039	Data 0.706	Loss 5.1270	Acc@1 28.5156	Acc@5 56.0547
+Epoch: [18][951/2503]	Time 1.043	Data 0.708	Loss 5.4233	Acc@1 26.3672	Acc@5 49.8047
+Epoch: [18][1001/2503]	Time 1.041	Data 0.706	Loss 4.9311	Acc@1 34.5703	Acc@5 57.6172
+Epoch: [18][1051/2503]	Time 1.041	Data 0.707	Loss 5.2600	Acc@1 27.7344	Acc@5 55.6641
+Epoch: [18][1101/2503]	Time 1.040	Data 0.706	Loss 5.0636	Acc@1 32.6172	Acc@5 55.6641
+Epoch: [18][1151/2503]	Time 1.044	Data 0.708	Loss 5.2331	Acc@1 30.2734	Acc@5 53.9062
+Epoch: [18][1201/2503]	Time 1.043	Data 0.706	Loss 5.1177	Acc@1 32.0312	Acc@5 56.0547
+Epoch: [18][1251/2503]	Time 1.043	Data 0.705	Loss 5.1064	Acc@1 31.6406	Acc@5 55.4688
+Epoch: [18][1301/2503]	Time 1.042	Data 0.703	Loss 5.3028	Acc@1 27.3438	Acc@5 51.5625
+Epoch: [18][1351/2503]	Time 1.046	Data 0.706	Loss 5.2208	Acc@1 30.2734	Acc@5 52.9297
+Epoch: [18][1401/2503]	Time 1.046	Data 0.705	Loss 5.0378	Acc@1 32.6172	Acc@5 56.6406
+Epoch: [18][1451/2503]	Time 1.045	Data 0.703	Loss 5.1471	Acc@1 33.2031	Acc@5 55.0781
+Epoch: [18][1501/2503]	Time 1.044	Data 0.701	Loss 5.0071	Acc@1 30.0781	Acc@5 59.7656
+Epoch: [18][1551/2503]	Time 1.047	Data 0.704	Loss 5.2750	Acc@1 30.2734	Acc@5 53.3203
+Epoch: [18][1601/2503]	Time 1.046	Data 0.702	Loss 5.0249	Acc@1 30.4688	Acc@5 58.3984
+Epoch: [18][1651/2503]	Time 1.045	Data 0.700	Loss 5.2344	Acc@1 32.2266	Acc@5 53.5156
+Epoch: [18][1701/2503]	Time 1.044	Data 0.698	Loss 5.2242	Acc@1 26.9531	Acc@5 54.4922
+Epoch: [18][1751/2503]	Time 1.045	Data 0.700	Loss 5.1278	Acc@1 30.6641	Acc@5 54.4922
+Epoch: [18][1801/2503]	Time 1.044	Data 0.699	Loss 5.0496	Acc@1 31.4453	Acc@5 57.0312
+Epoch: [18][1851/2503]	Time 1.043	Data 0.698	Loss 5.2917	Acc@1 30.0781	Acc@5 55.4688
+Epoch: [18][1901/2503]	Time 1.045	Data 0.701	Loss 5.1211	Acc@1 28.7109	Acc@5 54.8828
+Epoch: [18][1951/2503]	Time 1.046	Data 0.702	Loss 5.0760	Acc@1 29.1016	Acc@5 56.4453
+Epoch: [18][2001/2503]	Time 1.046	Data 0.702	Loss 5.3273	Acc@1 26.1719	Acc@5 51.5625
+Epoch: [18][2051/2503]	Time 1.044	Data 0.700	Loss 5.2079	Acc@1 31.4453	Acc@5 56.6406
+Epoch: [18][2101/2503]	Time 1.045	Data 0.701	Loss 5.2699	Acc@1 30.2734	Acc@5 55.8594
+Epoch: [18][2151/2503]	Time 1.044	Data 0.699	Loss 5.2903	Acc@1 29.2969	Acc@5 55.6641
+Epoch: [18][2201/2503]	Time 1.043	Data 0.698	Loss 5.2069	Acc@1 27.5391	Acc@5 54.1016
+Epoch: [18][2251/2503]	Time 1.042	Data 0.697	Loss 5.3208	Acc@1 28.9062	Acc@5 54.1016
+Epoch: [18][2301/2503]	Time 1.042	Data 0.697	Loss 5.3331	Acc@1 29.2969	Acc@5 51.5625
+Epoch: [18][2351/2503]	Time 1.043	Data 0.698	Loss 5.0736	Acc@1 30.6641	Acc@5 53.7109
+Epoch: [18][2401/2503]	Time 1.042	Data 0.698	Loss 5.2887	Acc@1 27.3438	Acc@5 51.7578
+Epoch: [18][2451/2503]	Time 1.041	Data 0.697	Loss 4.9423	Acc@1 32.6172	Acc@5 57.8125
+Epoch: [18][2501/2503]	Time 1.040	Data 0.696	Loss 5.1703	Acc@1 28.5156	Acc@5 55.6641
+Epoch: [1/98]	Time 12.216	Data 12.132	Loss 4.5559	Acc@1 33.9844	Acc@5 70.1172
+Epoch: [51/98]	Time 1.274	Data 1.192	Loss 5.8664	Acc@1 25.7812	Acc@5 47.6562
+ * Acc@1 9.368 Acc@5 24.148
+ * Acc@1 10.452 Acc@5 26.624
+ * Acc@1 12.822 Acc@5 30.918
+ * Acc@1 14.486 Acc@5 33.684
+ * Acc@1 22.042 Acc@5 44.844
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_018.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_018.pth.tar'
+#################epoch 20#################
+lr=0.100000 
+
+Epoch: [19][1/2503]	Time 11.068	Data 10.761	Loss 5.2974	Acc@1 27.1484	Acc@5 53.3203
+Epoch: [19][51/2503]	Time 1.218	Data 0.856	Loss 5.0135	Acc@1 32.4219	Acc@5 57.6172
+Epoch: [19][101/2503]	Time 1.119	Data 0.759	Loss 5.3270	Acc@1 27.3438	Acc@5 54.1016
+Epoch: [19][151/2503]	Time 1.082	Data 0.723	Loss 5.1761	Acc@1 29.6875	Acc@5 53.5156
+Epoch: [19][201/2503]	Time 1.091	Data 0.733	Loss 5.3441	Acc@1 28.3203	Acc@5 51.9531
+Epoch: [19][251/2503]	Time 1.076	Data 0.716	Loss 5.0249	Acc@1 30.6641	Acc@5 54.2969
+Epoch: [19][301/2503]	Time 1.068	Data 0.708	Loss 5.1644	Acc@1 32.2266	Acc@5 55.8594
+Epoch: [19][351/2503]	Time 1.064	Data 0.703	Loss 5.2307	Acc@1 30.4688	Acc@5 53.9062
+Epoch: [19][401/2503]	Time 1.073	Data 0.713	Loss 5.1471	Acc@1 29.2969	Acc@5 55.0781
+Epoch: [19][451/2503]	Time 1.065	Data 0.705	Loss 5.1250	Acc@1 31.2500	Acc@5 54.8828
+Epoch: [19][501/2503]	Time 1.060	Data 0.699	Loss 5.1408	Acc@1 30.4688	Acc@5 54.1016
+Epoch: [19][551/2503]	Time 1.054	Data 0.693	Loss 5.1792	Acc@1 30.2734	Acc@5 57.4219
+Epoch: [19][601/2503]	Time 1.056	Data 0.697	Loss 5.1217	Acc@1 32.6172	Acc@5 55.4688
+Epoch: [19][651/2503]	Time 1.053	Data 0.695	Loss 5.0947	Acc@1 31.0547	Acc@5 56.6406
+Epoch: [19][701/2503]	Time 1.051	Data 0.695	Loss 5.0632	Acc@1 33.3984	Acc@5 55.4688
+Epoch: [19][751/2503]	Time 1.047	Data 0.693	Loss 5.3089	Acc@1 27.7344	Acc@5 52.5391
+Epoch: [19][801/2503]	Time 1.048	Data 0.695	Loss 5.2488	Acc@1 28.7109	Acc@5 54.8828
+Epoch: [19][851/2503]	Time 1.052	Data 0.699	Loss 5.2572	Acc@1 27.9297	Acc@5 55.2734
+Epoch: [19][901/2503]	Time 1.051	Data 0.698	Loss 4.8685	Acc@1 34.7656	Acc@5 59.7656
+Epoch: [19][951/2503]	Time 1.050	Data 0.697	Loss 5.1168	Acc@1 29.6875	Acc@5 54.1016
+Epoch: [19][1001/2503]	Time 1.049	Data 0.697	Loss 5.0616	Acc@1 34.1797	Acc@5 54.4922
+Epoch: [19][1051/2503]	Time 1.050	Data 0.698	Loss 5.4045	Acc@1 26.7578	Acc@5 51.1719
+Epoch: [19][1101/2503]	Time 1.047	Data 0.696	Loss 5.0126	Acc@1 33.9844	Acc@5 56.0547
+Epoch: [19][1151/2503]	Time 1.045	Data 0.693	Loss 5.3324	Acc@1 27.1484	Acc@5 52.3438
+Epoch: [19][1201/2503]	Time 1.049	Data 0.696	Loss 5.2173	Acc@1 28.1250	Acc@5 53.7109
+Epoch: [19][1251/2503]	Time 1.047	Data 0.694	Loss 5.2996	Acc@1 30.4688	Acc@5 53.3203
+Epoch: [19][1301/2503]	Time 1.045	Data 0.691	Loss 5.0289	Acc@1 35.9375	Acc@5 59.3750
+Epoch: [19][1351/2503]	Time 1.043	Data 0.689	Loss 5.0355	Acc@1 30.8594	Acc@5 56.4453
+Epoch: [19][1401/2503]	Time 1.046	Data 0.692	Loss 5.1966	Acc@1 27.3438	Acc@5 55.2734
+Epoch: [19][1451/2503]	Time 1.046	Data 0.693	Loss 5.1868	Acc@1 29.8828	Acc@5 55.8594
+Epoch: [19][1501/2503]	Time 1.044	Data 0.691	Loss 5.1720	Acc@1 30.6641	Acc@5 54.1016
+Epoch: [19][1551/2503]	Time 1.045	Data 0.693	Loss 5.0657	Acc@1 29.6875	Acc@5 55.8594
+Epoch: [19][1601/2503]	Time 1.046	Data 0.695	Loss 5.1718	Acc@1 30.8594	Acc@5 55.8594
+Epoch: [19][1651/2503]	Time 1.045	Data 0.695	Loss 4.9818	Acc@1 31.6406	Acc@5 59.7656
+Epoch: [19][1701/2503]	Time 1.043	Data 0.694	Loss 5.3118	Acc@1 30.2734	Acc@5 56.2500
+Epoch: [19][1751/2503]	Time 1.043	Data 0.695	Loss 5.3477	Acc@1 26.5625	Acc@5 53.3203
+Epoch: [19][1801/2503]	Time 1.043	Data 0.696	Loss 5.2039	Acc@1 31.4453	Acc@5 53.5156
+Epoch: [19][1851/2503]	Time 1.043	Data 0.696	Loss 5.2714	Acc@1 28.3203	Acc@5 53.3203
+Epoch: [19][1901/2503]	Time 1.041	Data 0.695	Loss 5.2926	Acc@1 28.7109	Acc@5 54.8828
+Epoch: [19][1951/2503]	Time 1.042	Data 0.697	Loss 5.0817	Acc@1 32.8125	Acc@5 58.9844
+Epoch: [19][2001/2503]	Time 1.041	Data 0.696	Loss 5.0604	Acc@1 31.4453	Acc@5 56.2500
+Epoch: [19][2051/2503]	Time 1.039	Data 0.694	Loss 5.3406	Acc@1 27.3438	Acc@5 52.3438
+Epoch: [19][2101/2503]	Time 1.038	Data 0.693	Loss 5.2751	Acc@1 29.1016	Acc@5 54.2969
+Epoch: [19][2151/2503]	Time 1.042	Data 0.696	Loss 5.2500	Acc@1 28.9062	Acc@5 54.2969
+Epoch: [19][2201/2503]	Time 1.042	Data 0.696	Loss 5.1422	Acc@1 30.6641	Acc@5 57.8125
+Epoch: [19][2251/2503]	Time 1.042	Data 0.695	Loss 5.0050	Acc@1 33.2031	Acc@5 58.7891
+Epoch: [19][2301/2503]	Time 1.042	Data 0.695	Loss 5.2601	Acc@1 30.2734	Acc@5 54.2969
+Epoch: [19][2351/2503]	Time 1.044	Data 0.697	Loss 5.2679	Acc@1 28.1250	Acc@5 53.1250
+Epoch: [19][2401/2503]	Time 1.044	Data 0.696	Loss 5.2162	Acc@1 28.3203	Acc@5 55.8594
+Epoch: [19][2451/2503]	Time 1.043	Data 0.696	Loss 5.1932	Acc@1 30.4688	Acc@5 52.7344
+Epoch: [19][2501/2503]	Time 1.043	Data 0.695	Loss 5.2896	Acc@1 27.9297	Acc@5 53.7109
+Epoch: [1/98]	Time 12.333	Data 12.249	Loss 4.4143	Acc@1 33.5938	Acc@5 69.9219
+Epoch: [51/98]	Time 1.316	Data 1.234	Loss 6.0238	Acc@1 19.3359	Acc@5 41.9922
+ * Acc@1 13.996 Acc@5 34.598
+ * Acc@1 15.590 Acc@5 36.606
+ * Acc@1 17.118 Acc@5 39.648
+ * Acc@1 19.422 Acc@5 43.268
+ * Acc@1 28.568 Acc@5 54.092
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_019.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_019.pth.tar'
+#################epoch 21#################
+lr=0.100000 
+
+Epoch: [20][1/2503]	Time 11.228	Data 10.622	Loss 5.0197	Acc@1 33.3984	Acc@5 57.2266
+Epoch: [20][51/2503]	Time 1.254	Data 0.896	Loss 5.2262	Acc@1 27.5391	Acc@5 53.3203
+Epoch: [20][101/2503]	Time 1.156	Data 0.793	Loss 4.9691	Acc@1 32.2266	Acc@5 58.2031
+Epoch: [20][151/2503]	Time 1.116	Data 0.753	Loss 5.1970	Acc@1 31.2500	Acc@5 57.0312
+Epoch: [20][201/2503]	Time 1.115	Data 0.753	Loss 5.2523	Acc@1 30.2734	Acc@5 54.1016
+Epoch: [20][251/2503]	Time 1.094	Data 0.732	Loss 4.9613	Acc@1 32.0312	Acc@5 57.6172
+Epoch: [20][301/2503]	Time 1.082	Data 0.721	Loss 5.2240	Acc@1 28.9062	Acc@5 54.8828
+Epoch: [20][351/2503]	Time 1.072	Data 0.714	Loss 4.9773	Acc@1 31.4453	Acc@5 57.6172
+Epoch: [20][401/2503]	Time 1.075	Data 0.720	Loss 5.1648	Acc@1 28.9062	Acc@5 57.4219
+Epoch: [20][451/2503]	Time 1.070	Data 0.717	Loss 4.9916	Acc@1 32.6172	Acc@5 55.6641
+Epoch: [20][501/2503]	Time 1.062	Data 0.710	Loss 5.2322	Acc@1 31.0547	Acc@5 56.4453
+Epoch: [20][551/2503]	Time 1.060	Data 0.710	Loss 5.0762	Acc@1 31.4453	Acc@5 55.2734
+Epoch: [20][601/2503]	Time 1.063	Data 0.717	Loss 5.2388	Acc@1 28.9062	Acc@5 52.3438
+Epoch: [20][651/2503]	Time 1.060	Data 0.717	Loss 5.3026	Acc@1 28.9062	Acc@5 52.5391
+Epoch: [20][701/2503]	Time 1.063	Data 0.722	Loss 5.0084	Acc@1 30.8594	Acc@5 56.4453
+Epoch: [20][751/2503]	Time 1.059	Data 0.721	Loss 5.2615	Acc@1 29.1016	Acc@5 54.1016
+Epoch: [20][801/2503]	Time 1.056	Data 0.719	Loss 4.9698	Acc@1 32.2266	Acc@5 58.3984
+Epoch: [20][851/2503]	Time 1.054	Data 0.718	Loss 5.0327	Acc@1 31.2500	Acc@5 57.0312
+Epoch: [20][901/2503]	Time 1.056	Data 0.721	Loss 4.9904	Acc@1 32.6172	Acc@5 56.8359
+Epoch: [20][951/2503]	Time 1.056	Data 0.722	Loss 5.1249	Acc@1 30.4688	Acc@5 55.8594
+Epoch: [20][1001/2503]	Time 1.055	Data 0.720	Loss 5.2220	Acc@1 30.4688	Acc@5 54.1016
+Epoch: [20][1051/2503]	Time 1.054	Data 0.719	Loss 5.2985	Acc@1 30.4688	Acc@5 52.1484
+Epoch: [20][1101/2503]	Time 1.055	Data 0.719	Loss 5.2782	Acc@1 31.2500	Acc@5 55.8594
+Epoch: [20][1151/2503]	Time 1.054	Data 0.717	Loss 5.0943	Acc@1 29.4922	Acc@5 56.6406
+Epoch: [20][1201/2503]	Time 1.053	Data 0.716	Loss 4.9791	Acc@1 33.5938	Acc@5 57.0312
+Epoch: [20][1251/2503]	Time 1.052	Data 0.714	Loss 4.9967	Acc@1 30.2734	Acc@5 54.4922
+Epoch: [20][1301/2503]	Time 1.055	Data 0.717	Loss 5.1863	Acc@1 29.1016	Acc@5 53.9062
+Epoch: [20][1351/2503]	Time 1.054	Data 0.716	Loss 5.0031	Acc@1 29.2969	Acc@5 57.4219
+Epoch: [20][1401/2503]	Time 1.052	Data 0.713	Loss 5.0565	Acc@1 30.0781	Acc@5 57.0312
+Epoch: [20][1451/2503]	Time 1.053	Data 0.715	Loss 5.0633	Acc@1 32.2266	Acc@5 55.8594
+Epoch: [20][1501/2503]	Time 1.053	Data 0.715	Loss 5.1055	Acc@1 31.4453	Acc@5 58.2031
+Epoch: [20][1551/2503]	Time 1.052	Data 0.713	Loss 5.0849	Acc@1 29.2969	Acc@5 58.0078
+Epoch: [20][1601/2503]	Time 1.051	Data 0.712	Loss 5.1092	Acc@1 31.0547	Acc@5 56.4453
+Epoch: [20][1651/2503]	Time 1.054	Data 0.715	Loss 4.9286	Acc@1 32.8125	Acc@5 59.3750
+Epoch: [20][1701/2503]	Time 1.055	Data 0.716	Loss 5.2807	Acc@1 27.1484	Acc@5 54.8828
+Epoch: [20][1751/2503]	Time 1.056	Data 0.716	Loss 5.0879	Acc@1 31.4453	Acc@5 54.8828
+Epoch: [20][1801/2503]	Time 1.056	Data 0.716	Loss 5.1273	Acc@1 31.4453	Acc@5 55.8594
+Epoch: [20][1851/2503]	Time 1.057	Data 0.715	Loss 5.1574	Acc@1 29.6875	Acc@5 54.1016
+Epoch: [20][1901/2503]	Time 1.059	Data 0.717	Loss 5.2518	Acc@1 29.2969	Acc@5 55.8594
+Epoch: [20][1951/2503]	Time 1.059	Data 0.716	Loss 5.3548	Acc@1 24.4141	Acc@5 51.9531
+Epoch: [20][2001/2503]	Time 1.055	Data 0.712	Loss 5.0591	Acc@1 31.8359	Acc@5 57.4219
+Epoch: [20][2051/2503]	Time 1.048	Data 0.705	Loss 5.1329	Acc@1 29.2969	Acc@5 54.1016
+Epoch: [20][2101/2503]	Time 1.047	Data 0.703	Loss 4.9654	Acc@1 33.7891	Acc@5 55.6641
+Epoch: [20][2151/2503]	Time 1.049	Data 0.704	Loss 5.1580	Acc@1 31.6406	Acc@5 56.4453
+Epoch: [20][2201/2503]	Time 1.051	Data 0.705	Loss 5.3223	Acc@1 28.5156	Acc@5 54.1016
+Epoch: [20][2251/2503]	Time 1.052	Data 0.706	Loss 5.3792	Acc@1 26.7578	Acc@5 49.6094
+Epoch: [20][2301/2503]	Time 1.055	Data 0.708	Loss 5.1899	Acc@1 28.9062	Acc@5 54.2969
+Epoch: [20][2351/2503]	Time 1.055	Data 0.708	Loss 5.0737	Acc@1 30.6641	Acc@5 57.0312
+Epoch: [20][2401/2503]	Time 1.056	Data 0.708	Loss 5.3061	Acc@1 28.3203	Acc@5 52.1484
+Epoch: [20][2451/2503]	Time 1.056	Data 0.708	Loss 5.1517	Acc@1 29.1016	Acc@5 55.2734
+Epoch: [20][2501/2503]	Time 1.058	Data 0.710	Loss 5.1396	Acc@1 31.2500	Acc@5 54.8828
+Epoch: [1/98]	Time 12.243	Data 12.159	Loss 4.2659	Acc@1 40.8203	Acc@5 69.5312
+Epoch: [51/98]	Time 1.408	Data 1.326	Loss 6.1730	Acc@1 14.6484	Acc@5 36.1328
+ * Acc@1 11.738 Acc@5 29.672
+ * Acc@1 13.780 Acc@5 33.228
+ * Acc@1 15.506 Acc@5 36.546
+ * Acc@1 17.468 Acc@5 40.000
+ * Acc@1 26.190 Acc@5 51.578
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_020.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_020.pth.tar'
+#################epoch 22#################
+lr=0.100000 
+
+Epoch: [21][1/2503]	Time 10.131	Data 9.743	Loss 5.2448	Acc@1 30.0781	Acc@5 56.2500
+Epoch: [21][51/2503]	Time 1.309	Data 0.945	Loss 4.9858	Acc@1 31.8359	Acc@5 57.2266
+Epoch: [21][101/2503]	Time 1.208	Data 0.841	Loss 5.2357	Acc@1 28.3203	Acc@5 53.9062
+Epoch: [21][151/2503]	Time 1.164	Data 0.796	Loss 5.1269	Acc@1 31.0547	Acc@5 56.6406
+Epoch: [21][201/2503]	Time 1.176	Data 0.810	Loss 4.9042	Acc@1 33.9844	Acc@5 58.3984
+Epoch: [21][251/2503]	Time 1.163	Data 0.797	Loss 5.0810	Acc@1 27.9297	Acc@5 58.2031
+Epoch: [21][301/2503]	Time 1.148	Data 0.782	Loss 5.1403	Acc@1 31.6406	Acc@5 54.8828
+Epoch: [21][351/2503]	Time 1.139	Data 0.772	Loss 4.9732	Acc@1 31.6406	Acc@5 58.2031
+Epoch: [21][401/2503]	Time 1.146	Data 0.780	Loss 5.2048	Acc@1 27.5391	Acc@5 55.6641
+Epoch: [21][451/2503]	Time 1.138	Data 0.771	Loss 5.2599	Acc@1 30.0781	Acc@5 54.6875
+Epoch: [21][501/2503]	Time 1.132	Data 0.765	Loss 4.7502	Acc@1 34.9609	Acc@5 59.9609
+Epoch: [21][551/2503]	Time 1.128	Data 0.761	Loss 5.1159	Acc@1 28.7109	Acc@5 57.2266
+Epoch: [21][601/2503]	Time 1.136	Data 0.769	Loss 4.8225	Acc@1 29.6875	Acc@5 59.5703
+Epoch: [21][651/2503]	Time 1.132	Data 0.765	Loss 5.0546	Acc@1 30.0781	Acc@5 56.6406
+Epoch: [21][701/2503]	Time 1.127	Data 0.760	Loss 5.2218	Acc@1 28.9062	Acc@5 54.6875
+Epoch: [21][751/2503]	Time 1.124	Data 0.757	Loss 5.1045	Acc@1 29.4922	Acc@5 57.0312
+Epoch: [21][801/2503]	Time 1.127	Data 0.759	Loss 5.3704	Acc@1 26.1719	Acc@5 50.0000
+Epoch: [21][851/2503]	Time 1.123	Data 0.756	Loss 5.1180	Acc@1 30.8594	Acc@5 55.2734
+Epoch: [21][901/2503]	Time 1.123	Data 0.755	Loss 4.7912	Acc@1 32.4219	Acc@5 59.7656
+Epoch: [21][951/2503]	Time 1.121	Data 0.754	Loss 5.1579	Acc@1 29.6875	Acc@5 53.9062
+Epoch: [21][1001/2503]	Time 1.125	Data 0.757	Loss 5.0990	Acc@1 30.8594	Acc@5 54.8828
+Epoch: [21][1051/2503]	Time 1.122	Data 0.754	Loss 5.3113	Acc@1 27.3438	Acc@5 52.7344
+Epoch: [21][1101/2503]	Time 1.119	Data 0.751	Loss 5.0027	Acc@1 31.6406	Acc@5 58.9844
+Epoch: [21][1151/2503]	Time 1.116	Data 0.748	Loss 5.0700	Acc@1 31.4453	Acc@5 55.2734
+Epoch: [21][1201/2503]	Time 1.120	Data 0.752	Loss 5.0332	Acc@1 34.5703	Acc@5 56.2500
+Epoch: [21][1251/2503]	Time 1.119	Data 0.751	Loss 5.1072	Acc@1 28.7109	Acc@5 55.0781
+Epoch: [21][1301/2503]	Time 1.116	Data 0.748	Loss 5.1977	Acc@1 30.4688	Acc@5 55.6641
+Epoch: [21][1351/2503]	Time 1.116	Data 0.748	Loss 5.2076	Acc@1 27.9297	Acc@5 52.7344
+Epoch: [21][1401/2503]	Time 1.118	Data 0.750	Loss 5.1123	Acc@1 31.4453	Acc@5 56.2500
+Epoch: [21][1451/2503]	Time 1.116	Data 0.748	Loss 5.0428	Acc@1 31.0547	Acc@5 57.2266
+Epoch: [21][1501/2503]	Time 1.114	Data 0.746	Loss 5.0931	Acc@1 27.5391	Acc@5 56.0547
+Epoch: [21][1551/2503]	Time 1.113	Data 0.745	Loss 5.0265	Acc@1 33.7891	Acc@5 57.6172
+Epoch: [21][1601/2503]	Time 1.116	Data 0.748	Loss 5.2730	Acc@1 30.6641	Acc@5 52.1484
+Epoch: [21][1651/2503]	Time 1.115	Data 0.747	Loss 5.0461	Acc@1 33.5938	Acc@5 55.6641
+Epoch: [21][1701/2503]	Time 1.114	Data 0.746	Loss 5.1833	Acc@1 30.8594	Acc@5 56.2500
+Epoch: [21][1751/2503]	Time 1.113	Data 0.746	Loss 5.1325	Acc@1 29.2969	Acc@5 56.8359
+Epoch: [21][1801/2503]	Time 1.115	Data 0.748	Loss 4.9704	Acc@1 32.0312	Acc@5 59.1797
+Epoch: [21][1851/2503]	Time 1.113	Data 0.745	Loss 5.1800	Acc@1 30.2734	Acc@5 53.3203
+Epoch: [21][1901/2503]	Time 1.112	Data 0.744	Loss 5.1826	Acc@1 28.9062	Acc@5 54.8828
+Epoch: [21][1951/2503]	Time 1.109	Data 0.741	Loss 5.2117	Acc@1 32.4219	Acc@5 54.4922
+Epoch: [21][2001/2503]	Time 1.111	Data 0.743	Loss 4.8193	Acc@1 33.3984	Acc@5 60.3516
+Epoch: [21][2051/2503]	Time 1.110	Data 0.742	Loss 5.2933	Acc@1 29.2969	Acc@5 54.8828
+Epoch: [21][2101/2503]	Time 1.109	Data 0.741	Loss 4.9984	Acc@1 30.4688	Acc@5 56.8359
+Epoch: [21][2151/2503]	Time 1.108	Data 0.740	Loss 5.1952	Acc@1 28.1250	Acc@5 53.3203
+Epoch: [21][2201/2503]	Time 1.111	Data 0.743	Loss 5.1602	Acc@1 27.1484	Acc@5 56.0547
+Epoch: [21][2251/2503]	Time 1.110	Data 0.742	Loss 5.1903	Acc@1 29.1016	Acc@5 52.5391
+Epoch: [21][2301/2503]	Time 1.109	Data 0.741	Loss 5.2666	Acc@1 29.2969	Acc@5 54.1016
+Epoch: [21][2351/2503]	Time 1.109	Data 0.741	Loss 5.1805	Acc@1 30.6641	Acc@5 56.2500
+Epoch: [21][2401/2503]	Time 1.110	Data 0.742	Loss 5.1318	Acc@1 31.4453	Acc@5 56.8359
+Epoch: [21][2451/2503]	Time 1.109	Data 0.741	Loss 5.2417	Acc@1 29.4922	Acc@5 52.1484
+Epoch: [21][2501/2503]	Time 1.106	Data 0.738	Loss 5.0939	Acc@1 29.6875	Acc@5 56.8359
+Epoch: [1/98]	Time 12.065	Data 11.982	Loss 3.6114	Acc@1 51.9531	Acc@5 79.1016
+Epoch: [51/98]	Time 1.327	Data 1.245	Loss 5.9974	Acc@1 20.8984	Acc@5 39.6484
+ * Acc@1 13.150 Acc@5 32.508
+ * Acc@1 14.870 Acc@5 35.668
+ * Acc@1 16.770 Acc@5 39.052
+ * Acc@1 19.258 Acc@5 42.602
+ * Acc@1 28.816 Acc@5 55.208
+./models/msdnet_imagenet-cifar100/
+=> saving checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_021.pth.tar'
+=> saved checkpoint './models/msdnet_imagenet-cifar100/save_models/checkpoint_021.pth.tar'
+#################epoch 23#################
+lr=0.100000 
+
+Epoch: [22][1/2503]	Time 10.433	Data 10.181	Loss 5.1652	Acc@1 28.3203	Acc@5 55.2734
+Epoch: [22][51/2503]	Time 1.235	Data 0.869	Loss 5.1422	Acc@1 33.3984	Acc@5 56.8359
+Epoch: [22][101/2503]	Time 1.155	Data 0.806	Loss 5.0199	Acc@1 30.2734	Acc@5 58.5938
+Epoch: [22][151/2503]	Time 1.116	Data 0.777	Loss 4.9343	Acc@1 31.6406	Acc@5 59.1797
+Epoch: [22][201/2503]	Time 1.103	Data 0.759	Loss 5.1673	Acc@1 30.0781	Acc@5 58.2031
+Epoch: [22][251/2503]	Time 1.095	Data 0.747	Loss 5.2001	Acc@1 30.0781	Acc@5 54.4922
+Epoch: [22][301/2503]	Time 1.108	Data 0.758	Loss 5.0442	Acc@1 29.2969	Acc@5 56.0547
+Epoch: [22][351/2503]	Time 1.100	Data 0.747	Loss 5.1001	Acc@1 31.6406	Acc@5 56.0547
+Epoch: [22][401/2503]	Time 1.093	Data 0.738	Loss 5.0913	Acc@1 30.8594	Acc@5 56.0547
+Epoch: [22][451/2503]	Time 1.085	Data 0.728	Loss 5.1382	Acc@1 32.8125	Acc@5 56.6406
+Epoch: [22][501/2503]	Time 1.091	Data 0.733	Loss 5.3679	Acc@1 26.3672	Acc@5 50.1953
+Epoch: [22][551/2503]	Time 1.082	Data 0.723	Loss 5.1193	Acc@1 29.6875	Acc@5 54.1016
+Epoch: [22][601/2503]	Time 1.078	Data 0.719	Loss 5.0869	Acc@1 31.6406	Acc@5 57.0312
+Epoch: [22][651/2503]	Time 1.075	Data 0.715	Loss 5.1755	Acc@1 29.1016	Acc@5 55.6641
+Epoch: [22][701/2503]	Time 1.077	Data 0.716	Loss 5.2706	Acc@1 29.1016	Acc@5 55.6641
+Epoch: [22][751/2503]	Time 1.073	Data 0.711	Loss 5.2308	Acc@1 28.7109	Acc@5 52.5391
+Epoch: [22][801/2503]	Time 1.069	Data 0.709	Loss 5.2435	Acc@1 30.0781	Acc@5 54.1016
+Epoch: [22][851/2503]	Time 1.064	Data 0.705	Loss 5.0574	Acc@1 32.2266	Acc@5 58.3984
+Epoch: [22][901/2503]	Time 1.068	Data 0.709	Loss 5.1126	Acc@1 29.2969	Acc@5 55.4688
+Epoch: [22][951/2503]	Time 1.065	Data 0.707	Loss 5.0665	Acc@1 29.6875	Acc@5 59.5703
+Epoch: [22][1001/2503]	Time 1.062	Data 0.705	Loss 5.2203	Acc@1 28.9062	Acc@5 52.1484
+Epoch: [22][1051/2503]	Time 1.061	Data 0.704	Loss 5.2584	Acc@1 32.2266	Acc@5 53.7109
+Epoch: [22][1101/2503]	Time 1.062	Data 0.706	Loss 5.1149	Acc@1 28.1250	Acc@5 58.9844
+Epoch: [22][1151/2503]	Time 1.063	Data 0.706	Loss 5.1629	Acc@1 30.6641	Acc@5 56.4453
+Epoch: [22][1201/2503]	Time 1.061	Data 0.705	Loss 5.2798	Acc@1 31.0547	Acc@5 54.8828
+Epoch: [22][1251/2503]	Time 1.058	Data 0.703	Loss 5.0795	Acc@1 29.4922	Acc@5 55.0781
+Epoch: [22][1301/2503]	Time 1.061	Data 0.706	Loss 4.9958	Acc@1 33.9844	Acc@5 58.9844
