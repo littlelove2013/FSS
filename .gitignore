@@ -144,3 +144,8 @@ cython_debug/
 
 # jupyter-tmp-files
 *.tar
+*.out
+*.pyc
+__pycache__
+__pypackages__
+.ipynb_checkpoints

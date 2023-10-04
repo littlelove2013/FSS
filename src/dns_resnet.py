@@ -241,8 +241,6 @@ def dowmsampleBottleneck(channel_in, channel_out, stride=2):
         nn.ReLU(),
         )
 
-
-
 class ResNet(nn.Module):
 
     def __init__(self, block, layers, num_classes=100, zero_init_residual=False,
@@ -350,6 +348,10 @@ class ResNet(nn.Module):
         self.fc3 = nn.Linear(512 * block.expansion, num_classes)
         self.fc4 = nn.Linear(512 * block.expansion, num_classes)
 
+        self.adaptation_layer1 = nn.Linear(512 * block.expansion,512 * block.expansion)
+        self.adaptation_layer2 = nn.Linear(512 * block.expansion,512 * block.expansion)
+        self.adaptation_layer3 = nn.Linear(512 * block.expansion,512 * block.expansion)
+
         self.dns1 = FeatureReroute(64,ratio=dns_ratio)
         self.dns2 = FeatureReroute(128,ratio=dns_ratio)
         self.dns3 = FeatureReroute(256,ratio=dns_ratio)
@@ -425,13 +427,18 @@ class ResNet(nn.Module):
         feature_list.append(x)
 
         out1_feature = self.scala1(feature_list[0]).view(x.size(0), -1)
-        out2_feature = self.scala2(feature_list[1]).view(x.size(0), -1)
-        out3_feature = self.scala3(feature_list[2]).view(x.size(0), -1)
-        out4_feature = self.scala4(feature_list[3]).view(x.size(0), -1)
-
         out1 = self.fc1(out1_feature)
+        out1_feature = self.adaptation_layer1(out1_feature)
+
+        out2_feature = self.scala2(feature_list[1]).view(x.size(0), -1)
         out2 = self.fc2(out2_feature)
+        out2_feature = self.adaptation_layer2(out2_feature)
+
+        out3_feature = self.scala3(feature_list[2]).view(x.size(0), -1)
         out3 = self.fc3(out3_feature)
+        out3_feature = self.adaptation_layer3(out3_feature)
+        
+        out4_feature = self.scala4(feature_list[3]).view(x.size(0), -1)
         out4 = self.fc4(out4_feature)
 
         return [out4, out3, out2, out1], [out4_feature, out3_feature, out2_feature, out1_feature]
@@ -543,6 +550,10 @@ class ResNetWithoutFR(nn.Module):
         self.fc2 = nn.Linear(512 * block.expansion, num_classes)
         self.fc3 = nn.Linear(512 * block.expansion, num_classes)
         self.fc4 = nn.Linear(512 * block.expansion, num_classes)
+        
+        self.adaptation_layer1 = nn.Linear(512 * block.expansion,512 * block.expansion)
+        self.adaptation_layer2 = nn.Linear(512 * block.expansion,512 * block.expansion)
+        self.adaptation_layer3 = nn.Linear(512 * block.expansion,512 * block.expansion)
 
         self.fp1 = FeaturePartitioning(64,ratio=self.dns_ratio)
         self.fp2 = FeaturePartitioning(128,ratio=self.dns_ratio)
@@ -622,13 +633,19 @@ class ResNetWithoutFR(nn.Module):
         feature_list.append(x)
 
         out1_feature = self.scala1(feature_list[0]).view(x.size(0), -1)
+        out1 = self.fc1(out1_feature)
+        out1_feature = self.adaptation_layer1(out1_feature)
+
         out2_feature = self.scala2(feature_list[1]).view(x.size(0), -1)
+        out2 = self.fc2(out2_feature)
+        out2_feature = self.adaptation_layer2(out2_feature)
+
         out3_feature = self.scala3(feature_list[2]).view(x.size(0), -1)
+        out3 = self.fc3(out3_feature)
+        out3_feature = self.adaptation_layer3(out3_feature)
+
         out4_feature = self.scala4(feature_list[3]).view(x.size(0), -1)
 
-        out1 = self.fc1(out1_feature)
-        out2 = self.fc2(out2_feature)
-        out3 = self.fc3(out3_feature)
         out4 = self.fc4(out4_feature)
 
         return [out4, out3, out2, out1], [out4_feature, out3_feature, out2_feature, out1_feature]

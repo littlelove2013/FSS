@@ -502,7 +502,7 @@ def msdnet(args):
 from easydict import EasyDict
 
 
-def msdnet_cifar100():
+def msdnet_cifar100(dns_ratio=0.5):
     # From Mate-GF "https://github.com/SYVAE/MetaGF.git" # gamma=0.9, gamma = 0.1, nChannels=16, growthRate=16, temprature=3.0
     args = EasyDict()
     args.data = 'cifar100'
@@ -518,12 +518,12 @@ def msdnet_cifar100():
     args.nScales = len(args.grFactor)
     args.bottleneck = True
     args.bnFactor = [1,2,4]
-    args.dns_ratio = 0.5 # [0,1]
+    args.dns_ratio = max(min(dns_ratio,1),0) # [0,1]
     args.pretrained = None
     args.priornet = None
     return msdnet(args)
 
-def msdnet_imagenet():
+def msdnet_imagenet(dns_ratio=0.5):
     # from GE "IMTA" gamma = 0.1/0.9, nChannels=32, growthRate=16, temprature=1.0/3.0
     args = EasyDict()
     args.data = 'ImageNet'
@@ -539,7 +539,7 @@ def msdnet_imagenet():
     args.nScales = len(args.grFactor)
     args.bottleneck = True
     args.bnFactor = [1,2,4,4]
-    args.dns_ratio = 0.5 # [0,1]
+    args.dns_ratio = max(min(dns_ratio,1),0) # [0,1]
     args.pretrained = None
     args.priornet = None
     return msdnet(args)
