@@ -141,6 +141,7 @@ cython_debug/
 # models
 *.pth
 *.pt
+*.bin
 
 # jupyter-tmp-files
 *.tar

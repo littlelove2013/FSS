@@ -443,7 +443,7 @@ def main(args):
     dataset_name = args.data_name
     batch_size = args.batch_size
     num_workers = args.num_workers
-    autoaugment=True
+    autoaugment=args.autoaugment
     if dataset_name.startswith("cifar10"):
         trainloader,testloader,classes = datasets.cifar.get_cifar_dataloader(
             train_batch_size=batch_size,val_batch_size=batch_size,
@@ -464,7 +464,6 @@ def main(args):
     loss_coefficient=args.gamma
     feature_loss_coefficient=args.FD_loss_coefficient
     epochs=args.epochs
-    autoaugment=args.autoaugment
     temperature=args.T
     batchsize=args.batch_size
     init_lr=args.lr

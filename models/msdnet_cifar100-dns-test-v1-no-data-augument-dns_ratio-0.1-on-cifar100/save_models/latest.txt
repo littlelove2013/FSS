@@ -1,0 +1,1 @@
+../models/msdnet_cifar100-dns-test-v1-no-data-augument-dns_ratio-0.1-on-cifar100/save_models/latest-training-state-dict.pth.tar
