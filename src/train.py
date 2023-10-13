@@ -17,6 +17,7 @@ from torch import nn,optim
 import torch.nn.functional as F
 from utils.train_utils import AverageMeter
 import logging
+from pprint import pprint
 
 formatter = logging.Formatter('%(asctime)s [%(levelname)s] - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 # 创建一个日志记录器
@@ -43,6 +44,7 @@ from arguments import arg_parser
 from dns_msdnet import msdnet_cifar100, msdnet_imagenet
 from dns_resnet import resnet18
 from sdn_resnet import resnet18 as sdn_mtl_resnet18
+from dns_vgg import vgg64_7_plane_mtl
 
 # Logit Distillation Distribution Loss
 def KDCrossEntropy(outputs, soft_targets,temperature):
@@ -200,9 +202,12 @@ def train(train_loader, model, model_name,
     # switch to train mode
     model.train()
 
-    end = time.time()
+    batch_start_time = data_start_time = time.time()
     running_lr = None
+    update_sample_count = 0
     for i, (input, target) in enumerate(train_loader):
+
+        data_time.update(time.time() - data_start_time)
 
         lr = adjust_learning_rate(optimizer, epoch, epochs, init_lr, batch=i,
                                 nBatch=len(train_loader), 
@@ -212,8 +217,6 @@ def train(train_loader, model, model_name,
         # measure data loading time
         if running_lr is None:
             running_lr = lr
-
-        data_time.update(time.time() - end)
 
         input, target = input.to(device), target.to(device)
         input_var = torch.autograd.Variable(input)
@@ -233,20 +236,21 @@ def train(train_loader, model, model_name,
             final_feature = middle_feas[0]
             best_acc_index = 0
 
-        elif model_name.startswith("msdnet"):
+        else: # model_name.startswith("msdnet") or model_name.startswith("vgg"):
             moddle_outputs = output[:-1]
             moddle_features = middle_feas[:-1]
             final_output = output[-1]
             final_feature = middle_feas[-1]
             best_acc_index = -1
-        else:
-            raise ValueError(f"Unknow model architecture {model_name}")
-            exit
+        # else:
+        #     raise ValueError(f"Unknow model architecture {model_name}")
+        #     exit
         
         loss = loss_fn(moddle_outputs,moddle_features,
                 final_output,final_feature,target_var)
         
         losses.update(loss.item(), input.size(0))
+        update_sample_count += input.size(0)
         for j in range(len(output)):
             acc1, acc5 = accuracy(output[j].data, target, topk=(1, 5))
             top1[j].update(acc1.item(), input.size(0))
@@ -258,8 +262,9 @@ def train(train_loader, model, model_name,
         optimizer.step()
 
         # measure elapsed time
-        batch_time.update(time.time() - end)
-        end = time.time()
+        time_now = time.time()
+        batch_time.update(time.time() - batch_start_time)
+        batch_start_time = time_now
 
         if i % print_freq == 0:
             # 输出所有中间层的精度（因为最后一个output可能对应第一层）
@@ -267,13 +272,12 @@ def train(train_loader, model, model_name,
             ensemble.detach_()
             ensemble_acc1, ensemble_acc5 = accuracy(ensemble.data, target, topk=(1, 5))
             avg_acc1,avg_acc5 = 0,0
-            acc_info='Train Epoch: [{0}][{1}/{2}] | ' \
-                'Time: {batch_time.avg:.4f} ' \
-                'Data: {data_time.avg:.4f} | ' \
-                'Loss: {loss.val:.4f} | ' \
-                'Acc '.format(epoch, i, len(train_loader),
-                    batch_time=batch_time, data_time=data_time,
-                    loss=losses)
+            acc_info=f'Train Epoch: [{epoch}][{i+1}/{len(train_loader)}] | ' \
+            f'Time: {batch_time.val:.3f}s, {update_sample_count / batch_time.val:>7.2f}/s  ' \
+            f'({batch_time.avg:.3f}s, {update_sample_count / batch_time.avg:>7.2f}/s)' \
+            f'Data: {data_time.val:.3f}s ({data_time.avg:.4f}s)| ' \
+            f'Loss: {losses.val:#.3g} ({losses.avg:#.3g}) | ' \
+            f'Acc '
             # logger.info()
             for block in range(nBlocks):
                 acc_info+=f"{block+1}/{nBlocks}: {top1[block].avg:.4f} "
@@ -282,6 +286,9 @@ def train(train_loader, model, model_name,
                 avg_acc5+=top5[block].avg/nBlocks
             acc_info+=f"Ensembale: {ensemble_acc1:.4f} Average: {avg_acc1:.4f} "
             logger.info(acc_info)
+        
+        update_sample_count = 0
+        data_start_time = time.time()
             
     return losses.avg, top1[best_acc_index].avg, top5[best_acc_index].avg, running_lr
 
@@ -323,15 +330,15 @@ def validate(val_loader, model, model_name, loss_fn, nBlocks, epoch, epochs, dev
                 final_output = output[0]
                 final_feature = middle_feas[0]
                 best_acc_index = 0
-            elif model_name.startswith("msdnet"):
+            else: # model_name.startswith("msdnet"):
                 moddle_outputs = output[:-1]
                 moddle_features = middle_feas[:-1]
                 final_output = output[-1]
                 final_feature = middle_feas[-1]
                 best_acc_index = -1
-            else:
-                raise ValueError(f"Unknow model architecture {model_name}")
-                exit
+            # else:
+            #     raise ValueError(f"Unknow model architecture {model_name}")
+            #     exit
             
             loss = loss_fn(moddle_outputs,moddle_features,
                     final_output,final_feature,target_var)
@@ -356,14 +363,11 @@ def validate(val_loader, model, model_name, loss_fn, nBlocks, epoch, epochs, dev
                 ensemble_top1.update(acc1.item(),input.size(0))
                 ensemble_top5.update(acc5.item(),input.size(0))
                 avg_acc1,avg_acc5 = 0,0
-                acc_info='Valid Epoch: [{0}][{1}/{2}] | ' \
-                    'Time: {batch_time.avg:.4f} ' \
-                    'Data: {data_time.avg:.4f} | ' \
-                    'Loss: {loss.val:.4f} | ' \
-                    'Acc: '.format(
-                        epoch, i + 1, len(val_loader),
-                        batch_time=batch_time, data_time=data_time,
-                        loss=losses)
+                acc_info=f'Valid Epoch: [{epoch}][{i+1}/{len(val_loader)}] | ' \
+                f'Time: {batch_time.avg:.4f} ' \
+                f'Data: {data_time.avg:.4f} | ' \
+                f'Loss: {losses.val:.4f} | ' \
+                f'Acc: '
                 for block in range(nBlocks):
                     acc_info+=f"{block+1}/{nBlocks}: {top1[block].avg:.4f} "
                     avg_acc1+=top1[block].avg/nBlocks
@@ -579,4 +583,5 @@ def main(args):
 
 if __name__ == '__main__':
     args = arg_parser.parse_args()
+    pprint(vars(args))
     main(args)

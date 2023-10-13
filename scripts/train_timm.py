@@ -23,6 +23,9 @@ from contextlib import suppress
 from datetime import datetime
 from functools import partial
 os.environ["CUDA_VISIBLE_DEVICES"]="4"
+os.environ["http_proxy"] = "http://10.134.231.119:7890"
+os.environ["https_proxy"] = "http://10.134.231.119:7890"
+
 from pprint import pprint 
 
 import torch

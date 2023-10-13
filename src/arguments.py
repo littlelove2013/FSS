@@ -14,7 +14,7 @@ env_group.add_argument('--verbose',default=0,type=int,
 
 
 # model args, such as model architecture
-model_names = ['resnet18','msdnet_cifar100','msdnet_imagenet',"sdn_mtl_resnet18"]
+model_names = ['resnet18','msdnet_cifar100','msdnet_imagenet',"sdn_mtl_resnet18","vgg64_7_plane_mtl"]
 model_group =arg_parser.add_argument_group('MODEL','model arguments')
 model_group.add_argument('--model-name', metavar='D', default='resnet18',
                         choices=model_names,

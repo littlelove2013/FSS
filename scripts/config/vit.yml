@@ -18,7 +18,7 @@ model_kwargs:
     attn_drop_rate: 0.1 # same as paper
 
 # TRAIN:
-epochs: 60 # same as paper
+epochs: 1 # same as paper
 warmup_epochs: 0 # ~10k steps (4096 batch size)
 weight_decay: 5e-4 # same as paper
 lr_base: 1e-3
@@ -26,6 +26,7 @@ warmup_lr: 1e-6
 min_lr: 0.0
 clip_grad: 1.0
 grad_accum_steps: 1
+workers: 40
 
 # OPTIMIZER:
 opt: 'AdamW'
@@ -50,7 +51,9 @@ opt_betas:
 # SAVE_FREQ: 10
 # REPORT_FREQ: 96
 # QUANTIZE: False
-amp: True
+amp: true
 amp_impl: 'native'
-use_multi_epochs_loader: True
+use_multi_epochs_loader: true
+pin_mem: true
+pretrained: true
 
